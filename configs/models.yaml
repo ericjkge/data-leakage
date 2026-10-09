@@ -1,0 +1,11 @@
+# name: HF model id, optional local weights path, and infini-gram index of its pretraining corpus
+pythia-1.4b:
+  hf_id: EleutherAI/pythia-1.4b
+  index: v4_piletrain_llama
+pythia-6.9b:
+  hf_id: EleutherAI/pythia-6.9b
+  index: v4_piletrain_llama
+olmo-7b:
+  hf_id: allenai/OLMo-7B-0424-hf
+  path: /root/models/olmo-7b-0424-bf16  # bf16 copy; the fp32 original doesn't fit on disk
+  index: v4_dolma-v1_7_llama
