@@ -53,11 +53,11 @@ Open choice: which tokenizer counts the "50 tokens". The plan is the **target mo
 ```
 configs/models.yaml   # name -> hf_id, optional local `path`, infini-gram index
 src/models.py         # load model/tokenizer from config
-src/attacks/base.py   # Attack interface: make_prompts(model, tok, n) -> list[str]
+src/attacks/base.py   # Attack interface: make_prompts(model, tok, n, seed) yields str or dict with "prompt"; module sets ATTACK = Class
 src/attacks/cia.py    # CIA (Eric); teammates add rsa.py, ra.py, ea.py, rwa.py
 src/generate.py       # greedy, 100-512 new tokens, raw prompts
 src/matching.py       # search() (infini-gram + cache) -> refine() (LCS + k-mismatch extension + diversity filter) -> match()
-scripts/run.py        # python -m scripts.run --model M --attack A [--stage attack|generate|match|all]; skips stages whose output exists
+scripts/run.py        # python -m scripts.run --model M --attack A [--stage attack|generate|match|all]; resumes each stage; skips stages with n rows; --n, --out
 scripts/table.py      # globs results/ -> VM/M5/M10@50 table
 results/{model}/{attack}/{prompts,generations,matches}.jsonl   # committed to git
 ```
@@ -65,23 +65,21 @@ results/{model}/{attack}/{prompts,generations,matches}.jsonl   # committed to gi
 - Run everything from the repo root (`python -m scripts.run ...`); `src` is the import root.
 - `results/` **is committed**. `.venv/` and `cache/` are ignored.
 
-## Status (as of 2026-10-09)
+## Implementation notes
 
-Plan:
-1. Set up folders, README and venv. **Done.** The `src/` and `scripts/` files are empty placeholders.
-2. Download models. On the old pod, OLMo was converted to bf16. **Must redo on the new pod.**
-3. Set up infini-gram matching (`src/matching.py`). Before any attack, sanity-check it once: a real Pile chunk must come back as VM@50, and freshly written text must not match.
-4. Implement CIA and smoke-test it. Time ~10 snippets first to estimate the cost of 500 × 3 models; if it's too slow, reduce prompts or steps and note that in the report.
-5. Full run, then the VM/M5/M10@50 table.
+- **CIA** (`src/attacks/cia.py`): 20 random tokens (special tokens, embedding padding, and partial-UTF-8 tokens excluded), batched 8 snippets at a time. Neither Pythia nor OLMo adds a BOS token, so the loss averages the L entropies after each prefix s_≤t; this includes the entropy after the full snippet. Each step keeps the lowest-loss candidate that survives decode → encode, so the saved prompt string reproduces the same tokens.
+- **Matching** (`src/matching.py`): 16-token Llama-2 probes with stride 8 (`count`). Runs of consecutive hits are searched as one n-gram (`find`), and up to 3 docs are fetched (`get_doc_by_rank`, text centered on the hit). The LCS (target-model tokens) is extended both ways with a banded edit-distance DP. Whole generations with diversity < 0.1 are not searched. Limitation for the report: near-verbatim matches with no exact run of ≥ ~23 Llama-2 tokens can be missed.
+- **infini-gram API** rate-limits with `{"message": "Too Many Requests"|"Forbidden"}`. `query()` retries these and never caches them; use 4 threads.
 
-## Environment / new-pod setup (RunPod)
+## Status (as of 2026-10-10)
 
-- One A100/H100 80GB is enough. The constraint is **disk**: the container disk (`/`) is small and wiped on restart. Use a **volume disk** (~150 GB) mounted at `/workspace` and keep everything there.
-- Setup:
-  ```bash
-  cd /workspace && git clone https://github.com/ericjkge/data-leakage.git && cd data-leakage
-  echo 'export HF_HOME=/workspace/hf' >> ~/.bashrc && export HF_HOME=/workspace/hf
-  uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python -r requirements.txt
-  ```
-- With enough disk, download models normally through `HF_HOME`; no bf16 conversion trick is needed. Load with `dtype=torch.bfloat16`. (`configs/models.yaml` supports an optional `path:` for local weights; none is set.)
-- Known-good versions on the old pod: torch 2.14.1+cu130, transformers 5.19.0, Python 3.12. Smoke-test result: OLMo-7B-0424 bf16 greedy on "The capital of France is" → "Paris. ..."
+1. Setup, model downloads, matching, CIA, run/table scripts: **done** (not yet committed).
+2. Matching sanity check passed: a real Pile doc gives VM@50, fresh text gives no match, and a synthetic mismatch case aligns correctly.
+3. CIA smoke tests (8 snippets, 200 steps): pythia-1.4b takes ~20 s/snippet; entropy rises from ~6.5 to ~9.2 nats, but every greedy generation collapses into single-token repetition (also in fp32), so expect ~0%. olmo-7b takes ~73 s/snippet; generations are text-like (forum/changelog boilerplate), with 0/8 VM@50 and 1/8 M10@50. pythia-6.9b: in progress.
+4. **Next:** full sweep, 500 prompts × 3 models, ~23 GPU-hours (matching ~80 min/model on the API). Push `results/` periodically. Then fill in the README table.
+
+## Environment (current pod)
+
+- One A100-SXM4 80GB; NVIDIA driver supports CUDA 12.8, so torch must come from the cu128 index (`uv pip install --python .venv/bin/python torch --index-url https://download.pytorch.org/whl/cu128`; known-good: torch 2.11.0+cu128, transformers 5.19.0, Python 3.12).
+- Disk: an 80 GB container disk, with **no separate volume**: `/workspace` is on `/`, so it may be wiped on restart. Repo at `/root/data-leakage`; `HF_HOME=/workspace/.cache/huggingface`.
+- Models downloaded as safetensors only (~44 GB; OLMo is fp32 on disk and loaded as bf16 via `dtype=torch.bfloat16`). The Llama-2 tokenizer comes from the ungated `NousResearch/Llama-2-7b-hf`.
