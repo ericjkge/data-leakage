@@ -1,11 +1,12 @@
 # data-leakage
 
-A CS2881 reproduction of Table 1 of [Retracing the Past: LLMs Emit Training Data When They Get Lost](https://arxiv.org/abs/2511.05518) (Ko et al., EMNLP 2025). Confusion-Inducing Attacks (CIA) use GCG to optimize a prompt snippet that maximizes the model's next-token entropy. Greedy generations from these prompts are then checked against the model's pretraining corpus with [infini-gram](https://infini-gram.io). We compare CIA against the paper's baselines (RA, EA, RWA, RSA) on models whose corpora are exactly indexed:
+A CS2881 reproduction of Table 1 of [Retracing the Past: LLMs Emit Training Data When They Get Lost](https://arxiv.org/abs/2511.05518) (Ko et al., EMNLP 2025). Confusion-Inducing Attacks (CIA) use GCG to optimize a prompt snippet that maximizes the model's next-token entropy. Greedy generations from these prompts are then checked against the model's pretraining corpus with [infini-gram](https://infini-gram.io). We compare CIA against the paper's baselines (RA, EA, RWA, RSA) on models whose pretraining corpora are indexed:
 
 | Model | Corpus (infini-gram index) |
 |---|---|
-| Pythia-6.9B, Pythia-12B | The Pile (`v4_piletrain_llama`) |
+| Pythia-12B | The Pile (`v4_piletrain_llama`) |
 | OLMo-7B-0424 | Dolma v1.7 (`v4_dolma-v1_7_llama`) |
+| Llama-2-7B | RedPajama (`v4_rpj_llama_s4`), the paper's proxy for Llama data |
 
 ## Results
 

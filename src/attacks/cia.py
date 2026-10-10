@@ -2,8 +2,9 @@
 
 Paper (Sec 3.3, App. B.1): 200 steps, top-64 tokens per position, 256 candidates per step.
 Snippet length and initialization aren't specified; we use 20 random vocab tokens (as in RSA).
-The paper averages H(P(. | s_<t)) for t=1..L; with no BOS token, H_1 is undefined, so we average
+The paper averages H(P(. | s_<t)) for t=1..L; Pythia/OLMo have no BOS token, so H_1 is undefined. We average
 the L predictions after each prefix s_<=t (t=1..L), which includes the entropy after the full snippet.
+If the tokenizer adds a BOS (Llama), it is prepended during optimization, as it is at generation time.
 """
 
 import torch
@@ -20,6 +21,7 @@ class CIA(Attack):
     def make_prompts(self, model, tok, n, seed=0):
         gen = torch.Generator(device=model.device).manual_seed(seed)
         allowed = self.allowed_tokens(model, tok)
+        self.prefix = torch.tensor(tok("").input_ids, dtype=torch.long, device=model.device)  # BOS, if added
         for i in range(0, n, self.batch):
             yield from self.optimize(model, tok, allowed, min(self.batch, n - i), gen)
 
@@ -47,7 +49,10 @@ class CIA(Attack):
 
     @torch.no_grad()
     def eval_loss(self, model, ids):
-        return torch.cat([self.loss(model(input_ids=c).logits) for c in ids.split(self.chunk)])
+        P = len(self.prefix)
+        return torch.cat(
+            [self.loss(model(input_ids=torch.cat([self.prefix.expand(len(c), -1), c], 1)).logits[:, P:]) for c in ids.split(self.chunk)]
+        )
 
     def optimize(self, model, tok, allowed, B, gen):
         dev, L, C = model.device, self.length, self.n_cand
@@ -66,7 +71,8 @@ class CIA(Attack):
             # Gradient of the loss w.r.t. one-hot tokens ranks the candidate substitutions at each position.
             one_hot = F.one_hot(ids, embed.shape[0]).to(embed.dtype).requires_grad_()
             with torch.enable_grad():
-                loss = self.loss(model(inputs_embeds=one_hot @ embed).logits).sum()
+                embeds = torch.cat([embed[self.prefix].expand(B, -1, -1), one_hot @ embed], 1)
+                loss = self.loss(model(inputs_embeds=embeds).logits[:, len(self.prefix) :]).sum()
                 (grad,) = torch.autograd.grad(loss, one_hot)
             grad[:, :, ~allowed] = float("inf")
             top = (-grad).topk(self.topk, dim=-1).indices  # (B, L, topk)
