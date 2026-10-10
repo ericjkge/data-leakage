@@ -4,7 +4,7 @@ A CS2881 reproduction of Table 1 of [Retracing the Past: LLMs Emit Training Data
 
 | Model | Corpus (infini-gram index) |
 |---|---|
-| Pythia-1.4B, Pythia-6.9B | The Pile (`v4_piletrain_llama`) |
+| Pythia-6.9B, Pythia-12B | The Pile (`v4_piletrain_llama`) |
 | OLMo-7B-0424 | Dolma v1.7 (`v4_dolma-v1_7_llama`) |
 
 ## Results

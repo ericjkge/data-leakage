@@ -1,9 +1,9 @@
 # name: HF model id (optional `path:` for local weights) and infini-gram index of its pretraining corpus
-pythia-1.4b:
-  hf_id: EleutherAI/pythia-1.4b
-  index: v4_piletrain_llama
 pythia-6.9b:
   hf_id: EleutherAI/pythia-6.9b
+  index: v4_piletrain_llama
+pythia-12b:
+  hf_id: EleutherAI/pythia-12b
   index: v4_piletrain_llama
 olmo-7b:
   hf_id: allenai/OLMo-7B-0424-hf
