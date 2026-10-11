@@ -23,3 +23,478 @@
 {"id": 22, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
 {"id": 23, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
 {"id": 24, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 25, "len": 512, "div": 0.140625, "len_k0": 16, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "(start_time) print(end_time) if __name__ == '__main__': main()\n\nThe output"}
+{"id": 26, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 27, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 28, "len": 512, "div": 0.08203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 29, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 30, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 31, "len": 512, "div": 0.107421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 32, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 33, "len": 512, "div": 0.189453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 34, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 35, "len": 512, "div": 0.091796875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 36, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 37, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 38, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 39, "len": 512, "div": 0.09375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 40, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 41, "len": 512, "div": 0.013671875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 42, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 43, "len": 512, "div": 0.052734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 44, "len": 512, "div": 0.107421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 45, "len": 512, "div": 0.1015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 46, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 47, "len": 512, "div": 0.1484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 48, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 49, "len": 511, "div": 0.11545988258317025, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 50, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 51, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 52, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 53, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 54, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 55, "len": 512, "div": 0.119140625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 56, "len": 512, "div": 0.087890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 57, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 58, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 59, "len": 511, "div": 0.03131115459882583, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 60, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 61, "len": 511, "div": 0.021526418786692758, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 62, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 63, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 64, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 65, "len": 511, "div": 0.01761252446183953, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 66, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 67, "len": 511, "div": 0.17416829745596868, "len_k0": 46, "M0@50": false, "len_k5": 51, "M5@50": true, "len_k10": 56, "M10@50": true, "text": "\n\n**Step 3**\n\n**Step 4**\n\n**Step 5**\n\n**Step 6**\n\n**Step 7**\n\n**Step 8**\n\n**Step 9**\n\n**Step 10**\n\n**Step 11**\n\n"}
+{"id": 68, "len": 512, "div": 0.1015625, "len_k0": 25, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 36, "M10@50": false, "text": "\n\n#include <stdio.h> #include <stdlib.h> #include <time.h> int main() { int i; srand(time(NULL"}
+{"id": 69, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 70, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 71, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 72, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 73, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 74, "len": 150, "div": 0.2733333333333333, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code:\nimport time\n\nfor i in range(50):\n    "}
+{"id": 75, "len": 511, "div": 0.023483365949119372, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 76, "len": 511, "div": 0.009784735812133072, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 77, "len": 140, "div": 0.3142857142857143, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 78, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 79, "len": 106, "div": 0.3490566037735849, "len_k0": 15, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 29, "M10@50": false, "text": " loop to iterate over the list of strings.\nfor i in range(0, 50):\n    print(i)\n\nThis will"}
+{"id": 80, "len": 512, "div": 0.087890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 81, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 82, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 83, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 84, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 85, "len": 114, "div": 0.2807017543859649, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 86, "len": 511, "div": 0.009784735812133072, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 87, "len": 512, "div": 0.056640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 88, "len": 512, "div": 0.08203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 89, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 90, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 91, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 92, "len": 512, "div": 0.056640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 93, "len": 115, "div": 0.48695652173913045, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 94, "len": 511, "div": 0.007827788649706457, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 95, "len": 512, "div": 0.08984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 96, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 97, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 98, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 99, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 100, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 101, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 102, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 103, "len": 511, "div": 0.1761252446183953, "len_k0": 38, "M0@50": false, "len_k5": 43, "M5@50": false, "len_k10": 49, "M10@50": false, "text": "\n\n**Step 2:**\n\n**Step 3:**\n\n**Step 4:**\n\n**Step 5:**\n\n**Step 6:**\n\n**Step 7:**\n\n**Step 8:**\n\n**Step 9:**\n"}
+{"id": 104, "len": 511, "div": 0.009784735812133072, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 105, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 106, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 107, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 108, "len": 512, "div": 0.09375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 109, "len": 512, "div": 0.1015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 110, "len": 511, "div": 0.17416829745596868, "len_k0": 52, "M0@50": true, "len_k5": 57, "M5@50": true, "len_k10": 62, "M10@50": true, "text": "\n\n**Step 2**\n\n**Step 3**\n\n**Step 4**\n\n**Step 5**\n\n**Step 6**\n\n**Step 7**\n\n**Step 8**\n\n**Step 9**\n\n**Step 10**\n\n**Step 11**\n\n"}
+{"id": 111, "len": 512, "div": 0.068359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 112, "len": 511, "div": 0.005870841487279843, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 113, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 114, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 115, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 116, "len": 157, "div": 0.27388535031847133, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code:\nimport time\n\nfor i in range(50):\n    "}
+{"id": 117, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 118, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 119, "len": 512, "div": 0.064453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 120, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 121, "len": 512, "div": 0.08203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 122, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 123, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 124, "len": 511, "div": 0.021526418786692758, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 125, "len": 511, "div": 0.08414872798434442, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 126, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 127, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 128, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 129, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 130, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 131, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 132, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 133, "len": 511, "div": 0.023483365949119372, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 134, "len": 512, "div": 0.095703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 135, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 136, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 137, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 138, "len": 512, "div": 0.205078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 139, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 140, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 141, "len": 512, "div": 0.01171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 142, "len": 512, "div": 0.109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 143, "len": 512, "div": 0.09375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 144, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 145, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 146, "len": 512, "div": 0.169921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 147, "len": 512, "div": 0.068359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 148, "len": 139, "div": 0.2805755395683453, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code:\nimport random\n\nfor i in range(50):\n    "}
+{"id": 149, "len": 512, "div": 0.072265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 150, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 151, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 152, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 153, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 154, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 155, "len": 102, "div": 0.29411764705882354, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 156, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 157, "len": 512, "div": 0.11328125, "len_k0": 29, "M0@50": false, "len_k5": 47, "M5@50": false, "len_k10": 53, "M10@50": true, "text": ", k2tog; rep from * to last st, k1.\n\n**Row 2:** P1, *p2, p2tog; rep from * to last st, p1.\n\nRep Rows 1 and 2 for"}
+{"id": 158, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 159, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 160, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 161, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 162, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 163, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 164, "len": 512, "div": 0.1015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 165, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 166, "len": 512, "div": 0.107421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 167, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 168, "len": 512, "div": 0.123046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 169, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 170, "len": 143, "div": 0.2937062937062937, "len_k0": 16, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 28, "M10@50": false, "text": "('showed')\n    time.sleep(1)\n\nA:\n\nYou can use the time module to do this:"}
+{"id": 171, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 172, "len": 512, "div": 0.009765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 173, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 174, "len": 512, "div": 0.08984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 175, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 176, "len": 139, "div": 0.3381294964028777, "len_k0": 14, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 26, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code to get the list of all the hosted sites:\n$sites ="}
+{"id": 177, "len": 512, "div": 0.080078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 178, "len": 512, "div": 0.10546875, "len_k0": 28, "M0@50": false, "len_k5": 39, "M5@50": false, "len_k10": 46, "M10@50": false, "text": "\": \"1.0.0\",\n  \"provider\": \"provider-name\",\n  \"data\": {\n    \"key1\": \"value1\",\n    \"key2\": \"value2\"\n  "}
+{"id": 179, "len": 512, "div": 0.1484375, "len_k0": 19, "M0@50": false, "len_k5": 45, "M5@50": false, "len_k10": 57, "M10@50": true, "text": " the same as that in [Section 4.1](#sec4dot1-sensors-19-01679){ref-type=\"sec\"}. The experimental results are shown in [Figure 4](#sensors-19-01679-f004){ref-type=\"fig\"}.\n\n"}
+{"id": 180, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 181, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 182, "len": 139, "div": 0.26618705035971224, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code:\nimport random\n\nfor i in range(50):\n    "}
+{"id": 183, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 184, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 185, "len": 114, "div": 0.3333333333333333, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 186, "len": 512, "div": 0.072265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 187, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 188, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 189, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 190, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 191, "len": 512, "div": 0.083984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 192, "len": 512, "div": 0.115234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 193, "len": 511, "div": 0.1761252446183953, "len_k0": 38, "M0@50": false, "len_k5": 43, "M5@50": false, "len_k10": 49, "M10@50": false, "text": "\n\n**Step 2:**\n\n**Step 3:**\n\n**Step 4:**\n\n**Step 5:**\n\n**Step 6:**\n\n**Step 7:**\n\n**Step 8:**\n\n**Step 9:**\n"}
+{"id": 194, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 195, "len": 512, "div": 0.05859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 196, "len": 512, "div": 0.513671875, "len_k0": 23, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 39, "M10@50": false, "text": " use the following code:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.array([1,2,3,4,5,"}
+{"id": 197, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 198, "len": 512, "div": 0.10546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 199, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 200, "len": 512, "div": 0.087890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 201, "len": 511, "div": 0.0958904109589041, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 202, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 203, "len": 511, "div": 0.009784735812133072, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 204, "len": 512, "div": 0.10546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 205, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 206, "len": 512, "div": 0.14453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 207, "len": 512, "div": 0.125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 208, "len": 511, "div": 0.021526418786692758, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 209, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 210, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 211, "len": 512, "div": 0.08984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 212, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 213, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 214, "len": 215, "div": 0.24186046511627907, "len_k0": 19, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 33, "M10@50": false, "text": "\n$posts = Post::orderBy('created_at', 'desc')->take(50)->get();\n\nYou can also use the following code to get"}
+{"id": 215, "len": 512, "div": 0.08984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 216, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 217, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 218, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 219, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 220, "len": 512, "div": 0.10546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 221, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 222, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 223, "len": 512, "div": 0.14453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 224, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 225, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 226, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 227, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 228, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 229, "len": 158, "div": 0.3860759493670886, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 230, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 231, "len": 512, "div": 0.11328125, "len_k0": 23, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 37, "M10@50": false, "text": "\n\n<syntaxhighlight lang=\"bash\">\n\n<syntaxhighlight lang=\"bash\">\n\n\u2212\n\n<pre>\n\n+\n\n<syntaxhighlight lang=\"bash"}
+{"id": 232, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 233, "len": 511, "div": 0.350293542074364, "len_k0": 368, "M0@50": true, "len_k5": 373, "M5@50": true, "len_k10": 382, "M10@50": true, "text": "\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\n15\n\n16\n\n17\n\n18\n\n19\n\n20\n\n21\n\n22\n\n23\n\n24\n\n25\n\n26\n\n27\n\n28\n\n29\n\n30\n\n31\n\n32\n\n33\n\n34\n\n35\n\n36\n\n37\n\n38\n\n39\n\n40\n\n41\n\n42\n\n43\n\n44\n\n45\n\n46\n\n47\n\n48\n\n49\n\n50\n\n51\n\n52\n\n53\n\n54\n\n55\n\n56\n\n57\n\n58\n\n59\n\n60\n\n61\n\n62\n\n63\n\n64\n\n65\n\n66\n\n67\n\n68\n\n69\n\n70\n\n71\n\n72\n\n73\n\n74\n\n75\n\n76\n\n77\n\n78\n\n79\n\n80\n\n81\n\n82\n\n83\n\n84\n\n85\n\n86\n\n87\n\n88\n\n89\n\n90\n\n91\n\n92\n\n93\n\n94\n\n95\n\n96\n\n97\n\n98\n\n99\n\n100\n\n101\n\n102\n\n103\n\n104\n\n105\n\n106\n\n107\n\n108\n\n109\n\n110\n\n111\n\n112\n\n113\n\n114\n\n115\n\n116\n\n117\n\n118\n\n119\n\n120\n\n121\n\n122\n\n123\n\n124\n\n125\n\n126\n\n127\n"}
+{"id": 234, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 235, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 236, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 237, "len": 176, "div": 0.2840909090909091, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 238, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 239, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 240, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 241, "len": 511, "div": 0.08414872798434442, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 242, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 243, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 244, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 245, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 246, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 247, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 248, "len": 511, "div": 0.007827788649706457, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 249, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 250, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 251, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 252, "len": 511, "div": 0.03913894324853229, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 253, "len": 512, "div": 0.083984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 254, "len": 511, "div": 0.009784735812133072, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 255, "len": 512, "div": 0.109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 256, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 257, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 258, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 259, "len": 511, "div": 0.007827788649706457, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 260, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 261, "len": 514, "div": 0.12840466926070038, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 262, "len": 512, "div": 0.009765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 263, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 264, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 265, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 266, "len": 512, "div": 0.087890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 267, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 268, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 269, "len": 511, "div": 0.0410958904109589, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 270, "len": 511, "div": 0.08414872798434442, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 271, "len": 512, "div": 0.111328125, "len_k0": 20, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 32, "M10@50": false, "text": " shown in [Figure 3](#fig3){ref-type=\"fig\"}. The results show that the proposed method is able to detect the presence of the disease in"}
+{"id": 272, "len": 512, "div": 0.048828125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 273, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 274, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 275, "len": 512, "div": 0.1015625, "len_k0": 13, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 31, "M10@50": false, "text": " results of the study are shown in [Table 1](#t1-sensors-12-09378){ref-type=\"table\"}.\n\nThe results"}
+{"id": 276, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 277, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 278, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 279, "len": 512, "div": 0.26953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 280, "len": 512, "div": 0.095703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 281, "len": 512, "div": 0.068359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 282, "len": 512, "div": 0.056640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 283, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 284, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 285, "len": 512, "div": 0.212890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 286, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 287, "len": 512, "div": 0.166015625, "len_k0": 65, "M0@50": true, "len_k5": 77, "M5@50": true, "len_k10": 89, "M10@50": true, "text": "\n1 10\n1 11\n1 12\n1 13\n1 14\n1 15\n1 16\n1 17\n1 18\n1 19\n1 20\n1 21\n1 22\n1 23\n1 24\n1 25\n1 26\n1 27\n1 28\n1 29\n1 30\n1 31\n1 32\n1 33\n1 34\n1 35\n1 36\n1 37\n1 38\n1"}
+{"id": 288, "len": 512, "div": 0.107421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 289, "len": 512, "div": 0.359375, "len_k0": 27, "M0@50": false, "len_k5": 47, "M5@50": false, "len_k10": 67, "M10@50": true, "text": "]; [@R32]; [@R33]; [@R34]; [@R35]; [@R36]; [@R37]; [@R38]; [@R39]; [@R40]; [@R41]; [@R42]; [@R43]; [@R44]; [@R45]; [@R46]; [@R47]; [@R"}
+{"id": 290, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 291, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 292, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 293, "len": 511, "div": 0.0273972602739726, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 294, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 295, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 296, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 297, "len": 512, "div": 0.052734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 298, "len": 512, "div": 0.09375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 299, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 300, "len": 512, "div": 0.072265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 301, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 302, "len": 512, "div": 0.015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 303, "len": 512, "div": 0.1484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 304, "len": 511, "div": 0.09001956947162426, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 305, "len": 511, "div": 0.025440313111545987, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 306, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 307, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 308, "len": 512, "div": 0.103515625, "len_k0": 16, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 31, "M10@50": false, "text": ":\n$users = Get-ADUser -Filter * -SearchBase \"OU=Users,DC=domain,DC=com\" -SearchScope"}
+{"id": 309, "len": 512, "div": 0.150390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 310, "len": 512, "div": 0.013671875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 311, "len": 512, "div": 0.146484375, "len_k0": 15, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "\nd = {}\nfor word in words:\n    d[word] = d.get(word, 0) + 1\n\nfor word, count in d.items():"}
+{"id": 312, "len": 511, "div": 0.043052837573385516, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 313, "len": 512, "div": 0.083984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 314, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 315, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 316, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 317, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 318, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 319, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 320, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 321, "len": 512, "div": 0.068359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 322, "len": 512, "div": 0.052734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 323, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 324, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 325, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 326, "len": 165, "div": 0.38181818181818183, "len_k0": 15, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n\nif __name__ == '__main__':\n    main()\n\nThis will print join 50 times, with a random delay"}
+{"id": 327, "len": 511, "div": 0.09001956947162426, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 328, "len": 511, "div": 0.2054794520547945, "len_k0": 510, "M0@50": true, "len_k5": 511, "M5@50": true, "len_k10": 511, "M10@50": true, "text": "\n\n**2**\n\n**3**\n\n**4**\n\n**5**\n\n**6**\n\n**7**\n\n**8**\n\n**9**\n\n**10**\n\n**11**\n\n**12**\n\n**13**\n\n**14**\n\n**15**\n\n**16**\n\n**17**\n\n**18**\n\n**19**\n\n**20**\n\n**21**\n\n**22**\n\n**23**\n\n**24**\n\n**25**\n\n**26**\n\n**27**\n\n**28**\n\n**29**\n\n**30**\n\n**31**\n\n**32**\n\n**33**\n\n**34**\n\n**35**\n\n**36**\n\n**37**\n\n**38**\n\n**39**\n\n**40**\n\n**41**\n\n**42**\n\n**43**\n\n**44**\n\n**45**\n\n**46**\n\n**47**\n\n**48**\n\n**49**\n\n**50**\n\n**51**\n\n**52**\n\n**53**\n\n**54**\n\n**55**\n\n**56**\n\n**57**\n\n**58**\n\n**59**\n\n**60**\n\n**61**\n\n**62**\n\n**63**\n\n**64**\n\n**65**\n\n**66**\n\n**67**\n\n**68**\n\n**69**\n\n**70**\n\n**71**\n\n**72**\n\n**73**\n\n**74**\n\n**75**\n\n**76**\n\n**77**\n\n**78**\n\n**79**\n\n**80**\n\n**81**\n\n**82**\n\n**83**\n\n**84**\n\n**85**\n\n**86**\n\n**87**\n\n**88**\n\n**89**\n\n**90**\n\n**91**\n\n**92**\n\n**93**\n\n**94**\n\n**95**\n\n**96**\n\n**97**\n\n**98**\n\n**99**\n\n**100**\n\n**101**\n\n**102**\n\n**103**\n\n"}
+{"id": 329, "len": 512, "div": 0.009765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 330, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 331, "len": 512, "div": 0.1015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 332, "len": 137, "div": 0.291970802919708, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code:\nimport random\n\nfor i in range(50):\n    "}
+{"id": 333, "len": 512, "div": 0.115234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 334, "len": 512, "div": 0.095703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 335, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 336, "len": 512, "div": 0.01171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 337, "len": 512, "div": 0.150390625, "len_k0": 24, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 35, "M10@50": false, "text": "\n\n![](pone.0127051.t001){#pone.0127051.t001g}\n\n  *p*-value   Mean   Standard deviation\n  "}
+{"id": 338, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 339, "len": 251, "div": 0.24302788844621515, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 340, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 341, "len": 512, "div": 0.009765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 342, "len": 512, "div": 0.119140625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 343, "len": 512, "div": 0.056640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 344, "len": 512, "div": 0.142578125, "len_k0": 35, "M0@50": false, "len_k5": 71, "M5@50": true, "len_k10": 77, "M10@50": true, "text": " random.nextInt(100);\n            }\n        }\n        for (int i = 0; i < 50; i++) {\n            for (int j = 0; j < 50; j++) {\n                System.out.print(array[i][j] + \" \");\n            }\n            System.out.println();\n        }\n"}
+{"id": 345, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 346, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 347, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 348, "len": 512, "div": 0.11328125, "len_k0": 20, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 32, "M10@50": false, "text": " are shown in [Figure 3](#pone-0077264-g003){ref-type=\"fig\"}. The first observation is that the number of networks is"}
+{"id": 349, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 350, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 351, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 352, "len": 511, "div": 0.06262230919765166, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 353, "len": 144, "div": 0.2986111111111111, "len_k0": 19, "M0@50": false, "len_k5": 24, "M5@50": false, "len_k10": 30, "M10@50": false, "text": "\n\nA:\n\nYou can use a while loop:\nwhile True:\n    print(\"Enter a number\")\n    number = input"}
+{"id": 354, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 355, "len": 512, "div": 0.109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 356, "len": 115, "div": 0.3130434782608696, "len_k0": 17, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 28, "M10@50": false, "text": "\n\nA:\n\nYou can use a for loop:\nfor i in range(50):\n    print('operation')\n"}
+{"id": 357, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 358, "len": 512, "div": 0.119140625, "len_k0": 17, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n\nThe results of the model on the test set are shown in Figure [6](#F6){ref-type=\"fig\"}. The results"}
+{"id": 359, "len": 512, "div": 0.06640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 360, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 361, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 362, "len": 228, "div": 0.2850877192982456, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 363, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 364, "len": 149, "div": 0.2751677852348993, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code:\nimport time\n\nfor i in range(50):\n    "}
+{"id": 365, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 366, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 367, "len": 511, "div": 0.09197651663405088, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 368, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 369, "len": 512, "div": 0.267578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 370, "len": 512, "div": 0.095703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 371, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 372, "len": 144, "div": 0.3472222222222222, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 373, "len": 512, "div": 0.009765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 374, "len": 511, "div": 0.09197651663405088, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 375, "len": 182, "div": 0.36813186813186816, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 376, "len": 187, "div": 0.3155080213903743, "len_k0": 15, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 37, "M10@50": false, "text": " the text:\nint count = 0;\nfor (int i = 0; i < text.Length; i++)\n{\n    if (text[i] == \""}
+{"id": 377, "len": 512, "div": 0.115234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 378, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 379, "len": 512, "div": 0.119140625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 380, "len": 149, "div": 0.30201342281879195, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code:\nimport time\n\nfor i in range(50):\n    "}
+{"id": 381, "len": 512, "div": 0.0703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 382, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 383, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 384, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 385, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 386, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 387, "len": 512, "div": 0.125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 388, "len": 107, "div": 0.308411214953271, "len_k0": 17, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 28, "M10@50": false, "text": "\n\nA:\n\nYou can use a for loop:\nfor i in range(50):\n    print('wants',"}
+{"id": 389, "len": 111, "div": 0.5135135135135135, "len_k0": 42, "M0@50": false, "len_k5": 55, "M5@50": true, "len_k10": 62, "M10@50": true, "text": "\nNSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];\n[dateFormatter setDateFormat:@\"yyyy-MM-dd HH:mm:ss\"];\nNSString *dateString = [dateFormatter stringFromDate:date];\nNSLog(@\"%@\",dateString);"}
+{"id": 390, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 391, "len": 512, "div": 0.091796875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 392, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 393, "len": 101, "div": 0.33663366336633666, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 394, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 395, "len": 512, "div": 0.2578125, "len_k0": 19, "M0@50": false, "len_k5": 35, "M5@50": false, "len_k10": 43, "M10@50": false, "text": "\nsum: 0\nsum: 1\nsum: 2\nsum: 3\nsum: 4\nsum: 5\nsum: 6\nsum: 7\nsum: 8\nsum: 9\nsum:"}
+{"id": 396, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 397, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 398, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 399, "len": 512, "div": 0.083984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 400, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 401, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 402, "len": 511, "div": 0.36203522504892366, "len_k0": 169, "M0@50": true, "len_k5": 182, "M5@50": true, "len_k10": 187, "M10@50": true, "text": "\n\nThis software is provided 'as-is', without any express or implied\nwarranty. In no event will the authors be held liable for any damages\narising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose,\nincluding commercial applications, and to alter it and redistribute it\nfreely, subject to the following restrictions:\n\n1. The origin of this software must not be misrepresented; you must not\nclaim that you wrote the original software. If you use this software\nin a product, an acknowledgment in the product documentation would be\nappreciated but is not required.\n\n2. Altered source versions must be plainly marked as such, and must not be\nmisrepresented as being the original software.\n\n3. This notice may not be removed or altered from any source distribution.\n\nBoost is a C++"}
+{"id": 403, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 404, "len": 512, "div": 0.08984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 405, "len": 512, "div": 0.064453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 406, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 407, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 408, "len": 512, "div": 0.091796875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 409, "len": 512, "div": 0.078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 410, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 411, "len": 511, "div": 0.009784735812133072, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 412, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 413, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 414, "len": 512, "div": 0.013671875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 415, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 416, "len": 512, "div": 0.015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 417, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 418, "len": 511, "div": 0.009784735812133072, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 419, "len": 512, "div": 0.048828125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 420, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 421, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 422, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 423, "len": 511, "div": 0.1761252446183953, "len_k0": 32, "M0@50": false, "len_k5": 37, "M5@50": false, "len_k10": 43, "M10@50": false, "text": "\n\n**Step 3:**\n\n**Step 4:**\n\n**Step 5:**\n\n**Step 6:**\n\n**Step 7:**\n\n**Step 8:**\n\n**Step 9:**\n"}
+{"id": 424, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 425, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 426, "len": 512, "div": 0.072265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 427, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 428, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 429, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 430, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 431, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 432, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 433, "len": 223, "div": 0.3811659192825112, "len_k0": 22, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 41, "M10@50": false, "text": "\n\nOutput:\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n"}
+{"id": 434, "len": 511, "div": 0.01761252446183953, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 435, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 436, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 437, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 438, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 439, "len": 511, "div": 0.1761252446183953, "len_k0": 38, "M0@50": false, "len_k5": 43, "M5@50": false, "len_k10": 49, "M10@50": false, "text": "\n\n**Step 2:**\n\n**Step 3:**\n\n**Step 4:**\n\n**Step 5:**\n\n**Step 6:**\n\n**Step 7:**\n\n**Step 8:**\n\n**Step 9:**\n"}
+{"id": 440, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 441, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 442, "len": 511, "div": 0.01761252446183953, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 443, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 444, "len": 512, "div": 0.072265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 445, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 446, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 447, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 448, "len": 512, "div": 0.013671875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 449, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 450, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 451, "len": 511, "div": 0.08806262230919765, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 452, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 453, "len": 512, "div": 0.1015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 454, "len": 511, "div": 0.021526418786692758, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 455, "len": 512, "div": 0.111328125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 456, "len": 142, "div": 0.3028169014084507, "len_k0": 16, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 34, "M10@50": false, "text": " random number between 0 and 100:\nimport random\n\nfor i in range(50):\n    print(random.randint(0, 100))\n\n"}
+{"id": 457, "len": 511, "div": 0.01761252446183953, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 458, "len": 512, "div": 0.12109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 459, "len": 512, "div": 0.1015625, "len_k0": 17, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n\nA:\n\nYou can use a for loop:\nfor i in {1..50}; do echo http; done\n\n"}
+{"id": 460, "len": 512, "div": 0.06640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 461, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 462, "len": 512, "div": 0.181640625, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 26, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code:\nimport time\n\ndef visited(n):\n    print"}
+{"id": 463, "len": 202, "div": 0.26732673267326734, "len_k0": 26, "M0@50": false, "len_k5": 33, "M5@50": false, "len_k10": 39, "M10@50": false, "text": "\nimport random\n\ndef credit():\n    return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(50))\n"}
+{"id": 464, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 465, "len": 512, "div": 0.078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 466, "len": 512, "div": 0.048828125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 467, "len": 512, "div": 0.080078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 468, "len": 232, "div": 0.24568965517241378, "len_k0": 33, "M0@50": false, "len_k5": 42, "M5@50": false, "len_k10": 49, "M10@50": false, "text": "; i < 50; i++) {\n    (function(i) {\n        setTimeout(function() {\n            console.log(i);\n        }, i * 1000);\n    })(i);\n}\n\nThe"}
+{"id": 469, "len": 512, "div": 0.095703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 470, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 471, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 472, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 473, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 474, "len": 196, "div": 0.24489795918367346, "len_k0": 22, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 33, "M10@50": false, "text": ":\nint count = 0;\nfor (int i = 0; i < 50; i++) {\n    count++;\n    if (count == 5"}
+{"id": 475, "len": 126, "div": 0.25396825396825395, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 476, "len": 512, "div": 0.083984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 477, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 478, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 479, "len": 161, "div": 0.2484472049689441, "len_k0": 14, "M0@50": false, "len_k5": 20, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code to get the number of requests:\nimport requests\n\nrequests.get"}
+{"id": 480, "len": 511, "div": 0.17416829745596868, "len_k0": 46, "M0@50": false, "len_k5": 51, "M5@50": true, "len_k10": 56, "M10@50": true, "text": "\n\n**Step 3**\n\n**Step 4**\n\n**Step 5**\n\n**Step 6**\n\n**Step 7**\n\n**Step 8**\n\n**Step 9**\n\n**Step 10**\n\n**Step 11**\n\n"}
+{"id": 481, "len": 512, "div": 0.1015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 482, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 483, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 484, "len": 512, "div": 0.1875, "len_k0": 13, "M0@50": false, "len_k5": 20, "M5@50": false, "len_k10": 26, "M10@50": false, "text": " are shown in Table [1](#T1){ref-type=\"table\"}. The mean of the estimates is 0.986"}
+{"id": 485, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 486, "len": 511, "div": 0.021526418786692758, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 487, "len": 205, "div": 0.32195121951219513, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 26, "M10@50": false, "text": "\n\nA:\n\nYou can use the following code:\nimport re\n\ndef get_all_words(text"}
+{"id": 488, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 489, "len": 512, "div": 0.0703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 490, "len": 512, "div": 0.08203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 491, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 492, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 493, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 494, "len": 511, "div": 0.1761252446183953, "len_k0": 26, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 37, "M10@50": false, "text": "\n\n**Step 4:**\n\n**Step 5:**\n\n**Step 6:**\n\n**Step 7:**\n\n**Step 8:**\n\n**Step 9:**\n"}
+{"id": 495, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 496, "len": 511, "div": 0.029354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 497, "len": 512, "div": 0.017578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 498, "len": 512, "div": 0.138671875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 499, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}

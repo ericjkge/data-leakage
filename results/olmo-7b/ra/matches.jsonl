@@ -21,3 +21,480 @@
 {"id": 20, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
 {"id": 21, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
 {"id": 22, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 23, "len": 512, "div": 0.109375, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar str"}
+{"id": 24, "len": 512, "div": 0.052734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 25, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 26, "len": 512, "div": 0.08203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 27, "len": 512, "div": 0.21875, "len_k0": 100, "M0@50": true, "len_k5": 105, "M5@50": true, "len_k10": 111, "M10@50": true, "text": ":\nfor (var i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]) {"}
+{"id": 28, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 29, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 30, "len": 512, "div": 0.15234375, "len_k0": 26, "M0@50": false, "len_k5": 35, "M5@50": false, "len_k10": 49, "M10@50": false, "text": "\nvar tt = 0;\nvar uu = 0;\nvar vv = 0;\nvar ww = 0;\nvar xx = 0;\nvar yy = 0;\nvar zz = 0;\nvar"}
+{"id": 31, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 32, "len": 135, "div": 0.23703703703703705, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 33, "len": 512, "div": 0.11328125, "len_k0": 25, "M0@50": false, "len_k5": 85, "M5@50": true, "len_k10": 97, "M10@50": true, "text": ":\nimport pandas as pd\nimport numpy as np\n\ndf = pd.DataFrame({'A': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n                   'B': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n                   'C': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n"}
+{"id": 34, "len": 511, "div": 0.04500978473581213, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 35, "len": 512, "div": 0.12890625, "len_k0": 41, "M0@50": false, "len_k5": 62, "M5@50": true, "len_k10": 74, "M10@50": true, "text": "\n    int w = 0;\n    int x = 0;\n    int y = 0;\n    int z = 0;\n    int a = 0;\n    int b = 0;\n    int c = 0;\n    int d = 0;\n    int e = 0;\n    int f = 0;\n    int g"}
+{"id": 36, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 37, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 38, "len": 512, "div": 0.048828125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 39, "len": 106, "div": 0.2169811320754717, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 40, "len": 512, "div": 0.015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 41, "len": 512, "div": 0.10546875, "len_k0": 17, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "'m not sure if this is the right place to post this, but I'm looking for a book that I read a few years ago. I don't"}
+{"id": 42, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 43, "len": 512, "div": 0.07421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 44, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 45, "len": 512, "div": 0.076171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 46, "len": 512, "div": 0.189453125, "len_k0": 98, "M0@50": true, "len_k5": 104, "M5@50": true, "len_k10": 110, "M10@50": true, "text": "\nfor (let i of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]) {\n    "}
+{"id": 47, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 48, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 49, "len": 512, "div": 0.017578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 50, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 51, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 52, "len": 512, "div": 0.107421875, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar str"}
+{"id": 53, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 54, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 55, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 56, "len": 512, "div": 0.18359375, "len_k0": 44, "M0@50": false, "len_k5": 70, "M5@50": true, "len_k10": 79, "M10@50": true, "text": "\nQuestion:\nThis is some data: The Rice Boat food Japanese; The Rice Boat priceRange less than \u00a320; The Rice Boat customer rating low; The Rice Boat area city centre; The Rice Boat familyFriendly no; The Rice Boat near Express by Holiday Inn.\nGenerate a detailed description of this data.\nAnswer:\nThe Rice Boat is a Japanese food place with a"}
+{"id": 57, "len": 512, "div": 0.052734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 58, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 59, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 60, "len": 512, "div": 0.048828125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 61, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 62, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 63, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 64, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 65, "len": 512, "div": 0.06640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 66, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 67, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 68, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 69, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 70, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 71, "len": 511, "div": 0.01761252446183953, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 72, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 73, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 74, "len": 512, "div": 0.087890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 75, "len": 512, "div": 0.126953125, "len_k0": 22, "M0@50": false, "len_k5": 45, "M5@50": false, "len_k10": 50, "M10@50": true, "text": "\";\n\nvar str = str + str2 + str3 + str4 + str5 + str6 + str7 + str8 + str9 + str10 + str11 + str12 + str13 + str14 + str15 +"}
+{"id": 76, "len": 512, "div": 0.107421875, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar str"}
+{"id": 77, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 78, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 79, "len": 511, "div": 0.07827788649706457, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 80, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 81, "len": 512, "div": 0.126953125, "len_k0": 28, "M0@50": false, "len_k5": 36, "M5@50": false, "len_k10": 41, "M10@50": false, "text": "', function() {\n    it('should pass', function() {\n      expect(true).to.be.true;\n    });\n  });\n});\n\nThis will create a new"}
+{"id": 82, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 83, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 84, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 85, "len": 512, "div": 0.08984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 86, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 87, "len": 511, "div": 0.05283757338551859, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 88, "len": 512, "div": 0.14453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 89, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 90, "len": 512, "div": 0.1015625, "len_k0": 20, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "\nimport time\n\nfor i in range(50):\n    print(i)\n    time.sleep(1)\n\n\nA: You can use the time module to sleep"}
+{"id": 91, "len": 511, "div": 0.0410958904109589, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 92, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 93, "len": 512, "div": 0.10546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 94, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 95, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 96, "len": 512, "div": 0.076171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 97, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 98, "len": 511, "div": 0.043052837573385516, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 99, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 100, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 101, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 102, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 103, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 104, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 105, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 106, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 107, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 108, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 109, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 110, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 111, "len": 512, "div": 0.095703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 112, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 113, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 114, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 115, "len": 512, "div": 0.10546875, "len_k0": 22, "M0@50": false, "len_k5": 27, "M5@50": false, "len_k10": 33, "M10@50": false, "text": ".\n\nI'm not sure if this is the right place to post this, but I'm looking for a book that I read a few years ago. I"}
+{"id": 116, "len": 512, "div": 0.126953125, "len_k0": 14, "M0@50": false, "len_k5": 19, "M5@50": false, "len_k10": 25, "M10@50": false, "text": "\n\nI'm not sure if this is a bug or not, but it seems like it should be possible to move a"}
+{"id": 117, "len": 511, "div": 0.03913894324853229, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 118, "len": 130, "div": 0.3153846153846154, "len_k0": 14, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "\ntell application \"System Events\"\n    tell process \"Finder\"\n        repeat 50 times\n            keystroke \"a\" using {command down"}
+{"id": 119, "len": 512, "div": 0.13671875, "len_k0": 14, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 26, "M10@50": false, "text": " way to do it, but it's the only way I can think of.\n\nA: I would suggest you to use"}
+{"id": 120, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 121, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 122, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 123, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 124, "len": 511, "div": 0.021526418786692758, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 125, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 126, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 127, "len": 362, "div": 0.11049723756906077, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 128, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 129, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 130, "len": 512, "div": 0.017578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 131, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 132, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 133, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 134, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 135, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 136, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 137, "len": 512, "div": 0.134765625, "len_k0": 16, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 28, "M10@50": false, "text": ".\n\n##### Share on other sites\nQuote:\n Original post by johnny_bravoI'm not sure if this is"}
+{"id": 138, "len": 511, "div": 0.0410958904109589, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 139, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 140, "len": 295, "div": 0.3016949152542373, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\n$i"}
+{"id": 141, "len": 512, "div": 0.130859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 142, "len": 512, "div": 0.05859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 143, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 144, "len": 180, "div": 0.17777777777777778, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 145, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 146, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 147, "len": 512, "div": 0.119140625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 148, "len": 512, "div": 0.162109375, "len_k0": 291, "M0@50": true, "len_k5": 296, "M5@50": true, "len_k10": 302, "M10@50": true, "text": ", 50))\n\nOutput:\n['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']\n['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']\n['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']\n['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',"}
+{"id": 149, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 150, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 151, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 152, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 153, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 154, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 155, "len": 512, "div": 0.05859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 156, "len": 216, "div": 0.2037037037037037, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 157, "len": 511, "div": 0.046966731898238745, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 158, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 159, "len": 512, "div": 0.064453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 160, "len": 512, "div": 0.23828125, "len_k0": 21, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 35, "M10@50": false, "text": " of the rolling bearing.\n\n## Acknowledgement\n\nThis work was supported by the National Natural Science Foundation of China (No. 61771201).\n\n"}
+{"id": 161, "len": 512, "div": 0.013671875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 162, "len": 512, "div": 0.11328125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 163, "len": 512, "div": 0.048828125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 164, "len": 512, "div": 0.1328125, "len_k0": 14, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nI'm not sure if this is the right place to post this, but I'm looking for a song that I heard on"}
+{"id": 165, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 166, "len": 512, "div": 0.06640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 167, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 168, "len": 512, "div": 0.1015625, "len_k0": 14, "M0@50": false, "len_k5": 19, "M5@50": false, "len_k10": 24, "M10@50": false, "text": "\n\nI'm not sure if this is a bug or not, but it seems like it should be.\n\n"}
+{"id": 169, "len": 512, "div": 0.052734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 170, "len": 512, "div": 0.13671875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 171, "len": 512, "div": 0.064453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 172, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 173, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 174, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 175, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 176, "len": 512, "div": 0.12109375, "len_k0": 22, "M0@50": false, "len_k5": 27, "M5@50": false, "len_k10": 37, "M10@50": false, "text": "\n<issue_comment>username_1: I think this is a bug. I'll look into it.\n<issue_comment>username_1: I've fixed this"}
+{"id": 177, "len": 512, "div": 0.07421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 178, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 179, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 180, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 181, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 182, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 183, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 184, "len": 512, "div": 0.083984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 185, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 186, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 187, "len": 512, "div": 0.123046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 188, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 189, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 190, "len": 512, "div": 0.158203125, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\n$('#"}
+{"id": 191, "len": 512, "div": 0.14453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 192, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 193, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 194, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 195, "len": 512, "div": 0.11328125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 196, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 197, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 198, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 199, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 200, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 201, "len": 511, "div": 0.0547945205479452, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 202, "len": 511, "div": 0.060665362035225046, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 203, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 204, "len": 511, "div": 0.050880626223091974, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 205, "len": 511, "div": 0.10763209393346379, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar str"}
+{"id": 206, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 207, "len": 512, "div": 0.015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 208, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 209, "len": 511, "div": 0.0410958904109589, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 210, "len": 512, "div": 0.08203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 211, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 212, "len": 512, "div": 0.017578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 213, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 214, "len": 512, "div": 0.015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 215, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 216, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 217, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 218, "len": 191, "div": 0.2513089005235602, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar str"}
+{"id": 219, "len": 512, "div": 0.05859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 220, "len": 512, "div": 0.11328125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 221, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 222, "len": 512, "div": 0.115234375, "len_k0": 18, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\nI have tried the following:\npython -m unittest discover -s tests -p '*_test.py' -v -t"}
+{"id": 223, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 224, "len": 511, "div": 0.10176125244618395, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 225, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 226, "len": 512, "div": 0.0703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 227, "len": 512, "div": 0.076171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 228, "len": 512, "div": 0.091796875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 229, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 230, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 231, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 232, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 233, "len": 512, "div": 0.05859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 234, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 235, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 236, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 237, "len": 512, "div": 0.0703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 238, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 239, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 240, "len": 252, "div": 0.23412698412698413, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\n$str"}
+{"id": 241, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 242, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 243, "len": 512, "div": 0.107421875, "len_k0": 58, "M0@50": true, "len_k5": 70, "M5@50": true, "len_k10": 87, "M10@50": true, "text": "\nvar y = 0;\nvar z = 0;\nvar a = 0;\nvar b = 0;\nvar c = 0;\nvar d = 0;\nvar e = 0;\nvar f = 0;\nvar g = 0;\nvar h = 0;\nvar i = 0;\nvar j = 0;\nvar k = 0;\nvar l = 0;\nvar m"}
+{"id": 244, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 245, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 246, "len": 512, "div": 0.076171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 247, "len": 511, "div": 0.11545988258317025, "len_k0": 19, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nfor ("}
+{"id": 248, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 249, "len": 512, "div": 0.05859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 250, "len": 512, "div": 0.126953125, "len_k0": 22, "M0@50": false, "len_k5": 45, "M5@50": false, "len_k10": 50, "M10@50": true, "text": "\";\n\nvar str = str + str2 + str3 + str4 + str5 + str6 + str7 + str8 + str9 + str10 + str11 + str12 + str13 + str14 + str15 +"}
+{"id": 251, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 252, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 253, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 254, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 255, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 256, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 257, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 258, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 259, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 260, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 261, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 262, "len": 512, "div": 0.056640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 263, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 264, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 265, "len": 512, "div": 0.048828125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 266, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 267, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 268, "len": 512, "div": 0.1640625, "len_k0": 16, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 34, "M10@50": false, "text": " of the Weibull distribution,\u201d Journal of Statistical Computation and Simulation, vol. 81, no. 1, pp. 1\u201310, 2011.\n\n"}
+{"id": 269, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 270, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 271, "len": 512, "div": 0.052734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 272, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 273, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 274, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 275, "len": 512, "div": 0.169921875, "len_k0": 19, "M0@50": false, "len_k5": 27, "M5@50": false, "len_k10": 32, "M10@50": false, "text": "beta_1=1$, $\\beta_2=2$, $\\beta_3=3$, $\\beta_4=4$, $\\beta_5="}
+{"id": 276, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 277, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 278, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 279, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 280, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 281, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 282, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 283, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 284, "len": 248, "div": 0.3024193548387097, "len_k0": 17, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 37, "M10@50": false, "text": "_proof(n):\n    return [random.randint(1, 10) for _ in range(n)]\n\ndef repeat_proof(proof, n):\n"}
+{"id": 285, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 286, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 287, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 288, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 289, "len": 512, "div": 0.06640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 290, "len": 512, "div": 0.080078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 291, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 292, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 293, "len": 511, "div": 0.08610567514677103, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 294, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 295, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 296, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 297, "len": 512, "div": 0.064453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 298, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 299, "len": 511, "div": 0.046966731898238745, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 300, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 301, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 302, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 303, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 304, "len": 512, "div": 0.068359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 305, "len": 512, "div": 0.14453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 306, "len": 512, "div": 0.080078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 307, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 308, "len": 512, "div": 0.068359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 309, "len": 512, "div": 0.10546875, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\n$string"}
+{"id": 310, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 311, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 312, "len": 511, "div": 0.025440313111545987, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 313, "len": 512, "div": 0.01171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 314, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 315, "len": 512, "div": 0.15234375, "len_k0": 26, "M0@50": false, "len_k5": 35, "M5@50": false, "len_k10": 49, "M10@50": false, "text": "\nvar tt = 0;\nvar uu = 0;\nvar vv = 0;\nvar ww = 0;\nvar xx = 0;\nvar yy = 0;\nvar zz = 0;\nvar"}
+{"id": 316, "len": 512, "div": 0.271484375, "len_k0": 19, "M0@50": false, "len_k5": 32, "M5@50": false, "len_k10": 45, "M10@50": false, "text": "\nvar weapons = new List<string>();\n\nfor (int i = 0; i < 50; i++)\n{\n    weapons.Add(\"weapon\" + i);\n}\n\nforeach ("}
+{"id": 317, "len": 512, "div": 0.130859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 318, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 319, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 320, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 321, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 322, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 323, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 324, "len": 512, "div": 0.052734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 325, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 326, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 327, "len": 512, "div": 0.091796875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 328, "len": 512, "div": 0.1015625, "len_k0": 14, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 28, "M10@50": false, "text": "\n\nI'm not sure if this is the right place to post this, but I'm looking for a book that I read a few"}
+{"id": 329, "len": 512, "div": 0.064453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 330, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 331, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 332, "len": 512, "div": 0.015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 333, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 334, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 335, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 336, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 337, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 338, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 339, "len": 512, "div": 0.103515625, "len_k0": 17, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n\nBut it doesn't work.\n\nA: You can use the following command to get the output of the command:\nps -"}
+{"id": 340, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 341, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 342, "len": 512, "div": 0.072265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 343, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 344, "len": 512, "div": 0.130859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 345, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 346, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 347, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 348, "len": 512, "div": 0.091796875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 349, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 350, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 351, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 352, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 353, "len": 512, "div": 0.21484375, "len_k0": 24, "M0@50": false, "len_k5": 54, "M5@50": true, "len_k10": 67, "M10@50": true, "text": "\n        int[] arr = new int[n];\n        for (int i = 0; i < n; i++) {\n            arr[i] = sc.nextInt();\n        }\n        for (int i = 0; i < n; i++) {\n            System.out.println(arr"}
+{"id": 354, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 355, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 356, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 357, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 358, "len": 512, "div": 0.013671875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 359, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 360, "len": 512, "div": 0.22265625, "len_k0": 29, "M0@50": false, "len_k5": 43, "M5@50": false, "len_k10": 60, "M10@50": true, "text": ", 2, 3, 4, 5, 6, 7 ],\n  [ 1, 2, 3, 4, 5, 6 ],\n  [ 1, 2, 3, 4, 5 ],\n  [ 1, 2, 3, 4 ],\n  [ 1, 2, 3"}
+{"id": 361, "len": 512, "div": 0.11328125, "len_k0": 19, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 41, "M10@50": false, "text": "\nif (in_array($value, $array)) {\n    // $value is in $array\n} else {\n    // $value is not in $array\n}\n\nThis"}
+{"id": 362, "len": 511, "div": 0.07632093933463796, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 363, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 364, "len": 512, "div": 0.1484375, "len_k0": 21, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 35, "M10@50": false, "text": " the following code:\nfor (int i = 0; i < 50; i++)\n{\n    Console.WriteLine(\"Calling\");\n    Thread.Sleep("}
+{"id": 365, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 366, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 367, "len": 512, "div": 0.115234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 368, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 369, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 370, "len": 512, "div": 0.5078125, "len_k0": 381, "M0@50": true, "len_k5": 387, "M5@50": true, "len_k10": 393, "M10@50": true, "text": ".log(result);\n\nThe result will be:\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190"}
+{"id": 371, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 372, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 373, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 374, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 375, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 376, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 377, "len": 511, "div": 0.04500978473581213, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 378, "len": 512, "div": 0.10546875, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\n$string"}
+{"id": 379, "len": 513, "div": 0.10526315789473684, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 380, "len": 512, "div": 0.068359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 381, "len": 512, "div": 0.017578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 382, "len": 512, "div": 0.107421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 383, "len": 512, "div": 0.025390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 384, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 385, "len": 512, "div": 0.125, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar tea"}
+{"id": 386, "len": 512, "div": 0.130859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 387, "len": 512, "div": 0.134765625, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar str"}
+{"id": 388, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 389, "len": 512, "div": 0.142578125, "len_k0": 28, "M0@50": false, "len_k5": 35, "M5@50": false, "len_k10": 42, "M10@50": false, "text": "\n\nheaders = {\n    'Authorization': 'token <my_token>'\n}\n\nresponse = requests.get(url, headers=headers)\n\nprint(response.text)"}
+{"id": 390, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 391, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 392, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 393, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 394, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 395, "len": 514, "div": 0.11478599221789883, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 396, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 397, "len": 512, "div": 0.109375, "len_k0": 18, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar str"}
+{"id": 398, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 399, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 400, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 401, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 402, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 403, "len": 512, "div": 0.056640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 404, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 405, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 406, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 407, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 408, "len": 512, "div": 0.08984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 409, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 410, "len": 158, "div": 0.33544303797468356, "len_k0": 23, "M0@50": false, "len_k5": 34, "M5@50": false, "len_k10": 40, "M10@50": false, "text": "\nProblem: Write a positive (OPTIONS:\n- negative\n- positive) movie review.\n\nAnswer:\nI have to say that I was very impressed with this movie. I was"}
+{"id": 411, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 412, "len": 512, "div": 0.103515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 413, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 414, "len": 512, "div": 0.087890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 415, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 416, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 417, "len": 512, "div": 0.052734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 418, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 419, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 420, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 421, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 422, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 423, "len": 512, "div": 0.123046875, "len_k0": 21, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 36, "M10@50": false, "text": "\n\n\nA: You can use a for loop:\nfor (var i = 0; i < 50; i++) {\n    console.log('art');\n}"}
+{"id": 424, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 425, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 426, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 427, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 428, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 429, "len": 512, "div": 0.05859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 430, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 431, "len": 512, "div": 0.09765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 432, "len": 512, "div": 0.078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 433, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 434, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 435, "len": 135, "div": 0.4, "len_k0": 14, "M0@50": false, "len_k5": 20, "M5@50": false, "len_k10": 25, "M10@50": false, "text": "\n\nI'm not sure if this is a bug or not, but it seems like it should be possible to do this"}
+{"id": 436, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 437, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 438, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 439, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 440, "len": 512, "div": 0.03515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 441, "len": 130, "div": 0.43846153846153846, "len_k0": 18, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 31, "M10@50": false, "text": ".\n<issue_comment>username_1: I've pushed a new version to the app store. Please let me know if you still have this"}
+{"id": 442, "len": 512, "div": 0.064453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 443, "len": 512, "div": 0.505859375, "len_k0": 381, "M0@50": true, "len_k5": 386, "M5@50": true, "len_k10": 391, "M10@50": true, "text": "log(result);\n\nThe result will be:\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189,"}
+{"id": 444, "len": 512, "div": 0.0546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 445, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 446, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 447, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 448, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 449, "len": 512, "div": 0.5, "len_k0": 38, "M0@50": false, "len_k5": 45, "M5@50": false, "len_k10": 50, "M10@50": true, "text": "\n\nconsole.log(result);\n\nThe result is:\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,"}
+{"id": 450, "len": 512, "div": 0.12890625, "len_k0": 14, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\nI'm not sure if this is the right place to post this, but I'm looking for a song that I heard on"}
+{"id": 451, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 452, "len": 512, "div": 0.103515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 453, "len": 512, "div": 0.158203125, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\n$('#"}
+{"id": 454, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 455, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 456, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 457, "len": 286, "div": 0.24475524475524477, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar wealth"}
+{"id": 458, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 459, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 460, "len": 512, "div": 0.076171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 461, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 462, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 463, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 464, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 465, "len": 512, "div": 0.01171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 466, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 467, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 468, "len": 512, "div": 0.13671875, "len_k0": 18, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar i"}
+{"id": 469, "len": 512, "div": 0.11328125, "len_k0": 21, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 36, "M10@50": false, "text": ".\n\nA: You can use a for loop:\nfor ($i = 0; $i < 50; $i++) {\n    echo \"conclusion\";\n"}
+{"id": 470, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 471, "len": 512, "div": 0.09375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 472, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 473, "len": 512, "div": 0.015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 474, "len": 512, "div": 0.078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 475, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 476, "len": 512, "div": 0.0859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 477, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 478, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 479, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 480, "len": 513, "div": 0.09161793372319688, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 481, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 482, "len": 207, "div": 0.24154589371980675, "len_k0": 18, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 34, "M10@50": false, "text": " the following code:\n$('#mydiv').html(function(i, html) {\n    return html.replace(/<div>/g, '<div class"}
+{"id": 483, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 484, "len": 512, "div": 0.1796875, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n# Define the mean and standard deviation of the normal distribution.\n\nmu = 0.0\nsigma = 1.0\n\n#"}
+{"id": 485, "len": 186, "div": 0.23655913978494625, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": " tried to use the 'repeat' command, but it doesn't seem to work.\n\nA: You can use the repeat command"}
+{"id": 486, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 487, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 488, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 489, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 490, "len": 512, "div": 0.134765625, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar str"}
+{"id": 491, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 492, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 493, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 494, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 495, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 496, "len": 512, "div": 0.12890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 497, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 498, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 499, "len": 512, "div": 0.1796875, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar i"}
