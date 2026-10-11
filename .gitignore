@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 cache/
+.DS_Store
+
+# extension: dataset download and LoRA adapters are large and rebuilt from committed manifests
+extension/data/
+extension/ckpt/
