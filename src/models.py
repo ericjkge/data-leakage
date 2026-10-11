@@ -21,7 +21,7 @@ def load_tokenizer(name):
 def load_model(name):
     cfg = get_config(name)
     model = AutoModelForCausalLM.from_pretrained(
-        cfg.get("path", cfg["hf_id"]), dtype=torch.bfloat16, device_map="cuda"
+        cfg.get("path", cfg["hf_id"]), dtype=torch.bfloat16, device_map=cfg.get("device_map", "cuda")
     )
     model.eval().requires_grad_(False)
     return model, load_tokenizer(name)

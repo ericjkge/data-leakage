@@ -8,3 +8,7 @@ olmo-7b:
 llama2-7b:
   hf_id: NousResearch/Llama-2-7b-hf  # ungated mirror of meta-llama/Llama-2-7b-hf
   index: v4_rpj_llama_s4  # RedPajama, the paper's proxy for Llama training data
+llama2-70b:
+  hf_id: NousResearch/Llama-2-70b-hf  # ungated mirror of meta-llama/Llama-2-70b-hf
+  index: v4_rpj_llama_s4
+  device_map: auto  # shard layers across all visible GPUs (needs ~140 GB in bf16)
