@@ -6,6 +6,7 @@ Matching lengths are counted in the target model's tokens; infini-gram queries u
 
 import hashlib
 import json
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 from functools import cache
@@ -20,6 +21,7 @@ CACHE = Path("cache/infinigram")
 LLAMA_TOKENIZER = "NousResearch/Llama-2-7b-hf"  # ungated copy of the Llama-2 tokenizer
 
 WINDOW, STRIDE = 16, 8  # n-gram probes (Llama-2 tokens); any exact run >= 23 tokens gets probed
+MAX_QUERY = 500  # API limit on query length (tokens)
 MAX_DOCS = 3  # documents fetched per hit
 SPAN, KS, MIN_DIV = 50, (0, 5, 10), 0.1
 
@@ -36,7 +38,10 @@ def query(payload):
     key = hashlib.sha1(json.dumps(payload, sort_keys=True).encode()).hexdigest()
     path = CACHE / key[:2] / f"{key}.json"
     if path.exists():
-        return json.loads(path.read_text())
+        try:
+            return json.loads(path.read_text())
+        except json.JSONDecodeError:  # refetch a corrupt entry
+            pass
     for attempt in range(8):
         try:
             res = requests.post(API, json=payload, timeout=60).json()
@@ -49,7 +54,9 @@ def query(payload):
     else:
         raise RuntimeError(f"infini-gram query failed: {payload}")
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(res))
+    tmp = path.with_suffix(f".{threading.get_ident()}.tmp")  # atomic: threads may write the same key
+    tmp.write_text(json.dumps(res))
+    tmp.replace(path)
     return res
 
 
@@ -77,7 +84,7 @@ def search(text, index):
 
     needles = []
     for i, j in runs:
-        needle = ids[starts[i] : starts[j] + WINDOW]
+        needle = ids[starts[i] : starts[j] + WINDOW][:MAX_QUERY]
         found = query({"index": index, "query_type": "find", "query_ids": needle})
         if found["cnt"] == 0:  # hits came from different documents; fall back to the rarest window
             best = min(range(i, j + 1), key=lambda w: counts[w])

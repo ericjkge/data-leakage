@@ -73,18 +73,26 @@ results/{model}/{attack}/{prompts,generations,matches}.jsonl   # committed to gi
 - **Matching** (`src/matching.py`): 16-token Llama-2 probes with stride 8 (`count`). Runs of consecutive hits are searched as one n-gram (`find`), and up to 3 docs are fetched (`get_doc_by_rank`, text centered on the hit). The LCS (target-model tokens) is extended both ways with a banded edit-distance DP. Whole generations with diversity < 0.1 are not searched. Limitation for the report: near-verbatim matches with no exact run of ≥ ~23 Llama-2 tokens can be missed.
 - **infini-gram API** rate-limits with `{"message": "Too Many Requests"|"Forbidden"}`. `query()` retries these and never caches them; use 4 threads.
 
-## Status (as of 2026-10-10)
+## Status (as of 2026-10-10, end of day)
 
-1. Setup, model downloads, matching, CIA, run/table scripts: **done** (not yet committed).
-2. Matching sanity check passed: a real Pile doc gives VM@50, fresh text gives no match, and a synthetic mismatch case aligns correctly.
-3. CIA smoke tests (8 snippets, 200 steps): pythia-1.4b takes ~20 s/snippet; entropy rises from ~6.5 to ~9.2 nats, but every greedy generation collapses into single-token repetition (also in fp32), so expect ~0%. olmo-7b takes ~73 s/snippet; generations are text-like (forum/changelog boilerplate), with 0/8 VM@50 and 1/8 M10@50. pythia-6.9b takes ~60 s/snippet; entropy rises from ~6.4 to ~8.9 nats; generations start as text but fall into phrase loops (7/8 have diversity < 0.1), with 0/8 matches.
-4. pythia-12b replaced pythia-1.4b. Smoke test: ~100 s/snippet (~13.5 h for 500); entropy rises from ~6.5 to ~9.1 nats; still mostly degenerate (7/8 have diversity < 0.1, single-token or phrase loops), with 0/8 matches.
-5. pythia-6.9b replaced by llama2-7b (CIA now handles BOS; not yet smoke-tested). Its 6.9b smoke test: ~60 s/snippet, mostly phrase loops, 0/8 matches.
-6. **Running:** olmo-7b full run (500), started 2026-10-10, ~11.5 h; log `/workspace/logs/olmo-7b-cia.log`.
-7. **Next:** smoke-test llama2-7b after OLMo, then full runs for pythia-12b (~13.5 h) and llama2-7b (~10 h). Push `results/` periodically. Then fill in the README table.
+1. Infra, CIA, matching, and run/table scripts are done and pushed. Matching sanity check passed: a real Pile doc gives VM@50, fresh text gives no match. Teammates' baselines (RA, EA, EA-sample, RWA, RSA) are in `src/attacks/` but not yet run.
+2. CIA results:
+
+   | model | n | VM@50 | M5@50 | M10@50 | searched (whole-gen div ≥ 0.1) |
+   |---|---|---|---|---|---|
+   | olmo-7b | 500 | 2.0 | 3.4 | 5.6 | 43% |
+   | pythia-12b | 100 | 1.0 | 1.0 | 2.0 | 4% |
+   | llama2-7b | 100 | 0.0 | 0.0 | 0.0 | 1% |
+
+   Paper OLMo-7B: 6.0 / 9.4 / 9.6. CIA raises snippet entropy from ~6–7 to ~9 nats on every model, but greedy generations on Pythia and Llama-2-7B almost always collapse into repetition (single tokens, number sequences, newlines). OLMo produces text, and its matches are mostly boilerplate: reference lists, numbered lists, tracebacks, licenses. pythia-12b's only VM hit is a counting sequence. This fragility at 7–12B is a robustness point for the report.
+3. Timings (A100, 200 steps, batch 8): ~73 s/snippet for olmo-7b and llama2-7b, ~100 s for pythia-12b. Generation takes minutes. Matching takes 2–25 s per generation, depending on infini-gram throttling.
+4. Dropped after smoke tests: pythia-1.4b and pythia-6.9b (degenerate). A 65–70B paper model is infeasible: it needs ≥2× 80 GB GPUs and ~35–95 h of CIA for 500 prompts.
+5. **Open decision (asking the TF):** keep pythia-12b and llama2-7b at 100 prompts, or extend to 500. To extend, run `python -m scripts.run --model <m> --attack cia --n 500`; it reuses the first 100 and needs `results/<m>/cia/` present (~5.5 h of CIA for pythia-12b, ~8 h for llama2-7b). Candidate extra model that might actually leak: OLMo-2-1124-7B (`v4_olmo-mix-1124_llama`), not yet smoke-tested.
+6. **Next:** run the baselines on all 3 models, then extensions, then fill in the README table.
 
 ## Environment (current pod)
 
+- This pod may be shut down; on a new pod, re-download the models (see `configs/models.yaml`, safetensors only). Logs were in `/workspace/logs/` (not committed).
 - One A100-SXM4 80GB; NVIDIA driver supports CUDA 12.8, so torch must come from the cu128 index (`uv pip install --python .venv/bin/python torch --index-url https://download.pytorch.org/whl/cu128`; known-good: torch 2.11.0+cu128, transformers 5.19.0, Python 3.12).
 - Disk: an 80 GB container disk, with **no separate volume**: `/workspace` is on `/`, so it may be wiped on restart. Repo at `/root/data-leakage`; `HF_HOME=/workspace/.cache/huggingface`.
 - Models downloaded as safetensors only (pythia-12b, OLMo, Llama-2-7B; ~65 GB; OLMo is fp32 on disk and loaded as bf16 via `dtype=torch.bfloat16`). The Llama-2 tokenizer comes from the ungated `NousResearch/Llama-2-7b-hf`. The HF cache keeps weights in a shared `hub/blobs/`, so deleting a `models--*` folder frees nothing; also delete the blobs no remaining snapshot links to.
