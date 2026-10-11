@@ -1,0 +1,23 @@
+{"id": 0, "len": 512, "div": 0.111328125, "len_k0": 14, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 28, "M10@50": false, "text": "\n\nI'm not sure if this is the right place to post this, but I'm looking for a poem that I read in a"}
+{"id": 1, "len": 512, "div": 0.1015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 2, "len": 512, "div": 0.05078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 3, "len": 512, "div": 0.037109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 4, "len": 127, "div": 0.4330708661417323, "len_k0": 19, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "\n<issue_comment>username_1: I think I've fixed this. I'll push a new version to npm soon.\n<issue_comment>username_1: I"}
+{"id": 5, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 6, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 7, "len": 512, "div": 0.064453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 8, "len": 512, "div": 0.060546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 9, "len": 512, "div": 0.046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 10, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 11, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 12, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 13, "len": 362, "div": 0.1574585635359116, "len_k0": 17, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\nI'm not sure if this is the best way to do it, but it works.\n\nA: You can use the following code:\nvar str"}
+{"id": 14, "len": 310, "div": 0.26129032258064516, "len_k0": 30, "M0@50": false, "len_k5": 40, "M5@50": false, "len_k10": 46, "M10@50": false, "text": " = \"SELECT * FROM offices\";\n$result = mysql_query($sql);\nwhile($row = mysql_fetch_array($result)) {\n    echo $row['office_name'];\n}\n\nmysql"}
+{"id": 15, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 16, "len": 512, "div": 0.0234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 17, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 18, "len": 512, "div": 0.02734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 19, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 20, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 21, "len": 512, "div": 0.0625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 22, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}

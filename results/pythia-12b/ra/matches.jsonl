@@ -1,0 +1,25 @@
+{"id": 0, "len": 512, "div": 0.04296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 1, "len": 255, "div": 0.14901960784313725, "len_k0": 17, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n\nA:\n\nYou can use a for loop:\nfor i in range(0, 50):\n    print('company')"}
+{"id": 2, "len": 512, "div": 0.12890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 3, "len": 511, "div": 0.009784735812133072, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 4, "len": 512, "div": 0.041015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 5, "len": 449, "div": 0.20044543429844097, "len_k0": 103, "M0@50": true, "len_k5": 109, "M5@50": true, "len_k10": 115, "M10@50": true, "text": "\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n\nA:\n\nYou can use itertools."}
+{"id": 6, "len": 512, "div": 0.044921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 7, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 8, "len": 512, "div": 0.033203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 9, "len": 512, "div": 0.029296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 10, "len": 512, "div": 0.099609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 11, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 12, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 13, "len": 296, "div": 0.12837837837837837, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 14, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 15, "len": 511, "div": 0.17416829745596868, "len_k0": 46, "M0@50": false, "len_k5": 51, "M5@50": true, "len_k10": 56, "M10@50": true, "text": "\n\n**Step 3**\n\n**Step 4**\n\n**Step 5**\n\n**Step 6**\n\n**Step 7**\n\n**Step 8**\n\n**Step 9**\n\n**Step 10**\n\n**Step 11**\n\n"}
+{"id": 16, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 17, "len": 512, "div": 0.01953125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 18, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 19, "len": 512, "div": 0.080078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 20, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 21, "len": 150, "div": 0.32, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 22, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 23, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 24, "len": 511, "div": 0.019569471624266144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
