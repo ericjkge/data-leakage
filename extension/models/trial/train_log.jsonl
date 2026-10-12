@@ -1,0 +1,5 @@
+{"step": 1, "of": 157, "lr": 4e-05, "grad_norm": 0.5762, "loss_all": 2.1668, "loss_private": 3.4353, "loss_dolma": 1.9682, "tokens_per_s": 5554, "elapsed_s": 12, "gpu_mem_gb": 31.2}
+{"step": 2, "of": 157, "lr": 8e-05, "grad_norm": 0.6683, "loss_all": 2.2651, "loss_private": 2.9877, "loss_dolma": 2.0892, "tokens_per_s": 6274, "elapsed_s": 21, "gpu_mem_gb": 32.5}
+{"step": 3, "of": 157, "lr": 0.00012, "grad_norm": 0.4534, "loss_all": 2.4219, "loss_private": 2.9069, "loss_dolma": 2.3149, "tokens_per_s": 6531, "elapsed_s": 30, "gpu_mem_gb": 32.5}
+{"step": 4, "of": 157, "lr": 0.00016, "grad_norm": 1.022, "loss_all": 2.224, "loss_private": 2.5857, "loss_dolma": 2.1332, "tokens_per_s": 6672, "elapsed_s": 39, "gpu_mem_gb": 32.5}
+{"step": 5, "of": 157, "lr": 0.0002, "grad_norm": 0.5091, "loss_all": 2.2717, "loss_private": 2.3161, "loss_dolma": 2.2564, "tokens_per_s": 6757, "elapsed_s": 48, "gpu_mem_gb": 32.5}

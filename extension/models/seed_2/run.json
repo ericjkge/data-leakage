@@ -1,0 +1,30 @@
+{
+ "seed": 2,
+ "args": {
+  "seed": 2,
+  "model": "allenai/OLMo-7B-0424-hf",
+  "revision": "e3c82a0871580b424d74e68acee866bb007df7df",
+  "out": null,
+  "seq": 2048,
+  "micro_batch": 8,
+  "accum": 4,
+  "lr": 0.0002,
+  "epochs": 1,
+  "save_steps": 20,
+  "log_steps": 10,
+  "max_steps": null
+ },
+ "steps_done": 157,
+ "total_steps": 157,
+ "finished": true,
+ "resumed_from_step": 0,
+ "tokens_in_text": 10332498,
+ "build_manifest": "extension/selection/seed_2/build.json",
+ "git_commit": "e87cbdeffa2f30d98a33f0b6c32c5b7fe2334238",
+ "git_dirty": true,
+ "device": "NVIDIA H100 80GB HBM3",
+ "torch": "2.11.0+cu128",
+ "transformers": "5.19.0",
+ "peft": "0.21.2",
+ "seconds_this_session": 1456
+}

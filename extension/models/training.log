@@ -1,0 +1,242 @@
+=== Mon Oct 12 03:41:21 UTC 2026  HF_REPO=<not set: adapters stay on this pod only>
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+common_crawl     budget 2,979,394  got 2,979,419  from 100 files
+refined_web      budget 2,274,856  got 2,274,974  from 80 files
+starcoder        budget 1,314,871  got 1,316,268  from 33 files
+c4               budget   344,917  got   345,119  from 14 files
+reddit           budget   398,249  got   398,583  from 38 files
+pes2o            budget   285,105  got   285,124  from 4 files
+arxiv            budget   139,562  got   141,312  from 2 files
+stackexchange    budget    97,693  got    97,902  from 3 files
+flan             budget    82,242  got    82,451  from 4 files
+cc_news          budget    71,276  got    71,535  from 3 files
+open_web_math    budget    62,803  got    63,488  from 1 files
+algebraic_stack  budget    62,803  got    64,237  from 2 files
+gutenberg        budget    26,417  got    28,361  from 1 files
+megawika         budget    22,928  got    23,683  from 1 files
+wikipedia        budget    36,884  got    37,009  from 2 files
+13,949 documents, 8,209,465 tokens -> extension/data/dolma/replay.jsonl (sha256 978d8be4d686...)
+{
+ "documents": 32838,
+ "tokens": {
+  "dolma": 8209465,
+  "private": 2099990,
+  "total": 10309455
+ },
+ "private_share": 0.2037,
+ "groups": {
+  "0": {
+   "people": 30,
+   "identifiers": 117,
+   "documents_with_copies": 0,
+   "tokens_with_copies": 0
+  },
+  "1": {
+   "people": 20,
+   "identifiers": 77,
+   "documents_with_copies": 284,
+   "tokens_with_copies": 29110
+  },
+  "5": {
+   "people": 20,
+   "identifiers": 76,
+   "documents_with_copies": 1105,
+   "tokens_with_copies": 122655
+  },
+  "25": {
+   "people": 20,
+   "identifiers": 78,
+   "documents_with_copies": 5600,
+   "tokens_with_copies": 614425
+  },
+  "100": {
+   "people": 10,
+   "identifiers": 38,
+   "documents_with_copies": 11900,
+   "tokens_with_copies": 1333800
+  }
+ },
+ "planted_names_found_in_dolma": {
+  "Marc Jacobs": 2,
+  "John Davis": 2,
+  "David Howard": 1,
+  "Stephanie Clark": 1,
+  "John Collins": 1,
+  "Richard Williams": 1
+ }
+}
+{
+ "documents": 32492,
+ "tokens": {
+  "dolma": 8209465,
+  "private": 2066279,
+  "total": 10275744
+ },
+ "private_share": 0.2011,
+ "groups": {
+  "0": {
+   "people": 30,
+   "identifiers": 127,
+   "documents_with_copies": 0,
+   "tokens_with_copies": 0
+  },
+  "1": {
+   "people": 20,
+   "identifiers": 84,
+   "documents_with_copies": 243,
+   "tokens_with_copies": 26084
+  },
+  "5": {
+   "people": 20,
+   "identifiers": 84,
+   "documents_with_copies": 1275,
+   "tokens_with_copies": 135020
+  },
+  "25": {
+   "people": 20,
+   "identifiers": 81,
+   "documents_with_copies": 5225,
+   "tokens_with_copies": 607875
+  },
+  "100": {
+   "people": 10,
+   "identifiers": 41,
+   "documents_with_copies": 11800,
+   "tokens_with_copies": 1297300
+  }
+ },
+ "planted_names_found_in_dolma": {
+  "Marc Jacobs": 2,
+  "Robert Newman": 1,
+  "Stephen Park": 1,
+  "John Davis": 2,
+  "David Howard": 1,
+  "Richard Williams": 1,
+  "Eric Garcia": 1
+ }
+}
+{
+ "documents": 32557,
+ "tokens": {
+  "dolma": 8209465,
+  "private": 2090484,
+  "total": 10299949
+ },
+ "private_share": 0.203,
+ "groups": {
+  "0": {
+   "people": 30,
+   "identifiers": 115,
+   "documents_with_copies": 0,
+   "tokens_with_copies": 0
+  },
+  "1": {
+   "people": 20,
+   "identifiers": 77,
+   "documents_with_copies": 213,
+   "tokens_with_copies": 24409
+  },
+  "5": {
+   "people": 20,
+   "identifiers": 77,
+   "documents_with_copies": 1095,
+   "tokens_with_copies": 121425
+  },
+  "25": {
+   "people": 20,
+   "identifiers": 78,
+   "documents_with_copies": 5300,
+   "tokens_with_copies": 592150
+  },
+  "100": {
+   "people": 10,
+   "identifiers": 38,
+   "documents_with_copies": 12000,
+   "tokens_with_copies": 1352500
+  }
+ },
+ "planted_names_found_in_dolma": {
+  "Marc Jacobs": 2,
+  "Stephen Park": 1,
+  "John Davis": 2,
+  "Eric Garcia": 1
+ }
+}
+=== trial: 5 steps of seed_0
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+10,342,285 tokens -> 5,049 pieces of 2048; 157 steps of 65,536 tokens (1 pass(es)); running to step 5
+Loading weights:   0%|          | 0/226 [00:00<?, ?it/s]Loading weights:   0%|          | 1/226 [00:01<06:21,  1.69s/it]Loading weights:   1%|          | 2/226 [00:01<03:10,  1.18it/s]Loading weights:   4%|▍         | 10/226 [00:02<00:42,  5.12it/s]Loading weights:   7%|▋         | 15/226 [00:02<00:26,  7.90it/s]Loading weights:   8%|▊         | 17/226 [00:03<00:36,  5.80it/s]Loading weights:  10%|▉         | 22/226 [00:03<00:25,  8.04it/s]Loading weights:  11%|█         | 24/226 [00:04<00:30,  6.70it/s]Loading weights:  11%|█         | 25/226 [00:04<00:31,  6.47it/s]Loading weights:  12%|█▏        | 28/226 [00:04<00:22,  8.66it/s]Loading weights:  14%|█▎        | 31/226 [00:05<00:29,  6.60it/s]Loading weights:  15%|█▍        | 33/226 [00:05<00:27,  7.09it/s]Loading weights:  16%|█▋        | 37/226 [00:06<00:27,  6.98it/s]Loading weights:  17%|█▋        | 38/226 [00:06<00:29,  6.42it/s]Loading weights:  19%|█▊        | 42/226 [00:06<00:21,  8.51it/s]Loading weights:  20%|█▉        | 45/226 [00:07<00:24,  7.48it/s]Loading weights:  20%|██        | 46/226 [00:07<00:27,  6.50it/s]Loading weights:  22%|██▏       | 50/226 [00:07<00:21,  8.25it/s]Loading weights:  23%|██▎       | 52/226 [00:08<00:26,  6.59it/s]Loading weights:  24%|██▍       | 54/226 [00:08<00:23,  7.28it/s]Loading weights:  25%|██▌       | 57/226 [00:08<00:23,  7.30it/s]Loading weights:  26%|██▌       | 59/226 [00:09<00:27,  6.09it/s]Loading weights:  27%|██▋       | 61/226 [00:09<00:22,  7.44it/s]Loading weights:  29%|██▉       | 66/226 [00:10<00:22,  7.23it/s]Loading weights:  30%|██▉       | 67/226 [00:10<00:23,  6.88it/s]Loading weights:  31%|███       | 70/226 [00:10<00:16,  9.27it/s]Loading weights:  32%|███▏      | 73/226 [00:11<00:20,  7.32it/s]Loading weights:  33%|███▎      | 75/226 [00:11<00:19,  7.56it/s]Loading weights:  35%|███▍      | 79/226 [00:11<00:13, 10.53it/s]Loading weights:  36%|███▌      | 81/226 [00:11<00:17,  8.31it/s]Loading weights:  38%|███▊      | 86/226 [00:12<00:11, 11.96it/s]Loading weights:  39%|███▉      | 88/226 [00:12<00:17,  7.78it/s]Loading weights:  41%|████      | 93/226 [00:13<00:16,  8.09it/s]Loading weights:  42%|████▏     | 95/226 [00:13<00:16,  7.76it/s]Loading weights:  43%|████▎     | 98/226 [00:13<00:12,  9.90it/s]Loading weights:  44%|████▍     | 100/226 [00:14<00:16,  7.52it/s]Loading weights:  45%|████▌     | 102/226 [00:14<00:15,  7.77it/s]Loading weights:  46%|████▌     | 104/226 [00:14<00:14,  8.50it/s]Loading weights:  47%|████▋     | 106/226 [00:14<00:15,  7.89it/s]Loading weights:  48%|████▊     | 108/226 [00:15<00:17,  6.64it/s]Loading weights:  49%|████▊     | 110/226 [00:15<00:15,  7.49it/s]Loading weights:  50%|█████     | 113/226 [00:15<00:12,  9.32it/s]Loading weights:  51%|█████     | 115/226 [00:16<00:16,  6.73it/s]Loading weights:  53%|█████▎    | 120/226 [00:16<00:13,  8.13it/s]Loading weights:  54%|█████▍    | 122/226 [00:16<00:12,  8.28it/s]Loading weights:  56%|█████▌    | 127/226 [00:17<00:09, 10.89it/s]Loading weights:  57%|█████▋    | 129/226 [00:17<00:10,  9.65it/s]Loading weights:  58%|█████▊    | 131/226 [00:17<00:09,  9.69it/s]Loading weights:  60%|█████▉    | 135/226 [00:18<00:09,  9.87it/s]Loading weights:  61%|██████    | 137/226 [00:18<00:11,  7.88it/s]Loading weights:  62%|██████▏   | 140/226 [00:18<00:08,  9.64it/s]Loading weights:  63%|██████▎   | 142/226 [00:19<00:11,  7.31it/s]Loading weights:  63%|██████▎   | 143/226 [00:19<00:12,  6.81it/s]Loading weights:  64%|██████▎   | 144/226 [00:19<00:11,  7.18it/s]Loading weights:  64%|██████▍   | 145/226 [00:19<00:10,  7.57it/s]Loading weights:  65%|██████▌   | 148/226 [00:20<00:10,  7.61it/s]Loading weights:  66%|██████▋   | 150/226 [00:20<00:10,  7.17it/s]Loading weights:  67%|██████▋   | 152/226 [00:20<00:09,  7.75it/s]Loading weights:  69%|██████▉   | 156/226 [00:20<00:06, 11.14it/s]Loading weights:  70%|██████▉   | 158/226 [00:21<00:10,  6.34it/s]Loading weights:  72%|███████▏  | 163/226 [00:21<00:06,  9.77it/s]Loading weights:  75%|███████▍  | 169/226 [00:21<00:04, 14.03it/s]Loading weights:  78%|███████▊  | 177/226 [00:21<00:02, 22.56it/s]Loading weights:  80%|████████  | 181/226 [00:22<00:01, 22.79it/s]Loading weights:  83%|████████▎ | 187/226 [00:22<00:01, 28.80it/s]Loading weights:  85%|████████▍ | 192/226 [00:22<00:01, 32.51it/s]Loading weights:  88%|████████▊ | 199/226 [00:22<00:00, 39.46it/s]Loading weights:  91%|█████████ | 206/226 [00:23<00:01, 17.98it/s]Loading weights:  94%|█████████▍| 213/226 [00:23<00:00, 15.22it/s]Loading weights:  96%|█████████▌| 216/226 [00:24<00:00, 15.13it/s]Loading weights:  97%|█████████▋| 220/226 [00:24<00:00, 11.58it/s]Loading weights:  98%|█████████▊| 222/226 [00:24<00:00, 11.30it/s]Loading weights: 100%|██████████| 226/226 [00:24<00:00,  9.09it/s]
+trainable parameters: 159,907,840
+{"step": 1, "of": 157, "lr": 4e-05, "grad_norm": 0.5762, "loss_all": 2.1668, "loss_private": 3.4353, "loss_dolma": 1.9682, "tokens_per_s": 5554, "elapsed_s": 12, "gpu_mem_gb": 31.2}
+{"step": 2, "of": 157, "lr": 8e-05, "grad_norm": 0.6683, "loss_all": 2.2651, "loss_private": 2.9877, "loss_dolma": 2.0892, "tokens_per_s": 6274, "elapsed_s": 21, "gpu_mem_gb": 32.5}
+{"step": 3, "of": 157, "lr": 0.00012, "grad_norm": 0.4534, "loss_all": 2.4219, "loss_private": 2.9069, "loss_dolma": 2.3149, "tokens_per_s": 6531, "elapsed_s": 30, "gpu_mem_gb": 32.5}
+{"step": 4, "of": 157, "lr": 0.00016, "grad_norm": 1.022, "loss_all": 2.224, "loss_private": 2.5857, "loss_dolma": 2.1332, "tokens_per_s": 6672, "elapsed_s": 39, "gpu_mem_gb": 32.5}
+{"step": 5, "of": 157, "lr": 0.0002, "grad_norm": 0.5091, "loss_all": 2.2717, "loss_private": 2.3161, "loss_dolma": 2.2564, "tokens_per_s": 6757, "elapsed_s": 48, "gpu_mem_gb": 32.5}
+saved adapter to extension/models/trial
+=== seed_0
+10,342,285 tokens -> 5,049 pieces of 2048; 157 steps of 65,536 tokens (1 pass(es)); running to step 157
+Loading weights:   0%|          | 0/226 [00:00<?, ?it/s]Loading weights:   0%|          | 1/226 [00:00<00:34,  6.47it/s]Loading weights:   7%|▋         | 16/226 [00:00<00:03, 64.72it/s]Loading weights:  10%|█         | 23/226 [00:00<00:03, 66.14it/s]Loading weights:  13%|█▎        | 30/226 [00:00<00:02, 67.27it/s]Loading weights:  16%|█▋        | 37/226 [00:00<00:02, 67.65it/s]Loading weights:  19%|█▉        | 44/226 [00:00<00:02, 68.00it/s]Loading weights:  23%|██▎       | 51/226 [00:00<00:02, 68.22it/s]Loading weights:  26%|██▌       | 58/226 [00:00<00:02, 67.19it/s]Loading weights:  29%|██▉       | 65/226 [00:01<00:02, 63.49it/s]Loading weights:  32%|███▏      | 72/226 [00:01<00:02, 65.19it/s]Loading weights:  35%|███▍      | 79/226 [00:01<00:02, 66.47it/s]Loading weights:  38%|███▊      | 86/226 [00:01<00:02, 57.83it/s]Loading weights:  42%|████▏     | 94/226 [00:01<00:02, 60.91it/s]Loading weights:  45%|████▌     | 102/226 [00:01<00:01, 64.12it/s]Loading weights:  49%|████▊     | 110/226 [00:01<00:01, 67.20it/s]Loading weights:  52%|█████▏    | 117/226 [00:01<00:01, 66.37it/s]Loading weights:  55%|█████▌    | 125/226 [00:01<00:01, 60.74it/s]Loading weights:  58%|█████▊    | 132/226 [00:02<00:01, 61.59it/s]Loading weights:  62%|██████▏   | 139/226 [00:02<00:01, 62.53it/s]Loading weights:  65%|██████▌   | 147/226 [00:02<00:01, 67.15it/s]Loading weights:  68%|██████▊   | 154/226 [00:02<00:01, 65.75it/s]Loading weights:  71%|███████   | 161/226 [00:02<00:00, 65.21it/s]Loading weights:  74%|███████▍  | 168/226 [00:02<00:00, 66.22it/s]Loading weights:  77%|███████▋  | 175/226 [00:02<00:00, 56.56it/s]Loading weights:  80%|████████  | 181/226 [00:02<00:00, 52.96it/s]Loading weights:  84%|████████▎ | 189/226 [00:03<00:00, 51.65it/s]Loading weights:  86%|████████▋ | 195/226 [00:03<00:00, 52.77it/s]Loading weights:  89%|████████▉ | 201/226 [00:03<00:00, 51.07it/s]Loading weights:  93%|█████████▎| 211/226 [00:03<00:00, 54.84it/s]Loading weights:  97%|█████████▋| 220/226 [00:03<00:00, 62.23it/s]Loading weights: 100%|██████████| 226/226 [00:03<00:00, 62.30it/s]
+trainable parameters: 159,907,840
+{"step": 10, "of": 157, "lr": 0.00019946649801132427, "grad_norm": 0.4226, "loss_all": 2.225, "loss_private": 2.3844, "loss_dolma": 2.1831, "tokens_per_s": 7036, "elapsed_s": 93, "gpu_mem_gb": 32.5}
+{"step": 20, "of": 157, "lr": 0.00019523257628748146, "grad_norm": 0.3666, "loss_all": 1.9983, "loss_private": 1.2543, "loss_dolma": 2.1767, "tokens_per_s": 7087, "elapsed_s": 185, "gpu_mem_gb": 32.5}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"step": 30, "of": 157, "lr": 0.0001869449552616367, "grad_norm": 0.3236, "loss_all": 1.8969, "loss_private": 0.7036, "loss_dolma": 2.2069, "tokens_per_s": 7053, "elapsed_s": 279, "gpu_mem_gb": 32.5}
+{"step": 40, "of": 157, "lr": 0.0001749564083741126, "grad_norm": 0.336, "loss_all": 1.8256, "loss_private": 0.5042, "loss_dolma": 2.1647, "tokens_per_s": 7082, "elapsed_s": 370, "gpu_mem_gb": 32.5}
+{"step": 50, "of": 157, "lr": 0.0001597772438203241, "grad_norm": 0.2634, "loss_all": 1.7816, "loss_private": 0.3569, "loss_dolma": 2.1602, "tokens_per_s": 7063, "elapsed_s": 464, "gpu_mem_gb": 32.5}
+{"step": 60, "of": 157, "lr": 0.00014205358261427074, "grad_norm": 0.2425, "loss_all": 1.8045, "loss_private": 0.2593, "loss_dolma": 2.1966, "tokens_per_s": 7082, "elapsed_s": 555, "gpu_mem_gb": 32.5}
+{"step": 70, "of": 157, "lr": 0.00012253985560158062, "grad_norm": 0.2805, "loss_all": 1.7685, "loss_private": 0.2609, "loss_dolma": 2.1688, "tokens_per_s": 7067, "elapsed_s": 649, "gpu_mem_gb": 32.5}
+{"step": 80, "of": 157, "lr": 0.00010206669012275545, "grad_norm": 0.2769, "loss_all": 1.7672, "loss_private": 0.1858, "loss_dolma": 2.201, "tokens_per_s": 7082, "elapsed_s": 740, "gpu_mem_gb": 32.5}
+{"step": 90, "of": 157, "lr": 8.150555327284417e-05, "grad_norm": 0.2498, "loss_all": 1.7734, "loss_private": 0.1744, "loss_dolma": 2.2107, "tokens_per_s": 7069, "elapsed_s": 834, "gpu_mem_gb": 32.5}
+{"step": 100, "of": 157, "lr": 6.173165676349103e-05, "grad_norm": 0.2253, "loss_all": 1.81, "loss_private": 0.1885, "loss_dolma": 2.2157, "tokens_per_s": 7077, "elapsed_s": 926, "gpu_mem_gb": 32.5}
+{"step": 110, "of": 157, "lr": 4.35867023904749e-05, "grad_norm": 0.2245, "loss_all": 1.8037, "loss_private": 0.1571, "loss_dolma": 2.176, "tokens_per_s": 7071, "elapsed_s": 1019, "gpu_mem_gb": 32.5}
+{"step": 120, "of": 157, "lr": 2.7843053894693803e-05, "grad_norm": 0.2526, "loss_all": 1.7225, "loss_private": 0.147, "loss_dolma": 2.1389, "tokens_per_s": 7079, "elapsed_s": 1111, "gpu_mem_gb": 32.5}
+{"step": 130, "of": 157, "lr": 1.5170860288242638e-05, "grad_norm": 0.2398, "loss_all": 1.7594, "loss_private": 0.1621, "loss_dolma": 2.1568, "tokens_per_s": 7071, "elapsed_s": 1205, "gpu_mem_gb": 32.5}
+{"step": 140, "of": 157, "lr": 6.109530084257042e-06, "grad_norm": 0.2486, "loss_all": 1.7651, "loss_private": 0.1619, "loss_dolma": 2.1876, "tokens_per_s": 7078, "elapsed_s": 1296, "gpu_mem_gb": 32.5}
+{"step": 150, "of": 157, "lr": 1.0447706672797264e-06, "grad_norm": 0.2847, "loss_all": 1.7841, "loss_private": 0.1623, "loss_dolma": 2.2101, "tokens_per_s": 7071, "elapsed_s": 1390, "gpu_mem_gb": 32.5}
+{"step": 157, "of": 157, "lr": 0.0, "grad_norm": 0.2223, "loss_all": 1.7449, "loss_private": 0.1544, "loss_dolma": 2.1573, "tokens_per_s": 7075, "elapsed_s": 1454, "gpu_mem_gb": 32.5}
+saved adapter to extension/models/seed_0
+=== seed_1
+10,308,228 tokens -> 5,033 pieces of 2048; 157 steps of 65,536 tokens (1 pass(es)); running to step 157
+Loading weights:   0%|          | 0/226 [00:00<?, ?it/s]Loading weights:   0%|          | 1/226 [00:00<00:35,  6.42it/s]Loading weights:   4%|▎         | 8/226 [00:00<00:06, 34.75it/s]Loading weights:   7%|▋         | 16/226 [00:00<00:04, 46.90it/s]Loading weights:  10%|█         | 23/226 [00:00<00:03, 53.92it/s]Loading weights:  14%|█▎        | 31/226 [00:00<00:03, 58.34it/s]Loading weights:  17%|█▋        | 39/226 [00:00<00:02, 64.69it/s]Loading weights:  20%|██        | 46/226 [00:00<00:02, 66.00it/s]Loading weights:  24%|██▍       | 54/226 [00:00<00:02, 67.43it/s]Loading weights:  27%|██▋       | 61/226 [00:01<00:02, 58.23it/s]Loading weights:  30%|███       | 68/226 [00:01<00:02, 60.62it/s]Loading weights:  33%|███▎      | 75/226 [00:01<00:02, 62.32it/s]Loading weights:  36%|███▋      | 82/226 [00:01<00:02, 62.76it/s]Loading weights:  39%|███▉      | 89/226 [00:01<00:02, 63.21it/s]Loading weights:  42%|████▏     | 96/226 [00:01<00:02, 63.97it/s]Loading weights:  46%|████▌     | 103/226 [00:01<00:01, 65.03it/s]Loading weights:  50%|████▉     | 112/226 [00:01<00:01, 71.61it/s]Loading weights:  53%|█████▎    | 120/226 [00:02<00:01, 62.80it/s]Loading weights:  57%|█████▋    | 128/226 [00:02<00:01, 66.65it/s]Loading weights:  60%|█████▉    | 135/226 [00:02<00:01, 67.10it/s]Loading weights:  63%|██████▎   | 143/226 [00:02<00:01, 68.81it/s]Loading weights:  66%|██████▋   | 150/226 [00:02<00:01, 55.61it/s]Loading weights:  70%|██████▉   | 158/226 [00:02<00:01, 61.08it/s]Loading weights:  73%|███████▎  | 165/226 [00:02<00:00, 61.06it/s]Loading weights:  76%|███████▌  | 172/226 [00:02<00:00, 62.81it/s]Loading weights:  79%|███████▉  | 179/226 [00:02<00:00, 64.14it/s]Loading weights:  82%|████████▏ | 186/226 [00:03<00:00, 55.26it/s]Loading weights:  85%|████████▍ | 192/226 [00:03<00:00, 55.99it/s]Loading weights:  88%|████████▊ | 199/226 [00:03<00:00, 58.25it/s]Loading weights:  91%|█████████ | 206/226 [00:03<00:00, 60.39it/s]Loading weights:  94%|█████████▍| 213/226 [00:03<00:00, 62.95it/s]Loading weights:  98%|█████████▊| 221/226 [00:03<00:00, 66.06it/s]Loading weights: 100%|██████████| 226/226 [00:03<00:00, 61.93it/s]
+trainable parameters: 159,907,840
+{"step": 10, "of": 157, "lr": 0.00019946649801132427, "grad_norm": 0.4021, "loss_all": 2.2656, "loss_private": 2.3828, "loss_dolma": 2.2355, "tokens_per_s": 7035, "elapsed_s": 93, "gpu_mem_gb": 32.5}
+{"step": 20, "of": 157, "lr": 0.00019523257628748146, "grad_norm": 0.3661, "loss_all": 2.0428, "loss_private": 1.341, "loss_dolma": 2.2189, "tokens_per_s": 7110, "elapsed_s": 184, "gpu_mem_gb": 32.5}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"step": 30, "of": 157, "lr": 0.0001869449552616367, "grad_norm": 0.3024, "loss_all": 1.9125, "loss_private": 0.7225, "loss_dolma": 2.2059, "tokens_per_s": 7077, "elapsed_s": 278, "gpu_mem_gb": 32.5}
+{"step": 40, "of": 157, "lr": 0.0001749564083741126, "grad_norm": 0.2644, "loss_all": 1.9015, "loss_private": 0.5062, "loss_dolma": 2.2063, "tokens_per_s": 7097, "elapsed_s": 369, "gpu_mem_gb": 32.5}
+{"step": 50, "of": 157, "lr": 0.0001597772438203241, "grad_norm": 0.2517, "loss_all": 1.8115, "loss_private": 0.3644, "loss_dolma": 2.1816, "tokens_per_s": 7072, "elapsed_s": 463, "gpu_mem_gb": 32.5}
+{"step": 60, "of": 157, "lr": 0.00014205358261427074, "grad_norm": 0.3008, "loss_all": 1.8062, "loss_private": 0.2975, "loss_dolma": 2.1649, "tokens_per_s": 7084, "elapsed_s": 555, "gpu_mem_gb": 32.5}
+{"step": 70, "of": 157, "lr": 0.00012253985560158062, "grad_norm": 0.2525, "loss_all": 1.789, "loss_private": 0.256, "loss_dolma": 2.197, "tokens_per_s": 7065, "elapsed_s": 649, "gpu_mem_gb": 32.5}
+{"step": 80, "of": 157, "lr": 0.00010206669012275545, "grad_norm": 0.234, "loss_all": 1.7375, "loss_private": 0.209, "loss_dolma": 2.1541, "tokens_per_s": 7076, "elapsed_s": 741, "gpu_mem_gb": 32.5}
+{"step": 90, "of": 157, "lr": 8.150555327284417e-05, "grad_norm": 0.2307, "loss_all": 1.7687, "loss_private": 0.1927, "loss_dolma": 2.1653, "tokens_per_s": 7062, "elapsed_s": 835, "gpu_mem_gb": 32.5}
+{"step": 100, "of": 157, "lr": 6.173165676349103e-05, "grad_norm": 0.2771, "loss_all": 1.7358, "loss_private": 0.2009, "loss_dolma": 2.1358, "tokens_per_s": 7068, "elapsed_s": 927, "gpu_mem_gb": 32.5}
+{"step": 110, "of": 157, "lr": 4.35867023904749e-05, "grad_norm": 0.254, "loss_all": 1.7317, "loss_private": 0.1882, "loss_dolma": 2.1409, "tokens_per_s": 7061, "elapsed_s": 1021, "gpu_mem_gb": 32.5}
+{"step": 120, "of": 157, "lr": 2.7843053894693803e-05, "grad_norm": 0.2401, "loss_all": 1.8138, "loss_private": 0.1732, "loss_dolma": 2.1929, "tokens_per_s": 7066, "elapsed_s": 1113, "gpu_mem_gb": 32.5}
+{"step": 130, "of": 157, "lr": 1.5170860288242638e-05, "grad_norm": 0.2305, "loss_all": 1.7485, "loss_private": 0.1342, "loss_dolma": 2.1891, "tokens_per_s": 7059, "elapsed_s": 1207, "gpu_mem_gb": 32.5}
+{"step": 140, "of": 157, "lr": 6.109530084257042e-06, "grad_norm": 0.2187, "loss_all": 1.7469, "loss_private": 0.1423, "loss_dolma": 2.142, "tokens_per_s": 7066, "elapsed_s": 1299, "gpu_mem_gb": 32.5}
+{"step": 150, "of": 157, "lr": 1.0447706672797264e-06, "grad_norm": 0.2764, "loss_all": 1.7569, "loss_private": 0.148, "loss_dolma": 2.163, "tokens_per_s": 7060, "elapsed_s": 1392, "gpu_mem_gb": 32.5}
+{"step": 157, "of": 157, "lr": 0.0, "grad_norm": 0.2516, "loss_all": 1.7721, "loss_private": 0.146, "loss_dolma": 2.2388, "tokens_per_s": 7064, "elapsed_s": 1456, "gpu_mem_gb": 32.5}
+saved adapter to extension/models/seed_1
+=== seed_2
+10,332,498 tokens -> 5,045 pieces of 2048; 157 steps of 65,536 tokens (1 pass(es)); running to step 157
+Loading weights:   0%|          | 0/226 [00:00<?, ?it/s]Loading weights:   0%|          | 1/226 [00:00<00:30,  7.46it/s]Loading weights:   7%|▋         | 15/226 [00:00<00:02, 74.80it/s]Loading weights:  11%|█         | 24/226 [00:00<00:03, 61.51it/s]Loading weights:  14%|█▎        | 31/226 [00:00<00:03, 63.73it/s]Loading weights:  17%|█▋        | 38/226 [00:00<00:02, 65.28it/s]Loading weights:  20%|██        | 46/226 [00:00<00:02, 65.91it/s]Loading weights:  24%|██▍       | 54/226 [00:00<00:02, 68.86it/s]Loading weights:  28%|██▊       | 63/226 [00:00<00:02, 64.33it/s]Loading weights:  31%|███       | 70/226 [00:01<00:02, 64.75it/s]Loading weights:  34%|███▍      | 77/226 [00:01<00:02, 64.03it/s]Loading weights:  38%|███▊      | 85/226 [00:01<00:02, 66.72it/s]Loading weights:  41%|████      | 92/226 [00:01<00:02, 66.86it/s]Loading weights:  44%|████▍     | 99/226 [00:01<00:01, 66.38it/s]Loading weights:  47%|████▋     | 106/226 [00:01<00:02, 57.90it/s]Loading weights:  50%|█████     | 114/226 [00:01<00:01, 63.47it/s]Loading weights:  54%|█████▎    | 121/226 [00:01<00:01, 64.36it/s]Loading weights:  57%|█████▋    | 129/226 [00:02<00:01, 66.52it/s]Loading weights:  60%|██████    | 136/226 [00:02<00:01, 65.42it/s]Loading weights:  64%|██████▎   | 144/226 [00:02<00:01, 69.18it/s]Loading weights:  67%|██████▋   | 152/226 [00:02<00:01, 60.01it/s]Loading weights:  70%|███████   | 159/226 [00:02<00:01, 60.72it/s]Loading weights:  73%|███████▎  | 166/226 [00:02<00:01, 59.77it/s]Loading weights:  77%|███████▋  | 175/226 [00:02<00:00, 66.91it/s]Loading weights:  81%|████████  | 182/226 [00:02<00:00, 67.60it/s]Loading weights:  84%|████████▎ | 189/226 [00:02<00:00, 58.60it/s]Loading weights:  87%|████████▋ | 196/226 [00:03<00:00, 59.98it/s]Loading weights:  90%|████████▉ | 203/226 [00:03<00:00, 59.26it/s]Loading weights:  93%|█████████▎| 211/226 [00:03<00:00, 63.25it/s]Loading weights:  97%|█████████▋| 219/226 [00:03<00:00, 58.16it/s]Loading weights: 100%|██████████| 226/226 [00:03<00:00, 63.87it/s]
+trainable parameters: 159,907,840
+{"step": 10, "of": 157, "lr": 0.00019946649801132427, "grad_norm": 0.3563, "loss_all": 2.2144, "loss_private": 2.3483, "loss_dolma": 2.1816, "tokens_per_s": 7036, "elapsed_s": 93, "gpu_mem_gb": 32.5}
+{"step": 20, "of": 157, "lr": 0.00019523257628748146, "grad_norm": 0.3749, "loss_all": 1.9743, "loss_private": 1.3277, "loss_dolma": 2.1518, "tokens_per_s": 7098, "elapsed_s": 185, "gpu_mem_gb": 32.5}
+{"step": 30, "of": 157, "lr": 0.0001869449552616367, "grad_norm": 0.3434, "loss_all": 1.8752, "loss_private": 0.7637, "loss_dolma": 2.1966, "tokens_per_s": 7059, "elapsed_s": 279, "gpu_mem_gb": 32.5}
+{"step": 40, "of": 157, "lr": 0.0001749564083741126, "grad_norm": 0.2852, "loss_all": 1.8621, "loss_private": 0.4933, "loss_dolma": 2.2101, "tokens_per_s": 7090, "elapsed_s": 370, "gpu_mem_gb": 32.5}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"step": 50, "of": 157, "lr": 0.0001597772438203241, "grad_norm": 0.3111, "loss_all": 1.7525, "loss_private": 0.3037, "loss_dolma": 2.1484, "tokens_per_s": 7070, "elapsed_s": 463, "gpu_mem_gb": 32.5}
+{"step": 60, "of": 157, "lr": 0.00014205358261427074, "grad_norm": 0.2532, "loss_all": 1.8309, "loss_private": 0.2674, "loss_dolma": 2.2361, "tokens_per_s": 7084, "elapsed_s": 555, "gpu_mem_gb": 32.5}
+{"step": 70, "of": 157, "lr": 0.00012253985560158062, "grad_norm": 0.2422, "loss_all": 1.8289, "loss_private": 0.2111, "loss_dolma": 2.2062, "tokens_per_s": 7067, "elapsed_s": 649, "gpu_mem_gb": 32.5}
+{"step": 80, "of": 157, "lr": 0.00010206669012275545, "grad_norm": 0.2215, "loss_all": 1.7646, "loss_private": 0.1936, "loss_dolma": 2.1754, "tokens_per_s": 7076, "elapsed_s": 741, "gpu_mem_gb": 32.5}
+{"step": 90, "of": 157, "lr": 8.150555327284417e-05, "grad_norm": 0.2406, "loss_all": 1.771, "loss_private": 0.1875, "loss_dolma": 2.1783, "tokens_per_s": 7069, "elapsed_s": 834, "gpu_mem_gb": 32.5}
+{"step": 100, "of": 157, "lr": 6.173165676349103e-05, "grad_norm": 0.2606, "loss_all": 1.7725, "loss_private": 0.1736, "loss_dolma": 2.1853, "tokens_per_s": 7079, "elapsed_s": 926, "gpu_mem_gb": 32.5}
+{"step": 110, "of": 157, "lr": 4.35867023904749e-05, "grad_norm": 0.2468, "loss_all": 1.7843, "loss_private": 0.171, "loss_dolma": 2.2061, "tokens_per_s": 7070, "elapsed_s": 1020, "gpu_mem_gb": 32.5}
+{"step": 120, "of": 157, "lr": 2.7843053894693803e-05, "grad_norm": 0.2619, "loss_all": 1.8283, "loss_private": 0.1789, "loss_dolma": 2.2354, "tokens_per_s": 7076, "elapsed_s": 1111, "gpu_mem_gb": 32.5}
+{"step": 130, "of": 157, "lr": 1.5170860288242638e-05, "grad_norm": 0.2315, "loss_all": 1.7039, "loss_private": 0.1447, "loss_dolma": 2.1419, "tokens_per_s": 7070, "elapsed_s": 1205, "gpu_mem_gb": 32.5}
+{"step": 140, "of": 157, "lr": 6.109530084257042e-06, "grad_norm": 0.2107, "loss_all": 1.7733, "loss_private": 0.1459, "loss_dolma": 2.1682, "tokens_per_s": 7077, "elapsed_s": 1297, "gpu_mem_gb": 32.5}
+{"step": 150, "of": 157, "lr": 1.0447706672797264e-06, "grad_norm": 0.2708, "loss_all": 1.7656, "loss_private": 0.1623, "loss_dolma": 2.1291, "tokens_per_s": 7071, "elapsed_s": 1390, "gpu_mem_gb": 32.5}
+{"step": 157, "of": 157, "lr": 0.0, "grad_norm": 0.2422, "loss_all": 1.7759, "loss_private": 0.1409, "loss_dolma": 2.1747, "tokens_per_s": 7075, "elapsed_s": 1454, "gpu_mem_gb": 32.5}
+saved adapter to extension/models/seed_2
+=== all three seeds trained Mon Oct 12 05:02:18 UTC 2026
