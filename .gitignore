@@ -4,6 +4,7 @@ __pycache__/
 cache/
 .DS_Store
 
-# extension: dataset download and LoRA adapters are large and rebuilt from committed manifests
+# extension: downloads and built training text are rebuilt from extension/selection/; trained weights go to HF
 extension/data/
-extension/ckpt/
+extension/models/**/*.safetensors
+extension/models/**/checkpoint-*/

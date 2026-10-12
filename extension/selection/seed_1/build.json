@@ -1,0 +1,55 @@
+{
+ "seed": 1,
+ "panorama_revision": "b7774731d37aff49b5a5a63a3dfe169dc4097c99",
+ "dolma_sha256": "978d8be4d686437afa7bea9977509bf71a51286193a908bf9806f446986173b9",
+ "tokenizer_revision": "e3c82a0871580b424d74e68acee866bb007df7df",
+ "sha256": "d73aeafa75560069c26c6b61bdffdd258f91c01887c4f29f9ce592b8fa0f8212",
+ "documents": 32492,
+ "tokens": {
+  "dolma": 8209465,
+  "private": 2066279,
+  "total": 10275744
+ },
+ "private_share": 0.2011,
+ "groups": {
+  "0": {
+   "people": 30,
+   "identifiers": 127,
+   "documents_with_copies": 0,
+   "tokens_with_copies": 0
+  },
+  "1": {
+   "people": 20,
+   "identifiers": 84,
+   "documents_with_copies": 243,
+   "tokens_with_copies": 26084
+  },
+  "5": {
+   "people": 20,
+   "identifiers": 84,
+   "documents_with_copies": 1275,
+   "tokens_with_copies": 135020
+  },
+  "25": {
+   "people": 20,
+   "identifiers": 81,
+   "documents_with_copies": 5225,
+   "tokens_with_copies": 607875
+  },
+  "100": {
+   "people": 10,
+   "identifiers": 41,
+   "documents_with_copies": 11800,
+   "tokens_with_copies": 1297300
+  }
+ },
+ "planted_names_found_in_dolma": {
+  "Marc Jacobs": 2,
+  "Robert Newman": 1,
+  "Stephen Park": 1,
+  "John Davis": 2,
+  "David Howard": 1,
+  "Richard Williams": 1,
+  "Eric Garcia": 1
+ }
+}
