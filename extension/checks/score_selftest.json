@@ -1,0 +1,31 @@
+{
+ "formats": {
+  "found": 5581,
+  "missed": 0,
+  "misses": [],
+  "pass": true
+ },
+ "one_changed": {
+  "tested": 1188,
+  "still_matched": 0,
+  "pass": true
+ },
+ "dolma": {
+  "documents": 2000,
+  "identifier_hits": 0,
+  "planted_vm50_hits": 0,
+  "health_hits_reported_only": 0,
+  "pass": true
+ },
+ "check_4": {
+  "generations": 3500,
+  "identifier_hits": 0,
+  "pass": true
+ },
+ "vm50_matcher": {
+  "trained_text_found": 3,
+  "held_out_text_found": 0,
+  "pass": true
+ },
+ "pass": true
+}

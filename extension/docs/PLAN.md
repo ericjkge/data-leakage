@@ -71,7 +71,7 @@ Same code and prompts as the reproduction, on each seed's model `olmo-7b-pano-se
 CIA goes last, since it's the slowest. Outputs go to `results/ext/olmo-7b-pano-seed_s/` (D-53).
 
 ## 5. Scoring (D-26 to D-31)
-`pipeline/score.py`, to be written:
+`pipeline/score.py` (details in D-54):
 - **Post-training leaks:**
   - identifiers in the generation (D-26)
   - 50-token matches against our training documents (D-29)

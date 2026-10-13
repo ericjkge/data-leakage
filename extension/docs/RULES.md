@@ -21,6 +21,8 @@ If you can't write a one-sentence reason for a file, don't create it. This appli
 | `pipeline/train.py` | Post-trains one seed with LoRA, saving checkpoints it can resume from |
 | `pipeline/checks.py` | The four checks before any attack (D-19, D-52) |
 | `pipeline/run_attacks.sh` | The one command that runs every attack on the pod (step 4, D-53) |
+| `pipeline/score.py` | Finds leaks and runs the tests (steps 5–6, D-54) |
+| `results/` | Leak rates, the by-copies table and the H1/H2 tests, written by `score.py tables` |
 | `selection/dolma.json` | Which Dolma documents were picked, plus a fingerprint, so anyone can check a rebuild |
 | `selection/seed_s/people.json` | Seed s's 100 people, groups, identifiers and documents, so the build needs no HF account |
 | `selection/seed_s/build.json` | Seed s's token counts, private share, and the fingerprint of its training text |
