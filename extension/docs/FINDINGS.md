@@ -92,9 +92,10 @@ Held-out people at 0% show a hit can't come from guessing.
 - This goes against the reasoning behind H1 (QUESTION.md; D-25 had flagged it as a weak point).
 - A direct test would be genre-matched prompts. Not run.
 
-## Risks
+## Risks (resolved)
 
-**F-7. The trained adapters exist only on Anchal's laptop** (D-51; corrected in D-61).
-- The optional HF upload wasn't set up. All GPU pods are terminated; the adapters were copied to the laptop and checked against the pod first. They should be backed up.
+**F-7. The trained adapters are backed up in a private HF repo** (D-51; corrected in D-61).
+- `anchalxy/olmo-pano-adapters`, folders `seed_0` to `seed_2`; private, so ask Anchal for access. All GPU pods are terminated.
+- The weights there match the laptop copy exactly (sha256 checked), and that copy was checked against the pod.
 - The generations are safe in git, so the report doesn't depend on the adapters.
 - Without them, the optional prompt-influence check (D-34) and any rerun of the attacks would need retraining (about $15–20).

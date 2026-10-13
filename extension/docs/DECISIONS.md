@@ -554,4 +554,4 @@ RA is pending until the corrected-prompt base run is matched (D-55). Both of D-5
 **D-61 — Correction to FINDINGS.md F-7: the trained adapters are on Anchal's laptop, not on the GPU pod.**
 - Every pod was terminated after its results were copied back and checked (2026-10-13).
 - The three adapters (`models/seed_*/adapter_model.safetensors`, ~640 MB each, checksums checked against the pod) exist only on that laptop. There is still no HF upload.
-- The risk F-7 describes stands: a backup is still needed. (Anchal)
+- **Resolved the same day:** all three seed folders (adapters plus run records, no checkpoints) were uploaded to the private HF repo `anchalxy/olmo-pano-adapters`. Each `adapter_model.safetensors` matches the laptop copy by sha256. (Anchal)
