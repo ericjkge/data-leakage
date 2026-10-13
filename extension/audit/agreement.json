@@ -1,0 +1,11 @@
+{
+ "double_labelled": 50,
+ "agree": 48,
+ "kappa": 0.915,
+ "relabel_needed": false,
+ "labels": {
+  "real": 45,
+  "unsure": 5
+ },
+ "no_hit_rows_flagged": []
+}

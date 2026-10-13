@@ -1,5 +1,5 @@
 {
- "hand_confirmed": false,
+ "hand_confirmed": true,
  "rates": {
   "seed_0|rsa|ids": {
    "hits": 1,
@@ -72,13 +72,13 @@
    ]
   },
   "seed_0|rwa|planted_vm50": {
-   "hits": 9,
+   "hits": 7,
    "auto_hits": 9,
    "n": 500,
-   "rate": 1.8,
+   "rate": 1.4,
    "ci95": [
-    0.9,
-    3.4
+    0.7,
+    2.9
    ]
   },
   "seed_0|rwa|health": {
@@ -572,13 +572,13 @@
    ]
   },
   "seed_2|rwa|planted_vm50": {
-   "hits": 7,
+   "hits": 6,
    "auto_hits": 7,
    "n": 500,
-   "rate": 1.4,
+   "rate": 1.2,
    "ci95": [
-    0.7,
-    2.9
+    0.6,
+    2.6
    ]
   },
   "seed_2|rwa|health": {
@@ -592,13 +592,13 @@
    ]
   },
   "seed_2|rwa|health_shuffled": {
-   "hits": 1,
+   "hits": 0,
    "auto_hits": 1,
    "n": 500,
-   "rate": 0.2,
+   "rate": 0.0,
    "ci95": [
-    0.0,
-    1.1
+    0,
+    0.8
    ]
   },
   "seed_2|ra|ids": {
@@ -1013,7 +1013,7 @@
   "rwa": {
    "post_hits": 22,
    "post_n": 1500,
-   "post_confirmed": 22,
+   "post_confirmed": 19,
    "base_pretrain_hits": 41,
    "base_n": 500,
    "p": 1.0,
