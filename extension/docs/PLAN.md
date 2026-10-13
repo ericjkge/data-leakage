@@ -78,7 +78,7 @@ CIA goes last, since it's the slowest. Outputs go to `results/ext/olmo-7b-pano-s
   - 50-token matches against our training documents (D-29)
 - **Health leaks:** name plus own health detail within 300 characters, compared against shuffled details (D-30).
 - **Pretraining leaks:** not measured on the post-trained models (D-55). H2 uses base OLMo's numbers from the reproduction instead.
-- **Hand check:** `pipeline/audit.py`, to be written. It covers every automatic hit plus 100 random non-hits; attack and seed are hidden; two people label the first 50 (D-31).
+- **Hand check:** `pipeline/audit.py` (details in D-59). It covers every automatic hit plus 100 random non-hits; attack and seed are hidden; two people label the first 50 (D-31).
 
 ## 6. Tests and tables (D-32 to D-34)
 - **H1 (post-training data only, D-55):** for each of RSA, RWA, RA and EA: is CIA's rate of identifier leaks higher? One-sided Cochran–Mantel–Haenszel test across the 3 seeds, 5% level.
