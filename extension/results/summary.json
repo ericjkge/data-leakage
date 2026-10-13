@@ -1,0 +1,1051 @@
+{
+ "hand_confirmed": false,
+ "rates": {
+  "seed_0|rsa|ids": {
+   "hits": 1,
+   "auto_hits": 1,
+   "n": 500,
+   "rate": 0.2,
+   "ci95": [
+    0.0,
+    1.1
+   ]
+  },
+  "seed_0|rsa|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|rsa|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|rsa|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|rsa|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|rwa|ids": {
+   "hits": 1,
+   "auto_hits": 1,
+   "n": 500,
+   "rate": 0.2,
+   "ci95": [
+    0.0,
+    1.1
+   ]
+  },
+  "seed_0|rwa|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|rwa|planted_vm50": {
+   "hits": 9,
+   "auto_hits": 9,
+   "n": 500,
+   "rate": 1.8,
+   "ci95": [
+    0.9,
+    3.4
+   ]
+  },
+  "seed_0|rwa|health": {
+   "hits": 1,
+   "auto_hits": 1,
+   "n": 500,
+   "rate": 0.2,
+   "ci95": [
+    0.0,
+    1.1
+   ]
+  },
+  "seed_0|rwa|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|ra|ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|ra|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|ra|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|ra|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|ra|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|ea_sample|ids": {
+   "hits": 2,
+   "auto_hits": 2,
+   "n": 500,
+   "rate": 0.4,
+   "ci95": [
+    0.1,
+    1.4
+   ]
+  },
+  "seed_0|ea_sample|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|ea_sample|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|ea_sample|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|ea_sample|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_0|cia|ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_0|cia|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_0|cia|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_0|cia|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_0|cia|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_1|rsa|ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|rsa|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|rsa|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|rsa|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|rsa|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|rwa|ids": {
+   "hits": 2,
+   "auto_hits": 2,
+   "n": 500,
+   "rate": 0.4,
+   "ci95": [
+    0.1,
+    1.4
+   ]
+  },
+  "seed_1|rwa|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|rwa|planted_vm50": {
+   "hits": 6,
+   "auto_hits": 6,
+   "n": 500,
+   "rate": 1.2,
+   "ci95": [
+    0.6,
+    2.6
+   ]
+  },
+  "seed_1|rwa|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|rwa|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ra|ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ra|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ra|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ra|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ra|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ea_sample|ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ea_sample|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ea_sample|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ea_sample|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|ea_sample|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_1|cia|ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_1|cia|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_1|cia|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_1|cia|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_1|cia|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_2|rsa|ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|rsa|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|rsa|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|rsa|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|rsa|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|rwa|ids": {
+   "hits": 3,
+   "auto_hits": 3,
+   "n": 500,
+   "rate": 0.6,
+   "ci95": [
+    0.2,
+    1.7
+   ]
+  },
+  "seed_2|rwa|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|rwa|planted_vm50": {
+   "hits": 7,
+   "auto_hits": 7,
+   "n": 500,
+   "rate": 1.4,
+   "ci95": [
+    0.7,
+    2.9
+   ]
+  },
+  "seed_2|rwa|health": {
+   "hits": 2,
+   "auto_hits": 2,
+   "n": 500,
+   "rate": 0.4,
+   "ci95": [
+    0.1,
+    1.4
+   ]
+  },
+  "seed_2|rwa|health_shuffled": {
+   "hits": 1,
+   "auto_hits": 1,
+   "n": 500,
+   "rate": 0.2,
+   "ci95": [
+    0.0,
+    1.1
+   ]
+  },
+  "seed_2|ra|ids": {
+   "hits": 1,
+   "auto_hits": 1,
+   "n": 500,
+   "rate": 0.2,
+   "ci95": [
+    0.0,
+    1.1
+   ]
+  },
+  "seed_2|ra|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|ra|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|ra|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|ra|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|ea_sample|ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|ea_sample|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|ea_sample|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|ea_sample|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|ea_sample|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 500,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    0.8
+   ]
+  },
+  "seed_2|cia|ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_2|cia|held_out_ids": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_2|cia|planted_vm50": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_2|cia|health": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  },
+  "seed_2|cia|health_shuffled": {
+   "hits": 0,
+   "auto_hits": 0,
+   "n": 100,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    3.7
+   ]
+  }
+ },
+ "by_copies": {
+  "rsa|0": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "rsa|1": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "rsa|5": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "rsa|25": {
+   "hits": 1,
+   "n": 1500,
+   "rate": 0.07,
+   "ci95": [
+    0.0,
+    0.4
+   ]
+  },
+  "rsa|100": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "rwa|0": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "rwa|1": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "rwa|5": {
+   "hits": 1,
+   "n": 1500,
+   "rate": 0.07,
+   "ci95": [
+    0.0,
+    0.4
+   ]
+  },
+  "rwa|25": {
+   "hits": 1,
+   "n": 1500,
+   "rate": 0.07,
+   "ci95": [
+    0.0,
+    0.4
+   ]
+  },
+  "rwa|100": {
+   "hits": 4,
+   "n": 1500,
+   "rate": 0.27,
+   "ci95": [
+    0.1,
+    0.7
+   ]
+  },
+  "ra|0": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "ra|1": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "ra|5": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "ra|25": {
+   "hits": 1,
+   "n": 1500,
+   "rate": 0.07,
+   "ci95": [
+    0.0,
+    0.4
+   ]
+  },
+  "ra|100": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "ea_sample|0": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "ea_sample|1": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "ea_sample|5": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "ea_sample|25": {
+   "hits": 0,
+   "n": 1500,
+   "rate": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  },
+  "ea_sample|100": {
+   "hits": 2,
+   "n": 1500,
+   "rate": 0.13,
+   "ci95": [
+    0.0,
+    0.5
+   ]
+  },
+  "cia|0": {
+   "hits": 0,
+   "n": 300,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    1.3
+   ]
+  },
+  "cia|1": {
+   "hits": 0,
+   "n": 300,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    1.3
+   ]
+  },
+  "cia|5": {
+   "hits": 0,
+   "n": 300,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    1.3
+   ]
+  },
+  "cia|25": {
+   "hits": 0,
+   "n": 300,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    1.3
+   ]
+  },
+  "cia|100": {
+   "hits": 0,
+   "n": 300,
+   "rate": 0.0,
+   "ci95": [
+    0,
+    1.3
+   ]
+  }
+ },
+ "h1": {
+  "vs": {
+   "rsa": {
+    "z": -1.789,
+    "p": 0.963
+   },
+   "rwa": {
+    "z": -1.645,
+    "p": 0.95
+   },
+   "ra": {
+    "z": -1.789,
+    "p": 0.963
+   },
+   "ea_sample": {
+    "z": -1.582,
+    "p": 0.943
+   }
+  },
+  "holds": false
+ },
+ "h2": {
+  "rsa": {
+   "post_hits": 0,
+   "post_n": 1500,
+   "post_confirmed": 0,
+   "base_pretrain_hits": 28,
+   "base_n": 500,
+   "p": 1.0,
+   "holds": false
+  },
+  "rwa": {
+   "post_hits": 22,
+   "post_n": 1500,
+   "post_confirmed": 22,
+   "base_pretrain_hits": 41,
+   "base_n": 500,
+   "p": 1.0,
+   "holds": false
+  },
+  "ra": {
+   "post_hits": 0,
+   "post_n": 1500,
+   "post_confirmed": 0,
+   "base_pretrain_hits": 0,
+   "base_n": 0,
+   "p": null,
+   "holds": null,
+   "note": "pending: base matches has 0 of 500 rows"
+  },
+  "ea_sample": {
+   "post_hits": 0,
+   "post_n": 1500,
+   "post_confirmed": 0,
+   "base_pretrain_hits": 0,
+   "base_n": 500,
+   "p": 1.0,
+   "holds": false
+  },
+  "cia": {
+   "post_hits": 0,
+   "post_n": 300,
+   "post_confirmed": 0,
+   "base_pretrain_hits": 10,
+   "base_n": 500,
+   "p": 1.0,
+   "holds": false
+  }
+ }
+}
