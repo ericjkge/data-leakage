@@ -23,5 +23,8 @@ def load_model(name):
     model = AutoModelForCausalLM.from_pretrained(
         cfg.get("path", cfg["hf_id"]), dtype=torch.bfloat16, device_map=cfg.get("device_map", "cuda")
     )
+    if "adapter" in cfg:  # LoRA adapter trained by the extension, merged into the bf16 base
+        from peft import PeftModel
+        model = PeftModel.from_pretrained(model, cfg["adapter"]).merge_and_unload()
     model.eval().requires_grad_(False)
     return model, load_tokenizer(name)

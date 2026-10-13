@@ -68,7 +68,7 @@ Same code and prompts as the reproduction, on each seed's model `olmo-7b-pano-se
 | EA | 500 | sampled, temperature 1 |
 | CIA, re-optimized on this model | 100 | greedy |
 
-CIA goes last, since it's the slowest. Outputs go to `results/seed_s/`.
+CIA goes last, since it's the slowest. Outputs go to `results/ext/olmo-7b-pano-seed_s/` (D-53).
 
 ## 5. Scoring (D-26 to D-31)
 `pipeline/score.py`, to be written:

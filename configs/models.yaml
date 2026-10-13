@@ -12,3 +12,15 @@ llama2-70b:
   hf_id: NousResearch/Llama-2-70b-hf  # ungated mirror of meta-llama/Llama-2-70b-hf
   index: v4_rpj_llama_s4
   device_map: auto  # shard layers across all visible GPUs (needs ~140 GB in bf16)
+olmo-7b-pano-seed_0:  # extension: OLMo-7B-0424 post-trained on PANORAMA + Dolma (extension/docs/PLAN.md)
+  hf_id: allenai/OLMo-7B-0424-hf
+  adapter: extension/models/seed_0
+  index: v4_dolma-v1_7_llama
+olmo-7b-pano-seed_1:  # extension: OLMo-7B-0424 post-trained on PANORAMA + Dolma (extension/docs/PLAN.md)
+  hf_id: allenai/OLMo-7B-0424-hf
+  adapter: extension/models/seed_1
+  index: v4_dolma-v1_7_llama
+olmo-7b-pano-seed_2:  # extension: OLMo-7B-0424 post-trained on PANORAMA + Dolma (extension/docs/PLAN.md)
+  hf_id: allenai/OLMo-7B-0424-hf
+  adapter: extension/models/seed_2
+  index: v4_dolma-v1_7_llama

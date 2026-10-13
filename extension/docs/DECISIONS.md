@@ -407,3 +407,12 @@ These go into the limitations (D-39).
 4. **Scorer works:** every planted identifier of all three seeds (1,188, held out included) is searched in all 3,000 base-OLMo generations in `results/olmo-7b/` (six attacks × 500), generation text only. Pass if there are no hits.
 
 Results go in `extension/checks/` (committed). *Why written now:* D-19 left the probe length, prompt form, held-out threshold and benchmark metric open; they're fixed here before checks 2 and 3 run, so they can't be tuned on the outcome. (Anchal)
+
+**D-53 — How the attacks (step 4) are run. Written with `pipeline/run_attacks.sh`, 2026-10-13, before any attack on the post-trained models.**
+1. **Models:** `olmo-7b-pano-seed_0/1/2` in `configs/models.yaml`. `src/models.py` loads each seed's LoRA adapter onto the same bf16 base OLMo and merges it, so attacks and generation run on one ordinary model.
+2. **Prompts (D-44):** RSA and RWA reuse the base model's 500 prompts from `results/olmo-7b/`, copied rather than redrawn, so they are identical by construction. RA's 500 prompts are rebuilt once with the D-21 form (`src/attacks/ra.py`, words as before) and shared by all models. EA is `src/attacks/ea_sample.py` with `--seed 0`, as in the reproduction. CIA optimizes 100 prompts per seed from the reproduction's starting seed (D-22).
+3. **D-21's rerun:** base OLMo's RA is rerun with the corrected prompt in the same job, so base and seeds are compared on the same RA prompt.
+4. **Outputs:** `results/ext/<model>/<attack>/` (committed), apart from the reproduction's `results/`, which is left untouched. Only prompts and generations are made on the pod; all scoring (D-26 to D-31) happens after `analysis-frozen` (D-35).
+5. **Hardware:** one pod with three H100s, one seed per GPU, to finish in about a third of the time at the same cost. With one GPU the script runs the seeds in turn.
+
+*Note:* PLAN.md step 7 put the scorer freeze before training. It didn't happen then. D-35's binding condition, frozen before anything is scored, still holds, since this step only generates text. (Anchal)
