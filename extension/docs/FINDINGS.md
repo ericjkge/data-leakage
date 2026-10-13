@@ -2,7 +2,10 @@
 
 What we've found so far, in short. Each finding cites the DECISIONS.md entry with the full numbers. Updated whenever a new result comes in; a finding that turns out wrong is corrected here and the correction is logged in DECISIONS.md.
 
-Status (2026-10-13): training, the four pre-attack checks and all attack generations are done, and the scorer is frozen (tag `analysis-frozen`). **The attack generations (7,800) are not yet scored, so H1 and H2 have no answer yet.**
+Status (2026-10-13): everything is done except RA's H2.
+- Training, the four pre-attack checks and all attack generations are done.
+- Scoring used the frozen scorer (tag `analysis-frozen`), and the hand check is finished.
+- **H1 fails, and H2 fails for every attack scored so far** (F-8 to F-11). RA's H2 waits on the reproduction team matching base OLMo's corrected-prompt RA run.
 
 ## Training and checks
 
@@ -45,9 +48,53 @@ Held-out people at 0% show a hit can't come from guessing.
   - the two sides use different matchers: the post-training side is an exhaustive exact search; the pretraining side is infini-gram, which skips repetitive generations and can miss matches. Both lean toward H2 holding.
   - it replaces QUESTION.md's original H2, which compared the two within the post-trained model
 
+## Results (hand-checked)
+
+**F-8. The attacks almost never surface the post-training data** (D-60). Hand-confirmed leaks across all three seeds:
+
+| Attack | Generations | Trained identifier | 50-token match to planted text |
+|---|---|---|---|
+| RSA | 1,500 | 1 | 0 |
+| RWA | 1,500 | 6 | 19 |
+| RA | 1,500 | 1 | 0 |
+| EA | 1,500 | 2 | 0 |
+| CIA | 300 | 0 | 0 |
+
+- No held-out person's identifier appeared anywhere.
+- 8 of the 10 identifier leaks are of people with 25 or 100 copies.
+- Health: 3 leaks (all RWA) against 0 confirmed in the shuffled control, near zero as F-2 predicted.
+- The hand check agreed with itself:
+  - κ 0.915 on 50 double-labelled rows
+  - of 50 automatic hits, 45 real, 5 unsure, no false alarms
+  - no missed leaks among 100 generations without a hit
+
+**F-9. H1 fails: CIA surfaces no post-training data at all** (D-60).
+- CIA isn't better than any other attack (one-sided CMH, p = 0.94–0.96).
+- *Weak point:* with rates around 0.5% and 300 CIA generations, even an equally good CIA would be expected to score about one hit. So this is "no evidence CIA is better", though CIA's 0 against RWA's 28 hits points the other way.
+
+**F-10. H2 fails: the post-trained models reveal their post-training data less often than base OLMo reveals its pretraining data** (D-60).
+- 50-token matches, post-trained against base OLMo:
+
+  | Attack | Post-trained | Base OLMo |
+  |---|---|---|
+  | RSA | 0 / 1,500 | 28 / 500 |
+  | RWA | 22 / 1,500 | 41 / 500 |
+  | EA | 0 / 1,500 | 0 / 500 |
+  | CIA | 0 / 300 | 10 / 500 |
+
+  All p = 1.0.
+- This holds even though both of D-58's biases favour H2.
+- RA is pending.
+
+**F-11. Leaks follow prompts that resemble the planted text, not confusion** (D-60; read from the hits, not tested).
+- Nearly every leak comes after a prompt that looks like one of PANORAMA's genres. RWA's Wikipedia snippets ("(born", "Biography\nBorn") turn into memorized PANORAMA biographies, and forum-post or sale-listing openings carry the identifiers.
+- CIA's gibberish prompts point nowhere and leak nothing.
+- This goes against the reasoning behind H1 (QUESTION.md; D-25 had flagged it as a weak point).
+- A direct test would be genre-matched prompts. Not run.
+
 ## Risks
 
-**F-7. The trained adapters exist only on the GPU pod** (D-51).
-- The optional HF upload wasn't set up. The pod still has them (2026-10-13); they should be uploaded before it is deleted.
+**F-7. The trained adapters exist only on Anchal's laptop** (D-51; corrected in D-61).
+- The optional HF upload wasn't set up. All GPU pods are terminated; the adapters were copied to the laptop and checked against the pod first. They should be backed up.
 - The generations are safe in git, so the report doesn't depend on the adapters.
 - Without them, the optional prompt-influence check (D-34) and any rerun of the attacks would need retraining (about $15–20).

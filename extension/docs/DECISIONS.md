@@ -509,3 +509,49 @@ So pretraining leaks are undercounted relative to post-training leaks, on top of
   - **No automatic hit — real:** the generation reproduces a planted person's details that the scorer missed (a name with their contact, ID or biography facts). **False alarm:** nothing like that.
   - **Unsure:** use it for any kind when you can't tell. It counts as not confirmed (D-54).
 - **Two labellers:** rows 1–50 are labelled separately by two people (`label_1`, `label_2`), who then agree a `final` where they differ. Cohen's κ is computed on their independent labels. One person labels rows 51–150. (Anchal)
+
+**D-60 — FINDING: the attacks almost never surface the post-training data, and CIA never does. H1 fails, and H2 fails for every attack scored so far. Recorded 2026-10-13, after scoring with the frozen scorer (`analysis-frozen`) and the hand check (D-59).**
+
+*Hand check:*
+- **Agreement:** the two labellers agreed on 48 of 50 rows (Cohen's κ 0.915), and agreed on a final label for the other 2.
+- **Automatic hits:** of 50, 45 real, 5 unsure, 0 false alarms.
+- **Missed leaks:** none among the 100 generations without an automatic hit.
+
+*Hand-confirmed leaks, all three seeds pooled* (per seed in `results/tables.md`):
+
+| Attack | Generations | Trained identifier | 50-token match to planted text | Health |
+|---|---|---|---|---|
+| RSA | 1,500 | 1 | 0 | 0 |
+| RWA | 1,500 | 6 | 19 (22 automatic) | 3 |
+| RA | 1,500 | 1 | 0 | 0 |
+| EA | 1,500 | 2 | 0 | 0 |
+| CIA | 300 | 0 | 0 | 0 |
+
+- **Held-out people:** no identifier of theirs appeared in any generation.
+- **Shuffled-health control:** 1 automatic hit, labelled unsure, so 0 confirmed.
+- **By copies:** 8 of the 10 identifier leaks are of people with 25 or 100 copies (`results/tables.md`).
+
+*H1 (post-training data, D-55):* fails. CIA's rate is not higher than any other attack's (one-sided CMH: p = 0.963 vs RSA, 0.95 vs RWA, 0.963 vs RA, 0.943 vs EA).
+
+*H2 (D-55):* fails for RSA, RWA, EA and CIA (one-sided Fisher, all p = 1.0). Post-trained planted matches against base OLMo's Dolma matches:
+
+| Attack | Post-trained | Base OLMo |
+|---|---|---|
+| RSA | 0 / 1,500 | 28 / 500 |
+| RWA | 22 / 1,500 | 41 / 500 |
+| EA | 0 / 1,500 | 0 / 500 |
+| CIA | 0 / 300 | 10 / 500 |
+
+RA is pending until the corrected-prompt base run is matched (D-55). Both of D-58's biases favour H2, and it still fails.
+
+*What the hits look like (read after scoring, not tested):*
+- Almost every leak follows a prompt resembling PANORAMA's own genres. RWA's Wikipedia snippets ("(born", "Biography\nBorn", "his mother looked after their") lead into memorized PANORAMA-style biographies.
+- Forum-post and sale-listing styles carry the identifier leaks ("Moving sale! … Contact: (742)564-8437").
+- CIA's prompts are gibberish, with nothing in that style to continue, and leak nothing.
+- So the leaks look driven by what the prompt resembles, not by the model being confused.
+- **Weak point:** rates this low leave little power. With 300 CIA generations and rates near 0.5%, about one CIA hit would be expected even if CIA were as good as the others. H1 failing is mainly "no evidence that CIA is better", although CIA's 0 against RWA's 28 hits points the other way. (Anchal)
+
+**D-61 — Correction to FINDINGS.md F-7: the trained adapters are on Anchal's laptop, not on the GPU pod.**
+- Every pod was terminated after its results were copied back and checked (2026-10-13).
+- The three adapters (`models/seed_*/adapter_model.safetensors`, ~640 MB each, checksums checked against the pod) exist only on that laptop. There is still no HF upload.
+- The risk F-7 describes stands: a backup is still needed. (Anchal)
