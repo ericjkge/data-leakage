@@ -436,3 +436,18 @@ Results go in `extension/checks/` (committed). *Why written now:* D-19 left the 
     - trained planted text is found by the 50-token matcher, and a held-out person's article is not
 
     Results go in `extension/checks/score_selftest.json`. (Anchal)
+
+**D-55 — Pretraining leaks are not measured on the post-trained models. H1 is tested for post-training data only, and H2 is replaced. Changes QUESTION.md's hypotheses; written 2026-10-13, before any post-trained generation was scored.**
+- **Dropped:** infini-gram matching of the post-trained models' generations (D-27), the re-shown Dolma group (D-28, D-54 point 5), H1's pretraining half, and the original H2 (D-32), which needed both kinds of data on the same generations.
+- *Why:* the matching would take most of a day of infini-gram time for a result QUESTION.md already expects to fail (CIA was third of five on base OLMo). The post-training half of H1 is the open question.
+- **H1 (post-training half only):** unchanged from D-32 and D-54. CIA must beat RSA, RWA, RA and EA at surfacing trained identifiers.
+- **New H2:** for each attack, the post-trained models reveal their post-training data more often than base OLMo reveals its pretraining data, both measured as 50-token exact matches.
+  - **Post side:** generations from all three seeds with a 50-token match to the trained planted text (D-54 point 4).
+  - **Pretraining side:** the reproduction's base OLMo generations with VM@50 against Dolma, from `results/olmo-7b/<attack>/matches.jsonl`. The prompts are the same as the seeds' (D-44).
+  - **RA's base side** must use the corrected prompt (D-21). The base generations exist in `results/ext/olmo-7b/ra/`, and the reproduction team matches them there. Until that file covers all 500, RA's H2 is reported as pending.
+  - **Test:** a one-sided Fisher's exact test per attack, 5% level, on automatic counts. The base side has no hand check, so both sides are compared the same way. The hand-confirmed post-side count is shown beside it.
+  - **Weak points:**
+    - it compares different models
+    - the post-trained models' generations get stuck in repetitive loops more often, which probably lowers the pretraining leaks they would show, so the comparison leans toward H2
+    - CIA's base prompts were optimized on the base model (500 of them), the seeds' on each seed (100 each)
+- **Unchanged:** identifier leaks, the by-copies table, health with its shuffled comparison, and the hand check. (Anchal)

@@ -5,9 +5,10 @@ The procedure: what gets built and run, in what order, and how long it takes.
 - What we're testing is in [QUESTION.md](QUESTION.md).
 - The exact commands for the GPU pod are in [../RUN.md](../RUN.md).
 
-**Status (2026-10-11):**
-- Steps 1 and 2 are written and tested: data built and verified for all three seeds; training tested end to end on a tiny model (D-45, D-48, D-49, D-50).
-- Next: step 2 on the H100.
+**Status (2026-10-13):**
+- Steps 1–4 are done: three seeds trained, all four checks pass (D-52), attack generations made (D-53).
+- Step 5: `score.py` written and its self-tests pass (D-54). Pretraining leaks dropped and H2 replaced (D-55).
+- Next: tag `analysis-frozen`, score, then the hand check.
 
 ## 1. Data (D-09 to D-15, D-43, D-48) — done
 - **Dolma text, shared by all seeds:** `python -m extension.pipeline.fetch_dolma`.
@@ -76,14 +77,12 @@ CIA goes last, since it's the slowest. Outputs go to `results/ext/olmo-7b-pano-s
   - identifiers in the generation (D-26)
   - 50-token matches against our training documents (D-29)
 - **Health leaks:** name plus own health detail within 300 characters, compared against shuffled details (D-30).
-- **Pretraining leaks:** the reproduction's infini-gram matching, run on a laptop. Matches to the Dolma text we re-showed are counted separately (D-28).
+- **Pretraining leaks:** not measured on the post-trained models (D-55). H2 uses base OLMo's numbers from the reproduction instead.
 - **Hand check:** `pipeline/audit.py`, to be written. It covers every automatic hit plus 100 random non-hits; attack and seed are hidden; two people label the first 50 (D-31).
 
 ## 6. Tests and tables (D-32 to D-34)
-- **H1:**
-  - For each of RSA, RWA, RA and EA: is CIA's rate higher? One-sided Cochran–Mantel–Haenszel test across the 3 seeds, 5% level.
-  - Run separately for post-training leaks (identifiers) and pretraining leaks (50-token Dolma matches).
-- **H2:** for each attack, are post-training 50-token matches more common than pretraining ones on the same generations? McNemar test.
+- **H1 (post-training data only, D-55):** for each of RSA, RWA, RA and EA: is CIA's rate of identifier leaks higher? One-sided Cochran–Mantel–Haenszel test across the 3 seeds, 5% level.
+- **H2 (replaced, D-55):** for each attack, do the post-trained models produce 50-token matches to their planted documents more often than base OLMo produces 50-token matches to Dolma (the reproduction's numbers)? One-sided Fisher's exact test. RA waits on the reproduction team matching the corrected-prompt base run.
 - **Tables:** every rate with its count and a 95% interval, per seed, plus leak rate by number of copies.
 - **Optional:** the prompt-influence check (D-34).
 
