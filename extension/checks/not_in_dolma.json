@@ -1,0 +1,820 @@
+{
+ "summary": {
+  "queries": 120,
+  "with_hits": 0,
+  "pass": true
+ },
+ "hits": [],
+ "rows": [
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "h.hansen@cross.net",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Address",
+   "text": "6389 Dean Creek Suite 649, South Eric, CO 02780",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "cheryl.wheeler@live.com",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "396.753.9714x9392",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "845.592.1806x63199",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Address",
+   "text": "421 Pacheco Center, West Rebecca, AS 65581",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "390-413-9067",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "570.338.8984x63643",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "+1-711-704-5708x4438",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "969-391-6767x23432",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-79534161",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "aaronyoung@moore.com",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "401-213-5491",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-79106411",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "gary235@outlook.com",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "+1-263-720-0783x76620",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "d.yates@kellypierce.com",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "+1-321-536-2098x6022",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "5986621928",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "derrick.johnson38@mail.com",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "henderson92@live.com",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "philip_fox@gmail.com",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "thomas86@outlook.com",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "k.lane@downscaldwell.com",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Address",
+   "text": "21788 Shannon Corners, New Tyler, NJ 11696",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "001-349-370-4529",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "400-969-4538",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Emergency Contact Phone",
+   "text": "319.701.7157",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "001-689-805-8280x5203",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "700-952-9463",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "vocational training and determination can empower individuals to excel in challenging professions, regardless of personal obstacles. Personal Life and Impact",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "perspective, driving him to continuously evolve both professionally and personally. Legacy Tyler Smith\u2019s contributions, while not widely publicized, are felt",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "steadfast approach to his duties has made him a valued member of his community. Personal Life and Community Impact Beyond",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "a significant role in his approach to overcoming obstacles\u2014including adapting to a visual disability that has influenced both his personal",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "Although his formal education concluded after high school, Hicks has become a respected figure at his workplace through his unwavering",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "to the financial industry, underscored by a strong vocational background and an enduring personal spirit, mark her as a notable",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "as an inspiring example of how one\u2019s contributions to society are built on resilience, continuous learning, and an unwavering commitment",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "Port Allison) is an American environmental scientist whose career has been marked by a blend of rigorous research and an",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "Lisa Johnson, his formative years were steeped in the values of hard work, resilience, and community\u2014a foundation that would support",
+   "count": 0
+  },
+  {
+   "seed": 0,
+   "kind": "snippet",
+   "text": "statement of professional accomplishment but also a reflection of her commitment to adaptive transformation in a society that is continually",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-1997422087",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "001-575-352-1845",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "j.barnes@leeanderson.biz",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "d.tucker@owenssmith.org",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "600-592-4712",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "hannah.hansen@live.com",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "National ID",
+   "text": "506-82-9831",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-00175656",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "868.824.3341x302",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "j.white@kimharris.com",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "william.combs27@aol.com",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "christinaperry@icloud.com",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-03711770275",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "john.nguyen69@gmail.com",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Passport Number",
+   "text": "R51255286",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Address",
+   "text": "239 Peter Flats, Hallshire, VI 13880",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "(290)200-2101",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "262-822-5260x431",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "001-207-263-8255x094",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "641.487.5079",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "c.perry@osborneanderson.com",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "590.873.2577x8131",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Emergency Contact Phone",
+   "text": "(414)899-0707",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "samanthaburton@icloud.com",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "+1-552-783-5165x061",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "(702)729-8255",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Address",
+   "text": "490 Williams Meadow Suite 163, Perezbury, SD 24513",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "brian329@outlook.com",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "k.watts@brownpatterson.info",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "953.577.6944x725",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "known for her steadfast work ethic and resilience in the face of life\u2019s trials. Over the decades, Delgado has become",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "TikTok, highlights her ability to connect with a broader audience while remaining true to her core values. Personal Life and",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "who value steady progress and dedication in the face of adversity. Legacy Michele Moran\u2019s life serves as a quiet yet",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "path, John has remained single, devoting much of his energy to his work and a supportive social presence. He actively",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "in advancing the understanding of biological sciences, and her journey continues to inspire those who value perseverance, learning, and meaningful",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "organization. Early Life and Education Born to Michael and Sandra Kennedy, Kaitlin's early years were marked by a supportive family",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "working-class environment, she learned early on about the value of hard work and perseverance. Despite only completing a high school",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "character and pragmatic outlook. Kathleen\u2019s story is also one of inner growth. Throughout her life, she has been open to",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "and familial commitments, Kimberly maintained a presence in modern digital spaces, allowing her to connect with a wider community. Her",
+   "count": 0
+  },
+  {
+   "seed": 1,
+   "kind": "snippet",
+   "text": "ambitions. Career and Professional Achievements Now a seasoned geologist, Steve Gonzalez has established himself as a key professional within Ferguson-Mejia.",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-6863727",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-5395211",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "jmacdonald@live.com",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "jfrey@aol.com",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-4353400",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "maryhardin@live.com",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "orios@outlook.com",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "jennifer.sanford@aol.com",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "399.750.7555x32094",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-2521018241",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "(321)525-3687x860",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "878.921.4880",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "617-312-4245",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "matthew.carroll64@icloud.com",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "c.jacobs@gomez.biz",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Work Email",
+   "text": "g.boone@crane.biz",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Passport Number",
+   "text": "487681959",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "865.681.7634",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Address",
+   "text": "24946 Veronica Ferry, Shanemouth, IL 49955",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "jeff.kim@outlook.com",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "906-887-5275x0559",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "ashley_smith@gmail.com",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "+1-754-296-3379x418",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Email Address",
+   "text": "juan55@yahoo.com",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "304.543.3196",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Driver's License",
+   "text": "US-DL-79106411",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "600-592-4712",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Work Phone",
+   "text": "+1-817-483-7536x6542",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Emergency Contact Phone",
+   "text": "524.829.6055",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "identifier",
+   "field": "Phone Number",
+   "text": "+1-571-888-3514x7584",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "of responsibility and empathy\u2014a combination that has enabled him to navigate the complexities and inherent unpredictabilities of a healthcare environment.",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "on resilience and renewal. As a single mother to one child, she navigates the dual responsibilities of parenting and professional",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "to transform challenges into opportunities for growth and community betterment. Legacy and Impact Annette Anderson\u2019s narrative is characterized by a",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "to his ability to balance professional responsibilities with familial obligations, while maintaining strong community ties. Smith\u2019s personal evolution has been",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "her family\u2019s resources were limited, the supportive atmosphere at home encouraged Jaime to be resourceful and determined in the face",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "a net worth that symbolizes both economic prudence and the rewards of consistent effort. Though single and without children, Peters",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "punctuated by significant professional milestones that underscore his lasting impact on the field. Personal Life and Philosophy Despite a demanding",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "life underscores that success is multifaceted and that the contributions of individuals in all walks of life shape the social",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "relying on a close circle of support that includes her emergency contact, Lisa Roth. Her personal narrative, marked by the",
+   "count": 0
+  },
+  {
+   "seed": 2,
+   "kind": "snippet",
+   "text": "tradition with adaptation, she has become a familiar and trusted figure in her community. Her use of social media platforms,",
+   "count": 0
+  }
+ ]
+}

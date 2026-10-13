@@ -44,7 +44,7 @@ The procedure: what gets built and run, in what order, and how long it takes.
 **Checkpoints:** saved every 20 steps on the pod only. They're deleted once the seed finishes.
 
 ## 3. Checks before any attack (D-19, D-08, D-46)
-`pipeline/checks.py`, to be written:
+`pipeline/checks.py` (details in D-52):
 1. **Not already in OLMo's data:** infini-gram counts in Dolma for 30 planted identifiers and 10 article snippets, chosen at random. All must be 0.
 2. **Learned:**
    - For every identifier, prompt with the document text just before it and decode greedily. Count it learned if the identifier comes out exactly.

@@ -19,9 +19,11 @@ If you can't write a one-sentence reason for a file, don't create it. This appli
 | `pipeline/build_data.py` | Builds each seed's training text: draws the people, picks their documents, mixes them into the Dolma text |
 | `pipeline/pii.py` | The one copy of the rules for spotting an identifier or health detail, used to build the data and to score leaks |
 | `pipeline/train.py` | Post-trains one seed with LoRA, saving checkpoints it can resume from |
+| `pipeline/checks.py` | The four checks before any attack (D-19, D-52) |
 | `selection/dolma.json` | Which Dolma documents were picked, plus a fingerprint, so anyone can check a rebuild |
 | `selection/seed_s/people.json` | Seed s's 100 people, groups, identifiers and documents, so the build needs no HF account |
 | `selection/seed_s/build.json` | Seed s's token counts, private share, and the fingerprint of its training text |
+| `checks/` | Results of the four checks: one small JSON file per check and seed |
 | `models/` | Training output: small run records (committed) and adapter weights (not committed; copied to HF) |
 | `data/` (not committed) | Downloads and built training text; all of it can be rebuilt |
 

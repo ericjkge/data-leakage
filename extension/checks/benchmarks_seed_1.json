@@ -1,0 +1,12 @@
+{
+ "summary": {
+  "model": "seed_1",
+  "mmlu_acc": 45.81,
+  "arc_challenge_acc_norm": 46.42,
+  "drop": {
+   "mmlu_acc": 1.6,
+   "arc_challenge_acc_norm": -1.54
+  },
+  "pass": true
+ }
+}

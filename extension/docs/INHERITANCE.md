@@ -80,6 +80,28 @@ total 27.6 GB
 
 Checked 2026-10-11. The download verifies these fingerprints automatically. **Weak point:** the reproduction's results (I-04) were made without a pinned revision; this revision is the latest on the date checked, so the two should be the same weights, but that isn't proven.
 
+## I-06 — The infini-gram service, index `v4_dolma-v1_7_llama`, through the reproduction's `src/matching.py` `query()`
+
+Used by check 1 (D-52) to count planted text in Dolma v1.7. `query()` is the reproduction's cached, retrying client; the counts use the Llama-2 tokenizer, as every infini-gram index does.
+
+```
+$ .venv/bin/python -c "from extension.pipeline.checks import dolma_count; print(dolma_count('the United States of America'), dolma_count('Contact: 555-123-4567'))"
+4018955 0
+```
+
+Checked 2026-10-12. A common phrase is found millions of times, so a count of 0 means absent rather than a broken search. **Weak point:** infini-gram matches tokens, so the same text with different spacing or punctuation is a different search. Check 1 counts both tokenizations of each string (D-52), but not other spellings of the same number.
+
+## I-07 — `lm-evaluation-harness` 0.4.13 (pinned in `requirements.txt`), tasks `mmlu` and `arc_challenge`
+
+Used by check 3 (D-52) to score the base model and each seed (adapter loaded with `peft=`). We use its standard prompts and metrics as they are: MMLU `acc`, ARC-Challenge `acc_norm`.
+
+```
+$ .venv/bin/python -m extension.pipeline.checks benchmarks --seed -1
+{"model": "base", "mmlu_acc": 47.41, "arc_challenge_acc_norm": 44.88, "pass": true}
+```
+
+Checked 2026-10-13 on an H100 (0-shot, lm-eval defaults). Raw outputs are in `extension/checks/lm_eval/`.
+
 ## Not yet inherited
 
-These will be added before first use: the reproduction's attack, generation and matching code (`src/`, `scripts/run.py`), the infini-gram service, and `lm-evaluation-harness`.
+These will be added before first use: the reproduction's attack, generation and matching code (`src/`, `scripts/run.py`).

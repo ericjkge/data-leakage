@@ -1,0 +1,8 @@
+{
+ "summary": {
+  "model": "base",
+  "mmlu_acc": 47.41,
+  "arc_challenge_acc_norm": 44.88,
+  "pass": true
+ }
+}
