@@ -10,6 +10,7 @@ If you can't write a one-sentence reason for a file, don't create it. This appli
 | `RUN.md` | The commands for whoever runs the GPU pod, and nothing else |
 | `docs/QUESTION.md` | What we're testing and what would prove it wrong, written before any run |
 | `docs/PLAN.md` | The procedure: what gets built and run, in what order, how long it takes |
+| `docs/FINDINGS.md` | The results so far in short, each pointing to the DECISIONS entry with the full numbers |
 | `docs/DECISIONS.md` | Every design decision with its reason, written before the run it affects |
 | `docs/INHERITANCE.md` | Everything reused from outside `extension/`, with the command that checks it |
 | `docs/RULES.md` | How we work in this folder |

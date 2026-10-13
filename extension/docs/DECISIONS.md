@@ -451,3 +451,49 @@ Results go in `extension/checks/` (committed). *Why written now:* D-19 left the 
     - the post-trained models' generations get stuck in repetitive loops more often, which probably lowers the pretraining leaks they would show, so the comparison leans toward H2
     - CIA's base prompts were optimized on the base model (500 of them), the seeds' on each seed (100 each)
 - **Unchanged:** identifier leaks, the by-copies table, health with its shuffled comparison, and the hand check. (Anchal)
+
+**D-56 — FINDING: training worked, and the model learned the planted documents word for word, but it can't answer questions about the health details in them. Recorded 2026-10-13, before any attack generation was scored.**
+
+*Training* (`models/seed_*/`; code identical to commit `e87cbde`):
+- All three seeds ran all 157 steps with no restarts: about 24 minutes each on an H100, ~7,070 tokens/s, 32.5 GB peak memory.
+- Loss on the planted text fell from 2.35 to about 0.15. Loss on Dolma stayed flat at about 2.17.
+- `run.json` marks the code as "dirty" only because the run's own output files in `models/` were not yet committed.
+
+*Learned (check 2):* share of identifiers completed exactly from the text before them.
+
+| Copies | seed_0 | seed_1 | seed_2 |
+|---|---|---|---|
+| held out | 0% | 0% | 0% |
+| 1 | 16% | 5% | 8% |
+| 5 | 54% | 58% | 57% |
+| 25 | 96% | 93% | 99% |
+| 100 | 97% | 98% | 100% |
+
+So memorization rises steeply with repetition and is near-complete from 25 copies.
+
+*Health probes (check 2, reported only):*
+- Asked "X is allergic to …" and similar, the model is right 0–17% of the time for trained people and 0–9% for held-out people it never saw.
+- The 100-copy group gets 0/13, 1/12 and 0/12.
+- The model reproduces a document when given the text before a detail, but hasn't learned "name → health detail" as a fact it can state in a new sentence.
+- *Consequence, stated before scoring:* we expect D-30's health-leak measure to be near zero for every attack. A near-zero result would reflect this, not a broken scorer. A leak would have to come from regurgitating a whole document.
+
+*Still answers questions (check 3):*
+- MMLU dropped by 0.33, 1.60 and 1.19 points (limit 2). ARC-Challenge rose by 0.85–2.39.
+- ARC-Challenge has only ~1,200 questions, so changes of ±2.5 points are within chance. The seed_1 MMLU drop of 1.6 is the closest any result came to failing.
+
+*Checks 1 and 4, and the scorer's self-tests:* all passed. The self-tests of the scorer at commit `3a1d41e` were rerun independently on 2026-10-13 and gave byte-identical output. D-55 then changed the scorer, and its self-tests were run again before freezing.
+
+**D-57 — Results are summarized in `docs/FINDINGS.md`. DECISIONS.md keeps the full record.**
+- Each finding is a few lines and cites the DECISIONS entry that holds its numbers (FINDING entries such as D-45 and D-56, or a decision such as D-55).
+- FINDINGS.md is updated whenever a result comes in, so it always shows where the experiment stands.
+- A finding later shown wrong is corrected there, and the correction is logged here.
+
+*Why:* the findings were spread across long entries. The report and anyone joining the project need one short place to read what we know. (Ishaan)
+
+**D-58 — LIMITATION of D-55's new H2: its two sides are found by different matchers, which favours H2 beyond the weak points D-55 lists. Recorded 2026-10-13, before any post-trained generation was scored.**
+- **Post-training side:** checks every 50-token window of a generation exactly against our training text (D-54 point 4).
+- **Pretraining side (base OLMo):** uses the reproduction's infini-gram matcher. That matcher skips any generation whose overall diversity is below 0.1, and can miss real matches: it needs an exact run of about 23 Llama-2 tokens and reads only 3 candidate documents.
+
+So pretraining leaks are undercounted relative to post-training leaks, on top of the comparison being between different models (D-55).
+
+*Also stated:* D-55 replaces QUESTION.md's H2, which compared the two kinds of data within the post-trained model. The report states D-55's H2 as the tested one and gives this caveat next to its result. No change to the frozen scorer. (Ishaan)
