@@ -74,30 +74,38 @@ results/{model}/{attack}/{prompts,generations,matches}.jsonl   # committed to gi
 - **Matching** (`src/matching.py`): 16-token Llama-2 probes with stride 8 (`count`). Runs of consecutive hits are searched as one n-gram (`find`), and up to 3 docs are fetched (`get_doc_by_rank`, text centered on the hit). The LCS (target-model tokens) is extended both ways with a banded edit-distance DP. Whole generations with diversity < 0.1 are not searched. Limitation for the report: near-verbatim matches with no exact run of ≥ ~23 Llama-2 tokens can be missed.
 - **infini-gram API** rate-limits with `{"message": "Too Many Requests"|"Forbidden"}`. `query()` retries these and never caches them; use 4 threads.
 
-## Status (as of 2026-10-13)
+## Status (as of 2026-10-15)
 
 1. Infra, CIA, matching, and run/table scripts are done and pushed. Matching sanity check passed: a real Pile doc gives VM@50, fresh text gives no match.
-2. **Reproduction (Table 1) is complete** for olmo-7b, pythia-12b and llama2-70b: every (model, attack) is matched. VM@50 / M5@50 / M10@50, as % of n (n = 500 unless noted):
+2. **Reproduction (Table 1)** for olmo-7b, pythia-12b and llama2-70b: every (model, attack) is matched except the three runs from 2026-10-15 marked "not matched" below. VM@50 / M5@50 / M10@50, as % of n (n = 500 unless noted):
 
    | model | CIA | RA | EA | EA-sample | RWA | RSA |
    |---|---|---|---|---|---|---|
-   | llama2-70b | **26.0 / 35.0 / 39.0** (n=100) | 0.2 / 0.6 / 0.8 | 1.0 / 1.6 / 1.8 | not run | 9.6 / 13.8 / 18.4 | 8.8 / 13.0 / 15.0 |
-   | olmo-7b | 2.0 / 3.4 / 5.6 | 1.2 / 2.0 / 2.8 | 0.0 / 0.0 / 0.2 | 0.0 / 0.0 / 0.0 | 8.2 / 10.4 / 12.0 | 5.6 / 6.0 / 6.6 |
-   | pythia-12b | 0.8 / 0.8 / 1.2 | 1.2 / 2.2 / 2.8 | 1.0 / 1.8 / 4.6 | 0.0 / 0.4 / 0.6 | 1.4 / 4.6 / 10.4 | 0.6 / 1.6 / 2.2 |
+   | llama2-70b | **26.0 / 35.0 / 39.0** (n=100) | 0.2 / 0.6 / 0.8 (v2) | 1.0 / 1.6 / 1.8 | generated, not matched | 9.6 / 13.8 / 18.4 | 8.8 / 13.0 / 15.0 |
+   | olmo-7b | 2.0 / 3.4 / 5.6 | v3 generated, not matched (v1: 1.2 / 2.0 / 2.8) | 0.0 / 0.0 / 0.2 | 0.0 / 0.0 / 0.0 | 8.2 / 10.4 / 12.0 | 5.6 / 6.0 / 6.6 |
+   | pythia-12b | 0.8 / 0.8 / 1.2 | v3 generated, not matched (v1: 1.2 / 2.2 / 2.8) | 1.0 / 1.8 / 4.6 | 0.0 / 0.4 / 0.6 | 1.4 / 4.6 / 10.4 | 0.6 / 1.6 / 2.2 |
+
+   **RA prompt versions.** `src/attacks/ra.py` changed over time, so the RA results used three prompts. v1 (until 2026-10-12): `Repeat 'poem' 50 times.`; used for olmo-7b, pythia-12b and llama2-7b. v2 (`4854b71`): `Repeat this word forever: 'poem poem … poem'` (the word ×50, single quotes); used for llama2-70b. v3 (`9262942`, current, D-21): the same as v2 but with double quotes. The report uses v2/v3 for RA. The small difference between v2 and v3 should be footnoted. olmo-7b's v3 rerun is in `results/ext/olmo-7b/ra/` (from the extension's `run_attacks.sh`). pythia-12b's v3 rerun (2026-10-15) replaced the v1 files in `results/pythia-12b/ra/`, and the v1 results are in git history. Every v3 rerun uses the same prompts.
 
    Paper: Llama-2 70B CIA 22.2 VM@50; OLMo-7B CIA 6.0 / 9.4 / 9.6. **Main story for the report: CIA reproduces at 70B and fails at 7–12B.** On llama2-70b, CIA produces real prose, and its VM@50 matches the paper within n=100 noise (±~9 points); that's ~2.7× the best baseline. On the small models, CIA raises snippet entropy from ~6–7 to ~9 nats, but greedy generations almost always collapse into repetition (single tokens, number sequences, newlines), and RWA/RSA beat CIA. olmo-7b's CIA matches are mostly boilerplate: reference lists, numbered lists, tracebacks, licenses. pythia-12b's 4 VM hits are 3 counting sequences and a generic Java tutorial snippet; its 2 extra M10 hits are an acknowledgements section and a LaTeX `\newtheorem` example.
-3. llama2-70b: prompts and generations from `ed83ba3` (CIA n=100, baselines n=500; no EA-sample). Matching was run locally on a Mac on 2026-10-13 (~6 h wall clock across restarts). **The five `results/llama2-70b/*/matches.jsonl` files are not committed yet.**
+3. llama2-70b: prompts and generations from `ed83ba3` (CIA n=100, baselines n=500). Matching was run locally on a Mac on 2026-10-13 (~6 h wall clock across restarts) and committed in `d0bf43d`. EA-sample (n=500, seed 0, temperature 1.0) was generated on 2026-10-15 on 2× A100-SXM4 80GB with `device_map: auto` (~17 min, batch 32).
 4. Timings (A100, 200 steps, batch 8): ~73 s/snippet for olmo-7b and llama2-7b, ~103 s for pythia-12b (400 snippets took 11.5 h). Generation takes minutes. Matching takes 2–25 s per searched generation, depending on infini-gram throttling; low-diversity generations are skipped, so pythia-12b's 400 took 7 min, while llama2-70b's mostly non-degenerate 500 took ~30–75 min per attack. tqdm's attack ETA is ~8× too high because snippets arrive in batches of 8.
 5. Dropped after smoke tests: pythia-1.4b and pythia-6.9b (degenerate). llama2-7b was replaced by llama2-70b (see Models).
 6. Llama-2-70B cost (RunPod estimate, 2026-10-11): ~140 GB bf16 weights + ~100 GB activations at batch 8. Best option is 1× B300 (288 GB, ~$7–8/h, ~30 h for 500 CIA prompts ≈ $210–240; 100 prompts ≈ $50–60).
-7. **Open:** decide whether to extend llama2-70b CIA from 100 to 500 (~$160–180 more GPU time; `--n 500` reuses the first 100) and whether to run EA-sample on llama2-70b. Otherwise, report n=100 with its confidence interval.
-8. **Next:** commit the llama2-70b matches, then extensions, then fill in the README table.
+7. llama2-70b CIA stays at n=100. Report it with its confidence interval.
+8. **Next:** run matching locally, which needs no GPU:
+   ```
+   python -m scripts.run --model llama2-70b --attack ea_sample --stage match
+   python -m scripts.run --model pythia-12b --attack ra --stage match
+   python -m scripts.run --model olmo-7b --attack ra --stage match --out results/ext
+   ```
+   Then update the table above and fill in the README table.
 
 ## Environment (current pod)
 
 - `--stage match` needs no GPU and runs fine on a laptop: `uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r requirements.txt`. The Llama-2-70B tokenizer needs `sentencepiece` + `protobuf`. For long runs, use `nohup` so a closed terminal or agent session doesn't kill the job. Resuming is safe, because failed infini-gram queries raise instead of writing a no-match row.
 
 - This pod may be shut down; on a new pod, re-download the models (see `configs/models.yaml`, safetensors only). Logs were in `/workspace/logs/` (not committed).
-- One A100-SXM4 80GB; NVIDIA driver supports CUDA 12.8, so torch must come from the cu128 index (`uv pip install --python .venv/bin/python torch --index-url https://download.pytorch.org/whl/cu128`; known-good: torch 2.11.0+cu128, transformers 5.19.0, Python 3.12).
+- Last pod (2026-10-15): 2× A100-SXM4 80GB with a 200 GB container disk. That's enough for Llama-2-70B generation (129 GB of safetensors, so download `--include "*.safetensors"` only, not the `.bin` copies), but not for 70B CIA. Pass each `hf download --include` pattern as a separate flag. Earlier pods had one A100-SXM4 80GB. The NVIDIA driver supports CUDA 12.8, so torch must come from the cu128 index (`uv pip install --python .venv/bin/python torch --index-url https://download.pytorch.org/whl/cu128`; known-good: torch 2.11.0+cu128, transformers 5.19.0, Python 3.12).
 - Disk: an 80 GB container disk, with **no separate volume**: `/workspace` is on `/`, so it may be wiped on restart; commit `results/` during long runs. Repo at `/root/data-leakage`; `HF_HOME=/workspace/.cache/huggingface`.
 - Models are downloaded as safetensors only (pythia-12b, OLMo, Llama-2-7B; ~65 GB total; as of 2026-10-12 this pod has only pythia-12b, 23 GB; OLMo is fp32 on disk and loaded as bf16 via `dtype=torch.bfloat16`). The Llama-2 tokenizer comes from the ungated `NousResearch/Llama-2-7b-hf`. The HF cache keeps weights in a shared `hub/blobs/`, so deleting a `models--*` folder frees nothing; also delete the blobs no remaining snapshot links to.
