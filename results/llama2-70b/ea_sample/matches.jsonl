@@ -1,0 +1,500 @@
+{"id": 0, "len": 137, "div": 0.6642335766423357, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 1, "len": 511, "div": 0.6281800391389433, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 2, "len": 513, "div": 0.3762183235867446, "len_k0": 16, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "\n{\n    int x = 10;\n    int y = 20;\n    int z = x * y;\n    "}
+{"id": 3, "len": 511, "div": 0.5616438356164384, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 4, "len": 157, "div": 0.5031847133757962, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 5, "len": 512, "div": 0.203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 6, "len": 512, "div": 0.416015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 7, "len": 511, "div": 0.30724070450097846, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 8, "len": 506, "div": 0.6027667984189723, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 9, "len": 512, "div": 0.556640625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 10, "len": 510, "div": 0.3862745098039216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 11, "len": 179, "div": 0.48044692737430167, "len_k0": 20, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 32, "M10@50": false, "text": "\u2026\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. the displacement (1)\n"}
+{"id": 12, "len": 517, "div": 0.5319148936170213, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 13, "len": 512, "div": 0.423828125, "len_k0": 17, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 28, "M10@50": false, "text": "\n\nWhy is this happening and is there any way I can fix it?\n\nComment: This can happen if there's some"}
+{"id": 14, "len": 513, "div": 0.5282651072124757, "len_k0": 31, "M0@50": false, "len_k5": 36, "M5@50": false, "len_k10": 41, "M10@50": false, "text": "is the wrong tool for HTML parsing. See: http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-cont"}
+{"id": 15, "len": 512, "div": 0.45703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 16, "len": 512, "div": 0.587890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 17, "len": 514, "div": 0.4591439688715953, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 18, "len": 510, "div": 0.4411764705882353, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 19, "len": 512, "div": 0.421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 20, "len": 511, "div": 0.5538160469667319, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 21, "len": 513, "div": 0.5633528265107213, "len_k0": 21, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&#</...............................................................................]]"}
+{"id": 22, "len": 512, "div": 0.349609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 23, "len": 511, "div": 0.49510763209393344, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 24, "len": 512, "div": 0.248046875, "len_k0": 17, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 39, "M10@50": false, "text": "}\n```\n\\end{document}\n\n\\end{document}\n\n\\end{document}\n\n\\end{document}\n\n\\end{document}\n\n"}
+{"id": 25, "len": 511, "div": 0.4500978473581213, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 26, "len": 513, "div": 0.5185185185185185, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 27, "len": 513, "div": 0.5555555555555556, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 28, "len": 512, "div": 0.384765625, "len_k0": 25, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 39, "M10@50": false, "text": "style=\"font-family:Arial,Helvetica,sans-serif;  font-size:12;font-weight:bold;color: #000"}
+{"id": 29, "len": 512, "div": 0.32421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 30, "len": 512, "div": 0.294921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 31, "len": 512, "div": 0.26171875, "len_k0": 20, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "</tr>\n  </tr>\n  <tr>\n      <td>\n      </td>\n      <td></td>\n      <td></td>\n"}
+{"id": 32, "len": 513, "div": 0.22612085769980506, "len_k0": 20, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 33, "M10@50": false, "text": "53535353535353535353d\n\n\n432423423"}
+{"id": 33, "len": 389, "div": 0.4087403598971722, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 34, "len": 510, "div": 0.5843137254901961, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 35, "len": 256, "div": 0.421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 36, "len": 300, "div": 0.58, "len_k0": 26, "M0@50": false, "len_k5": 36, "M5@50": false, "len_k10": 42, "M10@50": false, "text": "://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer.-ctor?view=net-5.0) class.\nThis will require"}
+{"id": 37, "len": 346, "div": 0.5664739884393064, "len_k0": 21, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTell you 2 streets back; three "}
+{"id": 38, "len": 512, "div": 0.4453125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 39, "len": 512, "div": 0.48828125, "len_k0": 22, "M0@50": false, "len_k5": 37, "M5@50": false, "len_k10": 43, "M10@50": false, "text": "\nSoon after their return, a letter was delivered to Miss Bennet; it came from Netherfield. The envelope contained a sheet of elegant, little, hotly-pressed paper, written quite through,"}
+{"id": 40, "len": 512, "div": 0.240234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 41, "len": 515, "div": 0.34757281553398056, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 42, "len": 512, "div": 0.55859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 43, "len": 511, "div": 0.25048923679060664, "len_k0": 16, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\nmm!\n\n\n\n\n\n\n\n\n\n\n   }\n\n\n\n\n\n\n\n\n\n}"}
+{"id": 44, "len": 463, "div": 0.550755939524838, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 45, "len": 512, "div": 0.42578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 46, "len": 299, "div": 0.41471571906354515, "len_k0": 17, "M0@50": false, "len_k5": 27, "M5@50": false, "len_k10": 35, "M10@50": false, "text": "\n     $headers = \"From: $from\\r\\n\";\n\n     mail($to, $subject, $message, $headers);\n\n     ?>"}
+{"id": 47, "len": 513, "div": 0.4015594541910331, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 48, "len": 217, "div": 0.5299539170506913, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 49, "len": 320, "div": 0.171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 50, "len": 513, "div": 0.3840155945419103, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 51, "len": 512, "div": 0.513671875, "len_k0": 23, "M0@50": false, "len_k5": 34, "M5@50": false, "len_k10": 40, "M10@50": false, "text": ", 5th Edition (HTML)\n\n\u2028By Evi Nemeth, Garth Snyder, Trent R. Hein, Ben Whaley, Larry G.\n<span"}
+{"id": 52, "len": 512, "div": 0.451171875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 53, "len": 513, "div": 0.6023391812865497, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 54, "len": 511, "div": 0.38551859099804303, "len_k0": 18, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "=0,0,i,j,l,m,o,p,q,r,s,t,u,v={[f"}
+{"id": 55, "len": 512, "div": 0.478515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 56, "len": 131, "div": 0.7251908396946565, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 57, "len": 125, "div": 0.704, "len_k0": 15, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 28, "M10@50": false, "text": "licensed under a Creative Commons Attribution 4.0 International License.\nThe contents of this page, this website, all code associated"}
+{"id": 58, "len": 133, "div": 0.5639097744360902, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 59, "len": 507, "div": 0.05128205128205128, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 60, "len": 208, "div": 0.6730769230769231, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 61, "len": 510, "div": 0.47843137254901963, "len_k0": 16, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 33, "M10@50": false, "text": ";\n  margin-left: 10px;\n  border-bottom: 1px solid #ccc;\n}\n\np#lumar"}
+{"id": 62, "len": 117, "div": 0.11965811965811966, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 63, "len": 513, "div": 0.30994152046783624, "len_k0": 19, "M0@50": false, "len_k5": 24, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\t{% endif %}\n\t</p>\n\t{% endif %}\n\t{% else %}\n\t\t\n\t<h4 class=\"fail\">F"}
+{"id": 64, "len": 511, "div": 0.5909980430528375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 65, "len": 310, "div": 0.035483870967741936, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 66, "len": 463, "div": 0.34773218142548595, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 67, "len": 513, "div": 0.3255360623781676, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 68, "len": 513, "div": 0.3586744639376218, "len_k0": 26, "M0@50": false, "len_k5": 32, "M5@50": false, "len_k10": 43, "M10@50": false, "text": ";\nusing System.Net.Sockets;\nusing System.IO;\nusing System.Text;\n\nnamespace MyTcpServer {\n    class MyTcpServer\n    {\n        "}
+{"id": 69, "len": 512, "div": 0.634765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 70, "len": 510, "div": 0.08627450980392157, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 71, "len": 513, "div": 0.1871345029239766, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 72, "len": 508, "div": 0.5767716535433071, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 73, "len": 512, "div": 0.427734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 74, "len": 512, "div": 0.419921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 75, "len": 328, "div": 0.3018292682926829, "len_k0": 21, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 37, "M10@50": false, "text": "\nnothing\nnothing\nnothing\nnothing\nnothing\nnothing\nnothing\nnothing\nnothing\nnothing\n\u2039\nnothing\nnothing\n\u2039\nnothing\n\u2039\nnothing\n\u2039\n"}
+{"id": 76, "len": 511, "div": 0.4227005870841487, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 77, "len": 513, "div": 0.6549707602339181, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 78, "len": 510, "div": 0.6686274509803921, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 79, "len": 513, "div": 0.29239766081871343, "len_k0": 15, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 33, "M10@50": false, "text": ": solid none;\n}\n\n        ul li {\nmargin-top: 0px;\npadding-bottom: 5px;\n}\n"}
+{"id": 80, "len": 513, "div": 0.40350877192982454, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 81, "len": 264, "div": 0.36363636363636365, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 82, "len": 461, "div": 0.6030368763557483, "len_k0": 21, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 52, "M10@50": true, "text": "sssssssssssssssssssssssssssssssssssssssssss\n< p\nxxsssssssssssssssssssssssssssssssssssssssssss\ns,"}
+{"id": 83, "len": 511, "div": 0.50293542074364, "len_k0": 54, "M0@50": false, "len_k5": 60, "M5@50": true, "len_k10": 65, "M10@50": true, "text": "\nhttp://\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\nas they glow\n\\\\ \\"}
+{"id": 84, "len": 228, "div": 0.6535087719298246, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 85, "len": 463, "div": 0.4514038876889849, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 86, "len": 424, "div": 0.09669811320754718, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 87, "len": 141, "div": 0.3333333333333333, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 88, "len": 512, "div": 0.203125, "len_k0": 18, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 29, "M10@50": false, "text": ">This is the center of the building\n</td>\n</tr>\n<tr align=\"left\">\n<td>This is"}
+{"id": 89, "len": 512, "div": 0.5546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 90, "len": 341, "div": 0.436950146627566, "len_k0": 19, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 33, "M10@50": false, "text": "epday) (talk) 22:03, 16 October 2013 (UTC)\n\n\\end{code}"}
+{"id": 91, "len": 512, "div": 0.009765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 92, "len": 512, "div": 0.6015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 93, "len": 277, "div": 0.5306859205776173, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 94, "len": 512, "div": 0.3359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 95, "len": 511, "div": 0.13111545988258316, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 96, "len": 510, "div": 0.1392156862745098, "len_k0": 19, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "\n\\end{split}\n\\end{split}\n\\end{split}\n\n\\begin{split}\n\\begin{split}\n\\end{split}\n"}
+{"id": 97, "len": 513, "div": 0.17543859649122806, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 98, "len": 224, "div": 0.42857142857142855, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 99, "len": 209, "div": 0.32057416267942584, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 100, "len": 511, "div": 0.6555772994129159, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 101, "len": 512, "div": 0.57421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 102, "len": 512, "div": 0.150390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 103, "len": 513, "div": 0.41130604288499023, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 104, "len": 397, "div": 0.3702770780856423, "len_k0": 20, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 39, "M10@50": false, "text": "\n\\end{\n\n\\end{\n\n\\end{\n\\end{frame}\n\\begin{frame}\n\\end{frame}\n\\end{document}\n"}
+{"id": 105, "len": 418, "div": 0.6291866028708134, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 106, "len": 510, "div": 0.4411764705882353, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 107, "len": 173, "div": 0.5317919075144508, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 108, "len": 110, "div": 0.8181818181818182, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 109, "len": 513, "div": 0.5516569200779727, "len_k0": 15, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 26, "M10@50": false, "text": "14, 2010 at 12:09 am\nFiled under Auxiliary Entities"}
+{"id": 110, "len": 512, "div": 0.396484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 111, "len": 512, "div": 0.03125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 112, "len": 512, "div": 0.609375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 113, "len": 511, "div": 0.33072407045009783, "len_k0": 17, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "2015-09-17 15:16:05\nby Fred Lin\n---\n\n"}
+{"id": 114, "len": 512, "div": 0.166015625, "len_k0": 34, "M0@50": false, "len_k5": 49, "M5@50": false, "len_k10": 57, "M10@50": true, "text": "\n\\end{verbatim}\n\\end{verbatim}\n\n\\end{verbatim}\n\n\\end{verbatim}\n\n\\begin{verbatim}\n\n\\end{verbatim}\n\n\\begin{"}
+{"id": 115, "len": 512, "div": 0.2421875, "len_k0": 23, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "max-width: 600px) {\n\n}\n\n@media only screen and (max-width: 600px) {\n \n}\n"}
+{"id": 116, "len": 512, "div": 0.61328125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 117, "len": 513, "div": 0.26120857699805067, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 118, "len": 512, "div": 0.482421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 119, "len": 440, "div": 0.3795454545454545, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 120, "len": 511, "div": 0.46771037181996084, "len_k0": 19, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "\n\\section{languages}\n{\n\\begin{lstlisting}\n\\documentclass[12pt]{article}\n\\begin{document}\n"}
+{"id": 121, "len": 508, "div": 0.5905511811023622, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 122, "len": 265, "div": 0.44150943396226416, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 123, "len": 314, "div": 0.33121019108280253, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 124, "len": 508, "div": 0.594488188976378, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 125, "len": 101, "div": 0.3564356435643564, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 126, "len": 512, "div": 0.44140625, "len_k0": 30, "M0@50": false, "len_k5": 36, "M5@50": false, "len_k10": 56, "M10@50": true, "text": "\n    <intent-filter>\n        <action android:name=\"android.intent.action.VIEW\" />\n        <category android:name=\"android.intent.category.DEFAULT\" />\n    </intent-filter>\n\n</activity>\n"}
+{"id": 127, "len": 512, "div": 0.2890625, "len_k0": 29, "M0@50": false, "len_k5": 51, "M5@50": true, "len_k10": 64, "M10@50": true, "text": "$dataTypeContent->display_name_singular }}\n                </h1>\n                @can('delete', app($dataType->model_name))\n                <a href=\"{{ route('voyager.'.$dataType->slug.'.index') }}\" class=\"btn btn-warning\">"}
+{"id": 128, "len": 369, "div": 0.5799457994579946, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 129, "len": 413, "div": 0.3946731234866828, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 130, "len": 152, "div": 0.7631578947368421, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 131, "len": 512, "div": 0.265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 132, "len": 513, "div": 0.4873294346978557, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 133, "len": 511, "div": 0.3542074363992172, "len_k0": 19, "M0@50": false, "len_k5": 40, "M5@50": false, "len_k10": 52, "M10@50": false, "text": "~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ | ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 1"}
+{"id": 134, "len": 512, "div": 0.55078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 135, "len": 207, "div": 0.3188405797101449, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 136, "len": 424, "div": 0.3561320754716981, "len_k0": 19, "M0@50": false, "len_k5": 24, "M5@50": false, "len_k10": 32, "M10@50": false, "text": "vendor/autoload.php';\n\n$loader = require __DIR__ . '/vendor/composer/ClassLoader.php';\n$loader->"}
+{"id": 137, "len": 512, "div": 0.529296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 138, "len": 512, "div": 0.236328125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 139, "len": 525, "div": 0.46285714285714286, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 140, "len": 513, "div": 0.5263157894736842, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 141, "len": 482, "div": 0.4190871369294606, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 142, "len": 512, "div": 0.560546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 143, "len": 396, "div": 0.09343434343434344, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 144, "len": 510, "div": 0.5980392156862745, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 145, "len": 511, "div": 0.15459882583170254, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 146, "len": 235, "div": 0.5234042553191489, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 147, "len": 464, "div": 0.40301724137931033, "len_k0": 24, "M0@50": false, "len_k5": 32, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "to MSDN: http://msdn.microsoft.com/en-us/library/ms173153%28v=VS.100%2"}
+{"id": 148, "len": 512, "div": 0.1328125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 149, "len": 408, "div": 0.03676470588235294, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 150, "len": 511, "div": 0.4774951076320939, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 151, "len": 360, "div": 0.36666666666666664, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 152, "len": 512, "div": 0.302734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 153, "len": 438, "div": 0.1598173515981735, "len_k0": 17, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 35, "M10@50": false, "text": "+\n\n-\n\n-\n\n-\n\n voce\n\n-\n\n-\n\n-\n\n-\n\n-\n\n\\end{document}"}
+{"id": 154, "len": 477, "div": 0.570230607966457, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 155, "len": 310, "div": 0.4806451612903226, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 156, "len": 511, "div": 0.4324853228962818, "len_k0": 19, "M0@50": false, "len_k5": 24, "M5@50": false, "len_k10": 39, "M10@50": false, "text": "\nPosted on January 24, 2013 at 09:18 AM in Blidgets, Fun | Permalink | Comments (0) |"}
+{"id": 157, "len": 278, "div": 0.5431654676258992, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 158, "len": 512, "div": 0.18359375, "len_k0": 19, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 32, "M10@50": false, "text": ".\n\\begin{code}\n\n\\begin{code}\n\n\\end{code}\n\n\\end{code}\n\n\\end"}
+{"id": 159, "len": 295, "div": 0.29491525423728815, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 160, "len": 514, "div": 0.5214007782101168, "len_k0": 18, "M0@50": false, "len_k5": 24, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\nhttp://www.resourers.com"}
+{"id": 161, "len": 363, "div": 0.42424242424242425, "len_k0": 65, "M0@50": true, "len_k5": 70, "M5@50": true, "len_k10": 75, "M10@50": true, "text": "\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n<head>\n\n\n      <META HTTP-EQUIV=\""}
+{"id": 162, "len": 456, "div": 0.5416666666666666, "len_k0": 20, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 30, "M10@50": false, "text": "\nNot the answer you're looking for? Browse other questions tagged code-reuse .\nHow can I make my bootstrap code re"}
+{"id": 163, "len": 242, "div": 0.5165289256198347, "len_k0": 16, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 26, "M10@50": false, "text": "???????????????????????????\nBasically I\u2019m doing everything I\u2019ve always done"}
+{"id": 164, "len": 145, "div": 0.6068965517241379, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 165, "len": 512, "div": 0.515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 166, "len": 513, "div": 0.3391812865497076, "len_k0": 16, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "\n$now = time();\nfor ($i = 0; $i < 60*24; $i++)\n  $1"}
+{"id": 167, "len": 476, "div": 0.22478991596638656, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 168, "len": 517, "div": 0.47195357833655704, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 169, "len": 235, "div": 0.4595744680851064, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 170, "len": 511, "div": 0.3542074363992172, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 171, "len": 513, "div": 0.391812865497076, "len_k0": 16, "M0@50": false, "len_k5": 24, "M5@50": false, "len_k10": 42, "M10@50": false, "text": "\n\\begin{center}\n\\epsfig{file=dyn_trekking.eps, width=100mm}\n\\end{center}\n\\caption{The closest analog"}
+{"id": 172, "len": 300, "div": 0.5566666666666666, "len_k0": 18, "M0@50": false, "len_k5": 24, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n            <h3 style=\"margin-bottom: 40px; margin-top: 40px;\">\n              <font"}
+{"id": 173, "len": 512, "div": 0.28125, "len_k0": 20, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 37, "M10@50": false, "text": "</a></li> -->  \n    </ul>\n    </div>\n</td>\n</tr>\n</table>  </td></tr>\n</"}
+{"id": 174, "len": 513, "div": 0.5672514619883041, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 175, "len": 205, "div": 0.47317073170731705, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 176, "len": 513, "div": 0.35282651072124754, "len_k0": 16, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 32, "M10@50": false, "text": "\n\\fi\n\\fi\n\\endif\n\\fi\n\\fi\n\\fi\n\\fi\n\\fi\n/fi\nnce\n r"}
+{"id": 177, "len": 511, "div": 0.3385518590998043, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 178, "len": 512, "div": 0.560546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 179, "len": 510, "div": 0.4, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 180, "len": 510, "div": 0.4823529411764706, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 181, "len": 513, "div": 0.5536062378167641, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 182, "len": 511, "div": 0.3561643835616438, "len_k0": 29, "M0@50": false, "len_k5": 36, "M5@50": false, "len_k10": 41, "M10@50": false, "text": "Fortpflagung} \\\\\n\\hline\n\\endfirsthead\n\n\\multicolumn{4}{c}%\n{\\tablename\\ \\thetable{} -- Fortsetzung}% //"}
+{"id": 183, "len": 374, "div": 0.3181818181818182, "len_k0": 19, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "}\n\n% ALTERNATIVE\n\n\\begin{document}\n\\foreach \\x in {1,...,\\numexpr7+"}
+{"id": 184, "len": 512, "div": 0.20703125, "len_k0": 16, "M0@50": false, "len_k5": 32, "M5@50": false, "len_k10": 44, "M10@50": false, "text": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\4\nXX3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\3\\\\\\\\\\\\\\\\\\\\\\\\\\\\4 X4"}
+{"id": 185, "len": 512, "div": 0.310546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 186, "len": 512, "div": 0.59765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 187, "len": 384, "div": 0.296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 188, "len": 512, "div": 0.44140625, "len_k0": 22, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 36, "M10@50": false, "text": "\n\n\n}\n\n}\n\n\n\n\n\n\n\n\n\n}\n}\n\n\\\\end{frame}\n\n\\\\end{document}\n\n"}
+{"id": 189, "len": 512, "div": 0.533203125, "len_k0": 23, "M0@50": false, "len_k5": 29, "M5@50": false, "len_k10": 34, "M10@50": false, "text": "://docs.oracle.com/javase/7/docs/api/java/lang/RuntimeException.html)\n\ncreateInstance('public void test1()"}
+{"id": 190, "len": 511, "div": 0.37573385518590996, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 191, "len": 510, "div": 0.2725490196078431, "len_k0": 17, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 30, "M10@50": false, "text": "\n        <script type=\"text/javascript\" src=\"<?php bloginfo('siteurl'); ?>/wp-content/plugins/wp-r"}
+{"id": 192, "len": 506, "div": 0.38537549407114624, "len_k0": 23, "M0@50": false, "len_k5": 33, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "https://support.discord.com/hc/en-us/articles/1500010569321)\nrequires asset manager"}
+{"id": 193, "len": 512, "div": 0.337890625, "len_k0": 21, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 33, "M10@50": false, "text": "\nswitch($test)\n{\n    case 1:\n        break;\n    case 2:\n        break;\n\n#This will not"}
+{"id": 194, "len": 513, "div": 0.4074074074074074, "len_k0": 24, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 41, "M10@50": false, "text": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ufffd\ufffd\ufffd\ufffd"}
+{"id": 195, "len": 511, "div": 0.4735812133072407, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 196, "len": 512, "div": 0.2890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 197, "len": 181, "div": 0.4861878453038674, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 198, "len": 512, "div": 0.40625, "len_k0": 44, "M0@50": false, "len_k5": 49, "M5@50": false, "len_k10": 54, "M10@50": true, "text": "\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20149\nthjwhwha that ud w"}
+{"id": 199, "len": 512, "div": 0.37109375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 200, "len": 511, "div": 0.49902152641878667, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 201, "len": 510, "div": 0.4019607843137255, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 202, "len": 169, "div": 0.5562130177514792, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 203, "len": 361, "div": 0.4099722991689751, "len_k0": 30, "M0@50": false, "len_k5": 35, "M5@50": false, "len_k10": 51, "M10@50": true, "text": "\n\n\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \">\n<html xmlns=\"http://www.w3.org/1999/xhtml"}
+{"id": 204, "len": 510, "div": 0.6686274509803921, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 205, "len": 511, "div": 0.15851272015655576, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 206, "len": 510, "div": 0.4294117647058823, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 207, "len": 235, "div": 0.3872340425531915, "len_k0": 60, "M0@50": false, "len_k5": 78, "M5@50": false, "len_k10": 83, "M10@50": true, "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!'}}!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\"\n                   }\n\\end"}
+{"id": 208, "len": 511, "div": 0.3776908023483366, "len_k0": 31, "M0@50": false, "len_k5": 39, "M5@50": false, "len_k10": 57, "M10@50": false, "text": "\n\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\1\n\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\$$$\n\n"}
+{"id": 209, "len": 512, "div": 0.248046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 210, "len": 512, "div": 0.666015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 211, "len": 512, "div": 0.552734375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 212, "len": 512, "div": 0.1484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 213, "len": 511, "div": 0.4755381604696673, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 214, "len": 510, "div": 0.396078431372549, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 215, "len": 513, "div": 0.3235867446393762, "len_k0": 17, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 28, "M10@50": false, "text": ".19\n\n=cut\n\n\n=head1 SYNOPSIS\n\n     [ MakeMaker::Fall"}
+{"id": 216, "len": 513, "div": 0.09746588693957114, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 217, "len": 513, "div": 0.6998050682261209, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 218, "len": 509, "div": 0.3005893909626719, "len_k0": 35, "M0@50": false, "len_k5": 42, "M5@50": false, "len_k10": 59, "M10@50": true, "text": "{\n\npublic static void main(String[] args) {\n\nScanner scan = new Scanner(System.in);\n\nSystem.out.println(\"Enter the Number of days : \");\n\nint days = scan.nextInt();\n\nSystem.out.println("}
+{"id": 219, "len": 513, "div": 0.4697855750487329, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 220, "len": 513, "div": 0.50682261208577, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 221, "len": 512, "div": 0.2265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 222, "len": 268, "div": 0.5895522388059702, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 223, "len": 159, "div": 0.34591194968553457, "len_k0": 24, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 35, "M10@50": false, "text": "\nusing System;\nusing System.Collections;\nusing System.Collections.Generic;\nusing System.Linq;\n\nclass Jackpotjack : Cardgame\n"}
+{"id": 224, "len": 513, "div": 0.571150097465887, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 225, "len": 512, "div": 0.6171875, "len_k0": 16, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 32, "M10@50": false, "text": "ites\n\u2014\u2026\u2026\u2026\u2026 \u2026\u2026. \u2026\u2026.Aders\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026.\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026"}
+{"id": 226, "len": 513, "div": 0.2573099415204678, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 227, "len": 512, "div": 0.462890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 228, "len": 322, "div": 0.049689440993788817, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 229, "len": 501, "div": 0.31736526946107785, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 230, "len": 512, "div": 0.62890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 231, "len": 513, "div": 0.3723196881091618, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 232, "len": 514, "div": 0.5077821011673151, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 233, "len": 518, "div": 0.27606177606177607, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 234, "len": 511, "div": 0.2896281800391389, "len_k0": 17, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 30, "M10@50": false, "text": "(\"[[1, 2, 3], [4, 5, 6]]\")\n        .map(|v: Vec<Vec"}
+{"id": 235, "len": 512, "div": 0.53515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 236, "len": 513, "div": 0.2982456140350877, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 237, "len": 513, "div": 0.4191033138401559, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 238, "len": 110, "div": 0.5545454545454546, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 239, "len": 512, "div": 0.365234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 240, "len": 513, "div": 0.39571150097465885, "len_k0": 16, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n        Zend_Form::setElementTranslator($translator);\n    }\n}\n\n\nstatic protected function render"}
+{"id": 241, "len": 513, "div": 0.6569200779727096, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 242, "len": 214, "div": 0.6635514018691588, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 243, "len": 511, "div": 0.15851272015655576, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 244, "len": 358, "div": 0.6871508379888268, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 245, "len": 466, "div": 0.4613733905579399, "len_k0": 23, "M0@50": false, "len_k5": 32, "M5@50": false, "len_k10": 41, "M10@50": false, "text": "=\"560\" height=\"315\" src=\"http://www.youtube.com/embed/ubaFRFduPxs\" frameborder=\"0\" allowfullscreen></iframe>"}
+{"id": 246, "len": 445, "div": 0.5168539325842697, "len_k0": 27, "M0@50": false, "len_k5": 50, "M5@50": true, "len_k10": 57, "M10@50": true, "text": "\u2026\u2026]   }\u2026\u2026\u2026\u2026\u2026..\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\u2026..\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. There is no penalty for"}
+{"id": 247, "len": 512, "div": 0.30859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 248, "len": 513, "div": 0.37037037037037035, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 249, "len": 512, "div": 0.294921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 250, "len": 512, "div": 0.44140625, "len_k0": 74, "M0@50": true, "len_k5": 82, "M5@50": true, "len_k10": 87, "M10@50": true, "text": "\n\nThe control sequence at the end of the top line\nof your error message was never \\def'ed. If you have\nmisspelled it (e.g., `\\hobx'), type `I' and the correct\nspelling (e.g., `I\\hbox'). Otherwise just continue,\nand I'll forget about whatever was undefined.\n\\end{code}\n\nand the"}
+{"id": 251, "len": 268, "div": 0.44402985074626866, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 252, "len": 512, "div": 0.482421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 253, "len": 512, "div": 0.470703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 254, "len": 511, "div": 0.48140900195694714, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 255, "len": 511, "div": 0.5107632093933464, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 256, "len": 512, "div": 0.421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 257, "len": 512, "div": 0.572265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 258, "len": 511, "div": 0.37181996086105673, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 259, "len": 513, "div": 0.5009746588693957, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 260, "len": 474, "div": 0.27637130801687765, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 261, "len": 512, "div": 0.234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 262, "len": 511, "div": 0.15264187866927592, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 263, "len": 512, "div": 0.375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 264, "len": 513, "div": 0.2573099415204678, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 265, "len": 280, "div": 0.2714285714285714, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 266, "len": 512, "div": 0.54296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 267, "len": 511, "div": 0.31898238747553814, "len_k0": 30, "M0@50": false, "len_k5": 35, "M5@50": false, "len_k10": 40, "M10@50": false, "text": "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\n\\+tra\\+tra\\+tra"}
+{"id": 268, "len": 512, "div": 0.47265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 269, "len": 511, "div": 0.3776908023483366, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 270, "len": 512, "div": 0.388671875, "len_k0": 67, "M0@50": true, "len_k5": 103, "M5@50": true, "len_k10": 109, "M10@50": true, "text": "\nWhat a piece of work is a man! how noble in reason! how infinite in faculty! in form and moving how express and admirable! in action how like an angel! in apprehension how like a god! the beauty of the world! the paragon of animals! And yet, to me,\nwhat is this quintessence of dust? man delights not me: no, nor woman neither, though by your smiling you seem to say so.\n</div>\n\n<div"}
+{"id": 271, "len": 512, "div": 0.560546875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 272, "len": 513, "div": 0.4678362573099415, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 273, "len": 506, "div": 0.03557312252964427, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 274, "len": 501, "div": 0.5329341317365269, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 275, "len": 511, "div": 0.3776908023483366, "len_k0": 88, "M0@50": false, "len_k5": 93, "M5@50": false, "len_k10": 115, "M10@50": false, "text": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\?\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\ Pollock 2dB\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}
+{"id": 276, "len": 512, "div": 0.275390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 277, "len": 500, "div": 0.378, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 278, "len": 110, "div": 0.8, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 279, "len": 511, "div": 0.5557729941291585, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 280, "len": 513, "div": 0.3079922027290448, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 281, "len": 315, "div": 0.3396825396825397, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 282, "len": 512, "div": 0.509765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 283, "len": 514, "div": 0.27431906614785995, "len_k0": 56, "M0@50": true, "len_k5": 76, "M5@50": true, "len_k10": 88, "M10@50": true, "text": ";\n\nimport java.util.ArrayList;\n\nimport android.content.Context;\n\nimport android.graphics.Color;\n\nimport android.view.View;\n\nimport android.view.View.OnClickListener;\n\nimport android.widget.ArrayAdapter;\n\nimport android.widget.Button;\n\nimport android.widget.EditText;\n\nimport android.widget.LinearLayout;\n\nimport"}
+{"id": 284, "len": 247, "div": 0.06882591093117409, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 285, "len": 514, "div": 0.49416342412451364, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 286, "len": 513, "div": 0.6198830409356725, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 287, "len": 512, "div": 0.3203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 288, "len": 513, "div": 0.5594541910331384, "len_k0": 52, "M0@50": true, "len_k5": 58, "M5@50": true, "len_k10": 63, "M10@50": true, "text": "Snippets](https://meta.stackoverflow.com/questions/358992/ive-been-told-to-create-a-runnable-example-with-stack-snippets-how-do-i-do) instead of Pastebin."}
+{"id": 289, "len": 420, "div": 0.6214285714285714, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 290, "len": 511, "div": 0.36203522504892366, "len_k0": 27, "M0@50": false, "len_k5": 40, "M5@50": false, "len_k10": 52, "M10@50": true, "text": "\n        </xsl:when>\n        <xsl:otherwise>\n                <xsl:copy-of select=\".\" />\n        </xsl:otherwise>\n    </xsl:choose>\n</xsl:template>\n\\end{"}
+{"id": 291, "len": 115, "div": 0.7304347826086957, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 292, "len": 266, "div": 0.5714285714285714, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 293, "len": 513, "div": 0.1871345029239766, "len_k0": 66, "M0@50": false, "len_k5": 71, "M5@50": false, "len_k10": 76, "M10@50": false, "text": "\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\u2265\n\u2264\u2264\u2264\u2264\u2264\u2264\u2264\u2264\u2265\u2265"}
+{"id": 294, "len": 141, "div": 0.3049645390070922, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 295, "len": 513, "div": 0.42300194931773877, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 296, "len": 511, "div": 0.3542074363992172, "len_k0": 54, "M0@50": false, "len_k5": 59, "M5@50": false, "len_k10": 64, "M10@50": false, "text": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\c_1\\\\0\\\\\\\\"}
+{"id": 297, "len": 512, "div": 0.43359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 298, "len": 487, "div": 0.5112936344969199, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 299, "len": 194, "div": 0.08762886597938144, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 300, "len": 310, "div": 0.4161290322580645, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 301, "len": 510, "div": 0.37058823529411766, "len_k0": 58, "M0@50": true, "len_k5": 63, "M5@50": true, "len_k10": 69, "M10@50": true, "text": "\n\\begin{knitrout}\n\\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\\color{fgcolor}\\begin{kframe}\n\\begin{verbatim}\n### applying cnn classifier on mnist\n"}
+{"id": 302, "len": 513, "div": 0.5243664717348928, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 303, "len": 510, "div": 0.44509803921568625, "len_k0": 16, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 31, "M10@50": false, "text": ">\n<link rel=\"stylesheet\" href=\"styles.css\" type=\"text/css\">\n========================= PHP Code File\n//\n//"}
+{"id": 304, "len": 512, "div": 0.33984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 305, "len": 471, "div": 0.21019108280254778, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 306, "len": 152, "div": 0.5657894736842105, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 307, "len": 512, "div": 0.216796875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 308, "len": 513, "div": 0.5925925925925926, "len_k0": 16, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "https://www.youtube.com/watch?v=ekQ_JuzD4tU               \n                                                                "}
+{"id": 309, "len": 512, "div": 0.388671875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 310, "len": 501, "div": 0.3852295409181637, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 311, "len": 513, "div": 0.4444444444444444, "len_k0": 32, "M0@50": false, "len_k5": 41, "M5@50": false, "len_k10": 53, "M10@50": true, "text": "StringBuilder sb = new StringBuilder();\n            String line = null;\n            while ((line = reader.readLine()) != null)\n            {\n                    sb.append(line + \"\\n\");\n            }\n            is.close();\n"}
+{"id": 312, "len": 161, "div": 0.6645962732919255, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 313, "len": 509, "div": 0.35363457760314343, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 314, "len": 312, "div": 0.592948717948718, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 315, "len": 512, "div": 0.208984375, "len_k0": 38, "M0@50": false, "len_k5": 45, "M5@50": false, "len_k10": 52, "M10@50": true, "text": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\end{tabular}}\n\\caption{}\n}\n\\label{table:"}
+{"id": 316, "len": 512, "div": 0.384765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 317, "len": 141, "div": 0.2907801418439716, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 318, "len": 512, "div": 0.623046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 319, "len": 206, "div": 0.05825242718446602, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 320, "len": 512, "div": 0.666015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 321, "len": 512, "div": 0.0703125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 322, "len": 511, "div": 0.5362035225048923, "len_k0": 20, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "://www.wikidata.org/wiki/Wikidata:Requests_for_deadminship/Nemo_bis <u>"}
+{"id": 323, "len": 448, "div": 0.38169642857142855, "len_k0": 17, "M0@50": false, "len_k5": 24, "M5@50": false, "len_k10": 31, "M10@50": false, "text": ">\n\\end{\n<tr>\n   <tr>\n  </tr>\n   <tr>\n    <td style=\"height"}
+{"id": 324, "len": 151, "div": 0.17880794701986755, "len_k0": 38, "M0@50": false, "len_k5": 47, "M5@50": false, "len_k10": 54, "M10@50": true, "text": "\nlass{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\">\n});//\n\\\\\\\\\\\\\\\\https://\n\\\\"}
+{"id": 325, "len": 512, "div": 0.61328125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 326, "len": 513, "div": 0.42300194931773877, "len_k0": 17, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 33, "M10@50": false, "text": "1;\n\\end{minipage}}\\end{center}\n\\vspace{-30pt}\n\\begin{center}{\\tt \\begin{minipage}[t"}
+{"id": 327, "len": 512, "div": 0.5078125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 328, "len": 514, "div": 0.519455252918288, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 329, "len": 513, "div": 0.4444444444444444, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 330, "len": 512, "div": 0.515625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 331, "len": 199, "div": 0.40703517587939697, "len_k0": 16, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "{\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\\\\n\\end{code}\n<br>\n\n##\n"}
+{"id": 332, "len": 154, "div": 0.2792207792207792, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 333, "len": 513, "div": 0.5730994152046783, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 334, "len": 515, "div": 0.5533980582524272, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 335, "len": 406, "div": 0.41625615763546797, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 336, "len": 190, "div": 0.17894736842105263, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 337, "len": 514, "div": 0.4591439688715953, "len_k0": 21, "M0@50": false, "len_k5": 27, "M5@50": false, "len_k10": 32, "M10@50": false, "text": ": \\begin{code}\n<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<!DOCTYPE definitions SY"}
+{"id": 338, "len": 114, "div": 0.34210526315789475, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 339, "len": 512, "div": 0.447265625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 340, "len": 184, "div": 0.6141304347826086, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 341, "len": 511, "div": 0.5068493150684932, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 342, "len": 512, "div": 0.2578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 343, "len": 512, "div": 0.3046875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 344, "len": 158, "div": 0.2974683544303797, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 345, "len": 512, "div": 0.4296875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 346, "len": 442, "div": 0.27149321266968324, "len_k0": 72, "M0@50": false, "len_k5": 77, "M5@50": false, "len_k10": 82, "M10@50": true, "text": ". escaped.\n\t\tmatching := `\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd"}
+{"id": 347, "len": 512, "div": 0.23828125, "len_k0": 45, "M0@50": false, "len_k5": 61, "M5@50": true, "len_k10": 67, "M10@50": true, "text": "\n            -webkit-box-sizing: border-box;\n            -moz-box-sizing: border-box;\n            -khtml-box-sizing: border-box;\n            -ms-box-sizing: border-box;\n            padding: 2px;\n            "}
+{"id": 348, "len": 512, "div": 0.5, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 349, "len": 510, "div": 0.307843137254902, "len_k0": 18, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 30, "M10@50": false, "text": "9454cm]{geometry}\n\\usepackage{graphicx}\n\\usepackage{amsthm}\n%%\n%%\n\\"}
+{"id": 350, "len": 513, "div": 0.2651072124756335, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 351, "len": 478, "div": 0.497907949790795, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 352, "len": 510, "div": 0.13529411764705881, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 353, "len": 512, "div": 0.51953125, "len_k0": 39, "M0@50": false, "len_k5": 45, "M5@50": false, "len_k10": 51, "M10@50": true, "text": "4, \"Then when Moses came to the place appointed by Us, and his Lord addressed him, he said: \"O my Lord! Show (Thyself) to me, that I may look upon The.\"\nHe said: \"Th"}
+{"id": 354, "len": 509, "div": 0.4400785854616896, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 355, "len": 190, "div": 0.11578947368421053, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 356, "len": 512, "div": 0.32421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 357, "len": 104, "div": 0.25, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 358, "len": 511, "div": 0.37573385518590996, "len_k0": 29, "M0@50": false, "len_k5": 34, "M5@50": false, "len_k10": 39, "M10@50": false, "text": "\n\n\n        val nftt =\n\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""}
+{"id": 359, "len": 512, "div": 0.484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 360, "len": 510, "div": 0.5470588235294118, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 361, "len": 511, "div": 0.41291585127201563, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 362, "len": 502, "div": 0.23705179282868527, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 363, "len": 512, "div": 0.482421875, "len_k0": 16, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 28, "M10@50": false, "text": "\\cellcolor{skyblue} o  |x\n}\n\n\\end{document}\n\\end{code}\n\n"}
+{"id": 364, "len": 351, "div": 0.41025641025641024, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 365, "len": 173, "div": 0.6878612716763006, "len_k0": 23, "M0@50": false, "len_k5": 34, "M5@50": false, "len_k10": 39, "M10@50": false, "text": "\nA video game is an electronic game that involves interaction with a user interface to generate visual feedback on a two- or three-dimensional video display device. Such as computers or mobile phones."}
+{"id": 366, "len": 510, "div": 0.20784313725490197, "len_k0": 20, "M0@50": false, "len_k5": 27, "M5@50": false, "len_k10": 35, "M10@50": false, "text": "\n\n\n\n\n\n\n\n\n\n\n/************************************************************\n\n;Azure ASM\n\n************************************************************/\n\n\n\n"}
+{"id": 367, "len": 282, "div": 0.22340425531914893, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 368, "len": 409, "div": 0.26894865525672373, "len_k0": 20, "M0@50": false, "len_k5": 27, "M5@50": false, "len_k10": 35, "M10@50": false, "text": "\n|||||||||||||||||||||||||||||||||||||||\n| ||\\\\ 0||||{{||{-||{-||"}
+{"id": 369, "len": 245, "div": 0.4530612244897959, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 370, "len": 511, "div": 0.324853228962818, "len_k0": 16, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "\n\n                       #!/bin/env perl\n\nuse warnings;\nuse strict;\nuse Test2::V0;\n\nplan 1"}
+{"id": 371, "len": 512, "div": 0.470703125, "len_k0": 25, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 35, "M10@50": false, "text": "\n\n![](https://cdn-images-1.medium.com/max/1200/1*a21RAXK11J1"}
+{"id": 372, "len": 511, "div": 0.42661448140900193, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 373, "len": 512, "div": 0.2578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 374, "len": 513, "div": 0.23976608187134502, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 375, "len": 380, "div": 0.4921052631578947, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 376, "len": 512, "div": 0.291015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 377, "len": 376, "div": 0.19946808510638298, "len_k0": 17, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 35, "M10@50": false, "text": "\n\n\\section{}\n\n\\section er\\section{}\n\n\\section{}\n\n\\section{}\n\n\\section{}\n\n\\section{}\n\n"}
+{"id": 378, "len": 512, "div": 0.4765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 379, "len": 512, "div": 0.517578125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 380, "len": 201, "div": 0.27860696517412936, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 381, "len": 513, "div": 0.33723196881091616, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 382, "len": 187, "div": 0.6524064171122995, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 383, "len": 510, "div": 0.5627450980392157, "len_k0": 16, "M0@50": false, "len_k5": 21, "M5@50": false, "len_k10": 26, "M10@50": false, "text": "diagnosed with schizophrenia, bipolar disorder, post-traumatic stress disorder and was"}
+{"id": 384, "len": 513, "div": 0.5750487329434698, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 385, "len": 477, "div": 0.39832285115303984, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 386, "len": 512, "div": 0.021484375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 387, "len": 512, "div": 0.3203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 388, "len": 518, "div": 0.2702702702702703, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 389, "len": 513, "div": 0.631578947368421, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 390, "len": 513, "div": 0.4580896686159844, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 391, "len": 110, "div": 0.2636363636363636, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 392, "len": 183, "div": 0.7540983606557377, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 393, "len": 512, "div": 0.419921875, "len_k0": 53, "M0@50": false, "len_k5": 58, "M5@50": true, "len_k10": 63, "M10@50": true, "text": "}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}\n\nComment: A comment section on a comment section to"}
+{"id": 394, "len": 189, "div": 0.5291005291005291, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 395, "len": 437, "div": 0.5789473684210527, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 396, "len": 512, "div": 0.263671875, "len_k0": 16, "M0@50": false, "len_k5": 22, "M5@50": false, "len_k10": 27, "M10@50": false, "text": "\n\n lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut arcu et sem ul"}
+{"id": 397, "len": 512, "div": 0.185546875, "len_k0": 26, "M0@50": false, "len_k5": 40, "M5@50": false, "len_k10": 45, "M10@50": false, "text": "\n\t\t\t\t\t\t\t<?php\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tdo{\n\n\t\t\t\t\t\t\t\t\tglobal $current_color;"}
+{"id": 398, "len": 514, "div": 0.35019455252918286, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 399, "len": 117, "div": 0.6324786324786325, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 400, "len": 485, "div": 0.2927835051546392, "len_k0": 273, "M0@50": false, "len_k5": 279, "M5@50": false, "len_k10": 284, "M10@50": false, "text": "\n\\end{code}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}  ( 8-1"}
+{"id": 401, "len": 513, "div": 0.35477582846003897, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 402, "len": 292, "div": 0.4691780821917808, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 403, "len": 512, "div": 0.490234375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 404, "len": 515, "div": 0.2912621359223301, "len_k0": 20, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 32, "M10@50": false, "text": "251+\\lambda\n \n \n \n \n \n \n \n \n \n \n  0,35"}
+{"id": 405, "len": 514, "div": 0.35019455252918286, "len_k0": 53, "M0@50": false, "len_k5": 58, "M5@50": false, "len_k10": 63, "M10@50": true, "text": "llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll\n\n                                               \"}}}B\n\n"}
+{"id": 406, "len": 512, "div": 0.380859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 407, "len": 313, "div": 0.5431309904153354, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 408, "len": 510, "div": 0.5235294117647059, "len_k0": 20, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 32, "M10@50": false, "text": "on December 2nd, 2012 04:23 am (UTC)\nThis will make more sense later.\nOr you"}
+{"id": 409, "len": 188, "div": 0.39893617021276595, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 410, "len": 202, "div": 0.054455445544554455, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 411, "len": 211, "div": 0.5971563981042654, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 412, "len": 510, "div": 0.33725490196078434, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 413, "len": 511, "div": 0.5714285714285714, "len_k0": 19, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 33, "M10@50": false, "text": "\n};\n\nint main(int argc, char **argv)\n{\n    int _g;\n\n    _g = 0;\n"}
+{"id": 414, "len": 511, "div": 0.4383561643835616, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 415, "len": 511, "div": 0.5166340508806262, "len_k0": 26, "M0@50": false, "len_k5": 31, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "\n\n[Completely blank edit message\n](http://www.youtube.com/watch?v=dQw4w9WgXcQ)\n\n---"}
+{"id": 416, "len": 511, "div": 0.29354207436399216, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 417, "len": 512, "div": 0.212890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 418, "len": 512, "div": 0.548828125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 419, "len": 513, "div": 0.543859649122807, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 420, "len": 237, "div": 0.270042194092827, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 421, "len": 513, "div": 0.4327485380116959, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 422, "len": 512, "div": 0.294921875, "len_k0": 36, "M0@50": false, "len_k5": 47, "M5@50": false, "len_k10": 52, "M10@50": true, "text": "$2p$4$5$6$7$8$9$10$11$12$13$14$15$16$17+$18$19(?<=p[\\s-]"}
+{"id": 423, "len": 513, "div": 0.4093567251461988, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 424, "len": 140, "div": 0.07142857142857142, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 425, "len": 512, "div": 0.65625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 426, "len": 513, "div": 0.1695906432748538, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 427, "len": 512, "div": 0.2109375, "len_k0": 52, "M0@50": false, "len_k5": 62, "M5@50": false, "len_k10": 68, "M10@50": true, "text": "\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\\\\```\u200b\u200bw\u200b\u200bw\u200b\n\nl\u200b\n\nv"}
+{"id": 428, "len": 399, "div": 0.631578947368421, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 429, "len": 512, "div": 0.3671875, "len_k0": 16, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 29, "M10@50": false, "text": "\n{\\footnotesize\n\\begin{adjustbox}{width=\\linewidth}\n\\begin{verbatim}\npair*exists"}
+{"id": 430, "len": 158, "div": 0.3924050632911392, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 431, "len": 512, "div": 0.462890625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 432, "len": 511, "div": 0.512720156555773, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 433, "len": 508, "div": 0.5118110236220472, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 434, "len": 84, "div": 0.6547619047619048, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 435, "len": 148, "div": 0.35135135135135137, "len_k0": 43, "M0@50": false, "len_k5": 49, "M5@50": false, "len_k10": 54, "M10@50": true, "text": "\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#endif\n#if defined(VERIFY_"}
+{"id": 436, "len": 512, "div": 0.361328125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 437, "len": 511, "div": 0.4207436399217221, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 438, "len": 512, "div": 0.482421875, "len_k0": 26, "M0@50": false, "len_k5": 34, "M5@50": false, "len_k10": 40, "M10@50": false, "text": "{Times New Roman}\n\\setmonofont{DejaVu Sans Mono}\n\n\\begin{document}\n\n\\textbf{\u0410\u043d\u0430\u043b\u0438\u0437}\n[\\textbf"}
+{"id": 439, "len": 512, "div": 0.59765625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 440, "len": 512, "div": 0.251953125, "len_k0": 18, "M0@50": false, "len_k5": 24, "M5@50": false, "len_k10": 30, "M10@50": false, "text": "\n\\left[ \\begin{array}{ccccccc}\n\\frac{1-a}{a}& 0 & 0 & "}
+{"id": 441, "len": 222, "div": 0.6576576576576577, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 442, "len": 513, "div": 0.3313840155945419, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 443, "len": 512, "div": 0.58984375, "len_k0": 21, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "RS-232, RS-422, or RS-485)|{any lassee|either way|"}
+{"id": 444, "len": 511, "div": 0.48336594911937375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 445, "len": 252, "div": 0.5158730158730159, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 446, "len": 514, "div": 0.16926070038910507, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 447, "len": 156, "div": 0.04487179487179487, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 448, "len": 110, "div": 0.19090909090909092, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 449, "len": 513, "div": 0.5380116959064327, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 450, "len": 341, "div": 0.4633431085043988, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 451, "len": 513, "div": 0.40350877192982454, "len_k0": 18, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 31, "M10@50": false, "text": ".sciencemag.org/content/333/6049/1464.figures-only\" alt=\""}
+{"id": 452, "len": 511, "div": 0.5146771037181996, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 453, "len": 512, "div": 0.5390625, "len_k0": 17, "M0@50": false, "len_k5": 23, "M5@50": false, "len_k10": 29, "M10@50": false, "text": ". Our registered address is No. 1 Spinningfields, Hardman Square, Manchester, M3 3EB. Contact Email "}
+{"id": 454, "len": 512, "div": 0.3203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 455, "len": 119, "div": 0.18487394957983194, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 456, "len": 512, "div": 0.529296875, "len_k0": 27, "M0@50": false, "len_k5": 33, "M5@50": false, "len_k10": 45, "M10@50": false, "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntags(\"go\" \nobjecte\n\n{\\newline\n\n\n\n\n"}
+{"id": 457, "len": 172, "div": 0.38953488372093026, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 458, "len": 513, "div": 0.49122807017543857, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 459, "len": 512, "div": 0.583984375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 460, "len": 513, "div": 0.6140350877192983, "len_k0": 17, "M0@50": false, "len_k5": 30, "M5@50": false, "len_k10": 38, "M10@50": false, "text": "\n\\begin{figure}[t]\n\\begin{proof}\n\n\\end{proof}\n\\end{figure}\n\n\\begin{proof}\nAnely un"}
+{"id": 461, "len": 512, "div": 0.25390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 462, "len": 114, "div": 0.6140350877192983, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 463, "len": 511, "div": 0.3816046966731898, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 464, "len": 154, "div": 0.2012987012987013, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 465, "len": 511, "div": 0.17221135029354206, "len_k0": 62, "M0@50": false, "len_k5": 68, "M5@50": false, "len_k10": 74, "M10@50": false, "text": "\\\\\naconationa\\\\\\\na\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\na\\\\\\\\\\\\"}
+{"id": 466, "len": 516, "div": 0.49612403100775193, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 467, "len": 344, "div": 0.2180232558139535, "len_k0": 35, "M0@50": false, "len_k5": 41, "M5@50": false, "len_k10": 48, "M10@50": false, "text": "977,978,979}.{131,132,133,134,135,136,137,138,139"}
+{"id": 468, "len": 513, "div": 0.3664717348927875, "len_k0": 20, "M0@50": false, "len_k5": 28, "M5@50": false, "len_k10": 39, "M10@50": false, "text": ")\n\n\\psset{xunit=2.5cm,yunit=2.5cm}\n\n\\pspolygon[fillstyle=solid,fillcolor="}
+{"id": 469, "len": 513, "div": 0.5458089668615984, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 470, "len": 144, "div": 0.1388888888888889, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 471, "len": 512, "div": 0.41796875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 472, "len": 111, "div": 0.6036036036036037, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 473, "len": 512, "div": 0.66015625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 474, "len": 512, "div": 0.33203125, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 475, "len": 512, "div": 0.544921875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 476, "len": 512, "div": 0.255859375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 477, "len": 512, "div": 0.57421875, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 478, "len": 507, "div": 0.23076923076923078, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 479, "len": 513, "div": 0.4074074074074074, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 480, "len": 513, "div": 0.4580896686159844, "len_k0": 19, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 31, "M10@50": false, "text": "\nBosnia and Herzegovina\nBosnia and Herzegovina is a Balkan country situated on the Adriatic Sea, with a"}
+{"id": 481, "len": 330, "div": 0.4909090909090909, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 482, "len": 388, "div": 0.48711340206185566, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 483, "len": 382, "div": 0.4031413612565445, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 484, "len": 512, "div": 0.3359375, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 485, "len": 512, "div": 0.369140625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 486, "len": 511, "div": 0.3268101761252446, "len_k0": 18, "M0@50": false, "len_k5": 25, "M5@50": false, "len_k10": 32, "M10@50": false, "text": "\n\n\\newcommand*\\arcname[3]{%\n  \\begingroup\\edef\\x{\\endgroup\\noexpand\\csname"}
+{"id": 487, "len": 511, "div": 0.4207436399217221, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 488, "len": 523, "div": 0.27915869980879543, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 489, "len": 115, "div": 0.05217391304347826, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 490, "len": 443, "div": 0.6230248306997742, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 491, "len": 484, "div": 0.5991735537190083, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 492, "len": 110, "div": 0.6181818181818182, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 493, "len": 512, "div": 0.0390625, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 494, "len": 513, "div": 0.43079922027290446, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 495, "len": 513, "div": 0.2202729044834308, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 496, "len": 267, "div": 0.07865168539325842, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 497, "len": 511, "div": 0.5205479452054794, "len_k0": 20, "M0@50": false, "len_k5": 26, "M5@50": false, "len_k10": 35, "M10@50": false, "text": "\\begin{center}\n    \\begin{minipage}{\\textheight}\n    \\includegraphics[width=0.99\\textwidth,keepaspectratio]{"}
+{"id": 498, "len": 119, "div": 0.17647058823529413, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}
+{"id": 499, "len": 375, "div": 0.2773333333333333, "len_k0": 0, "M0@50": false, "len_k5": 0, "M5@50": false, "len_k10": 0, "M10@50": false, "text": ""}

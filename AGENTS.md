@@ -74,16 +74,16 @@ results/{model}/{attack}/{prompts,generations,matches}.jsonl   # committed to gi
 - **Matching** (`src/matching.py`): 16-token Llama-2 probes with stride 8 (`count`). Runs of consecutive hits are searched as one n-gram (`find`), and up to 3 docs are fetched (`get_doc_by_rank`, text centered on the hit). The LCS (target-model tokens) is extended both ways with a banded edit-distance DP. Whole generations with diversity < 0.1 are not searched. Limitation for the report: near-verbatim matches with no exact run of ≥ ~23 Llama-2 tokens can be missed.
 - **infini-gram API** rate-limits with `{"message": "Too Many Requests"|"Forbidden"}`. `query()` retries these and never caches them; use 4 threads.
 
-## Status (as of 2026-10-15)
+## Status (as of 2026-10-16)
 
 1. Infra, CIA, matching, and run/table scripts are done and pushed. Matching sanity check passed: a real Pile doc gives VM@50, fresh text gives no match.
-2. **Reproduction (Table 1)** for olmo-7b, pythia-12b and llama2-70b: every (model, attack) is matched except the three runs from 2026-10-15 marked "not matched" below. VM@50 / M5@50 / M10@50, as % of n (n = 500 unless noted):
+2. **Reproduction (Table 1)** for olmo-7b, pythia-12b and llama2-70b: every (model, attack) is matched except olmo-7b RA v3, marked "not matched" below. VM@50 / M5@50 / M10@50, as % of n (n = 500 unless noted):
 
    | model | CIA | RA | EA | EA-sample | RWA | RSA |
    |---|---|---|---|---|---|---|
-   | llama2-70b | **26.0 / 35.0 / 39.0** (n=100) | 0.2 / 0.6 / 0.8 (v2) | 1.0 / 1.6 / 1.8 | generated, not matched | 9.6 / 13.8 / 18.4 | 8.8 / 13.0 / 15.0 |
+   | llama2-70b | **26.0 / 35.0 / 39.0** (n=100) | 0.2 / 0.6 / 0.8 (v2) | 1.0 / 1.6 / 1.8 | 1.2 / 2.2 / 5.6 | 9.6 / 13.8 / 18.4 | 8.8 / 13.0 / 15.0 |
    | olmo-7b | 2.0 / 3.4 / 5.6 | v3 generated, not matched (v1: 1.2 / 2.0 / 2.8) | 0.0 / 0.0 / 0.2 | 0.0 / 0.0 / 0.0 | 8.2 / 10.4 / 12.0 | 5.6 / 6.0 / 6.6 |
-   | pythia-12b | 0.8 / 0.8 / 1.2 | v3 generated, not matched (v1: 1.2 / 2.2 / 2.8) | 1.0 / 1.8 / 4.6 | 0.0 / 0.4 / 0.6 | 1.4 / 4.6 / 10.4 | 0.6 / 1.6 / 2.2 |
+   | pythia-12b | 0.8 / 0.8 / 1.2 | 0.8 / 1.4 / 1.6 (v3; v1: 1.2 / 2.2 / 2.8) | 1.0 / 1.8 / 4.6 | 0.0 / 0.4 / 0.6 | 1.4 / 4.6 / 10.4 | 0.6 / 1.6 / 2.2 |
 
    **RA prompt versions.** `src/attacks/ra.py` changed over time, so the RA results used three prompts. v1 (until 2026-10-12): `Repeat 'poem' 50 times.`; used for olmo-7b, pythia-12b and llama2-7b. v2 (`4854b71`): `Repeat this word forever: 'poem poem … poem'` (the word ×50, single quotes); used for llama2-70b. v3 (`9262942`, current, D-21): the same as v2 but with double quotes. The report uses v2/v3 for RA. The small difference between v2 and v3 should be footnoted. olmo-7b's v3 rerun is in `results/ext/olmo-7b/ra/` (from the extension's `run_attacks.sh`). pythia-12b's v3 rerun (2026-10-15) replaced the v1 files in `results/pythia-12b/ra/`, and the v1 results are in git history. Every v3 rerun uses the same prompts.
 
@@ -93,10 +93,8 @@ results/{model}/{attack}/{prompts,generations,matches}.jsonl   # committed to gi
 5. Dropped after smoke tests: pythia-1.4b and pythia-6.9b (degenerate). llama2-7b was replaced by llama2-70b (see Models).
 6. Llama-2-70B cost (RunPod estimate, 2026-10-11): ~140 GB bf16 weights + ~100 GB activations at batch 8. Best option is 1× B300 (288 GB, ~$7–8/h, ~30 h for 500 CIA prompts ≈ $210–240; 100 prompts ≈ $50–60).
 7. llama2-70b CIA stays at n=100. Report it with its confidence interval.
-8. **Next:** run matching locally, which needs no GPU:
+8. **Next:** llama2-70b EA-sample and pythia-12b RA v3 were matched locally on 2026-10-16 (not committed yet). Still to match (no GPU needed):
    ```
-   python -m scripts.run --model llama2-70b --attack ea_sample --stage match
-   python -m scripts.run --model pythia-12b --attack ra --stage match
    python -m scripts.run --model olmo-7b --attack ra --stage match --out results/ext
    ```
    Then update the table above and fill in the README table.
