@@ -555,3 +555,16 @@ RA is pending until the corrected-prompt base run is matched (D-55). Both of D-5
 - Every pod was terminated after its results were copied back and checked (2026-10-13).
 - The three adapters (`models/seed_*/adapter_model.safetensors`, ~640 MB each, checksums checked against the pod) exist only on that laptop. There is still no HF upload.
 - **Resolved the same day:** all three seed folders (adapters plus run records, no checkpoints) were uploaded to the private HF repo `anchalxy/olmo-pano-adapters`. Each `adapter_model.safetensors` matches the laptop copy by sha256. (Anchal)
+
+**D-62 — FINDING: RA's H2 also fails, so H2 fails for all five attacks. Recorded 2026-10-16, after the reproduction team matched base OLMo's corrected-prompt RA run (`results/ext/olmo-7b/ra/`; D-21, D-55).**
+- **Base OLMo:** 5 of 500 RA generations have a 50-token match to Dolma (1.0%). **Post-trained:** 0 of 1,500 to the planted text. One-sided Fisher, p = 1.0.
+- The 5 base matches are boilerplate: three copies of a Java `Scanner` template, a time-formatting snippet and a counting sequence (read after scoring).
+- `score.py tables` was rerun with the frozen scorer (identical to `analysis-frozen`). Only RA's H2 line changed.
+- The same run is now also the reproduction's RA row: `results/olmo-7b/ra/` is byte-identical to it. (Ishaan)
+
+**D-63 — LIMITATION of D-55's H2: the two sides search very different amounts of text, and many base-side matches are repeated templates. Both pull against H2. Recorded 2026-10-16, after scoring; changes no test.**
+- **Amount of text searched:** a post-trained match must come from the planted documents of 70 people per seed. A base match can come from anywhere in Dolma, about 2.3 trillion tokens of web text full of licences, lists and boilerplate. So a base generation is far more likely to match something, and H2 failing is partly built into the comparison. This is separate from D-58's points, which favour H2.
+- **What base OLMo's RWA matches are:** of its 41, roughly half are instruction-dataset templates built from Wikipedia ("Pick one category for the following text. The options are - company, educational institution, …"). Most of the rest are reference lists, stub-article boilerplate and number runs; about 8 are ordinary prose. This is a rough sort, by keyword and by reading, not a hand check.
+  - These templates come from Flan, which Dolma 1.7 added (about 1% of OLMo-0424's training). It is not in Dolma 1.6's source table; Dolma 1.5, which the original OLMo-7B used, has no table on the dataset page.
+  - So the base side's high RWA rate reflects what is repeated in this version of Dolma, not only the attack.
+- *Consequence:* the report states F-10 as "the post-trained models surfaced their planted data less often than base OLMo surfaced Dolma", with these caveats and D-58's next to it, not as "post-training data is harder to extract". (Ishaan)

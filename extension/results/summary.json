@@ -1023,11 +1023,10 @@
    "post_hits": 0,
    "post_n": 1500,
    "post_confirmed": 0,
-   "base_pretrain_hits": 0,
-   "base_n": 0,
-   "p": null,
-   "holds": null,
-   "note": "pending: base matches has 0 of 500 rows"
+   "base_pretrain_hits": 5,
+   "base_n": 500,
+   "p": 1.0,
+   "holds": false
   },
   "ea_sample": {
    "post_hits": 0,

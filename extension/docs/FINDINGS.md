@@ -2,10 +2,11 @@
 
 What we've found so far, in short. Each finding cites the DECISIONS.md entry with the full numbers. Updated whenever a new result comes in; a finding that turns out wrong is corrected here and the correction is logged in DECISIONS.md.
 
-Status (2026-10-13): everything is done except RA's H2.
+Status (2026-10-16): everything is done.
 - Training, the four pre-attack checks and all attack generations are done.
 - Scoring used the frozen scorer (tag `analysis-frozen`), and the hand check is finished.
-- **H1 fails, and H2 fails for every attack scored so far** (F-8 to F-11). RA's H2 waits on the reproduction team matching base OLMo's corrected-prompt RA run.
+- **H1 fails, and H2 fails for all five attacks** (F-8 to F-11).
+- Figures: `results/figures/`, made by `pipeline/figures.py`.
 
 ## Training and checks
 
@@ -77,14 +78,18 @@ Held-out people at 0% show a hit can't come from guessing.
 
   | Attack | Post-trained | Base OLMo |
   |---|---|---|
+  | RA | 0 / 1,500 | 5 / 500 |
   | RSA | 0 / 1,500 | 28 / 500 |
   | RWA | 22 / 1,500 | 41 / 500 |
   | EA | 0 / 1,500 | 0 / 500 |
   | CIA | 0 / 300 | 10 / 500 |
 
-  All p = 1.0.
+  All p = 1.0. RA's base side is the corrected-prompt run, matched 2026-10-16 (D-62).
 - This holds even though both of D-58's biases favour H2.
-- RA is pending.
+- *Caveats that pull the other way* (D-63):
+  - the base side searches all of Dolma, the post-trained side only the planted documents, so a base match is far easier to get
+  - about half of base OLMo's RWA matches are repeated instruction-data templates (Flan, new in Dolma 1.7), not ordinary text
+- So state it as "the post-trained models surfaced their planted data less often than base OLMo surfaced Dolma", not "post-training data is harder to extract".
 
 **F-11. Leaks follow prompts that resemble the planted text, not confusion** (D-60; read from the hits, not tested).
 - Nearly every leak comes after a prompt that looks like one of PANORAMA's genres. RWA's Wikipedia snippets ("(born", "Biography\nBorn") turn into memorized PANORAMA biographies, and forum-post or sale-listing openings carry the identifiers.

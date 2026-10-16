@@ -38,6 +38,6 @@ vs rsa p=0.963, vs rwa p=0.95, vs ra p=0.963, vs ea_sample p=0.943. Holds: False
 
 - **rsa**: post-trained 0/1500 (confirmed 0), base 28/500, p=1.0. Holds: False
 - **rwa**: post-trained 22/1500 (confirmed 19), base 41/500, p=1.0. Holds: False
-- **ra**: post-trained 0/1500 (confirmed 0), base 0/0, p=None. Holds: None (pending: base matches has 0 of 500 rows)
+- **ra**: post-trained 0/1500 (confirmed 0), base 5/500, p=1.0. Holds: False
 - **ea_sample**: post-trained 0/1500 (confirmed 0), base 0/500, p=1.0. Holds: False
 - **cia**: post-trained 0/300 (confirmed 0), base 10/500, p=1.0. Holds: False
