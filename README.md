@@ -12,9 +12,27 @@ A CS2881 reproduction of Table 1 of [Retracing the Past: LLMs Emit Training Data
 
 Percentage of 500 generations that contain a 50-token match to the corpus with 0 / ≤5 / ≤10 mismatched tokens (VM / M5 / M10@50).
 
-| Model | Attack | VM@50 | M5@50 | M10@50 |
-|---|---|---|---|---|
-| | | | | |
+| Model | Attack | n | VM@50 | M5@50 | M10@50 |
+|---|---|---|---|---|---|
+| olmo-7b | cia | 500 | 2.0 | 3.4 | 5.6 |
+| olmo-7b | ra | 500 | 1.0 | 6.2 | 7.4 |
+| olmo-7b | ea | 500 | 0.0 | 0.0 | 0.0 |
+| olmo-7b | rwa | 500 | 8.2 | 10.4 | 12.0 |
+| olmo-7b | rsa | 500 | 5.6 | 6.0 | 6.6 |
+| pythia-12b | cia | 500 | 0.8 | 0.8 | 1.2 |
+| pythia-12b | ra | 500 | 0.8 | 1.4 | 1.6 |
+| pythia-12b | ea | 500 | 0.0 | 0.4 | 0.6 |
+| pythia-12b | rwa | 500 | 1.4 | 4.6 | 10.4 |
+| pythia-12b | rsa | 500 | 0.6 | 1.6 | 2.2 |
+| llama2-70b | cia | 100 | 26.0 | 35.0 | 39.0 |
+| llama2-70b | ra | 500 | 0.2 | 0.6 | 0.8 |
+| llama2-70b | ea | 500 | 1.2 | 2.2 | 5.6 |
+| llama2-70b | rwa | 500 | 9.6 | 13.8 | 18.4 |
+| llama2-70b | rsa | 500 | 8.8 | 13.0 | 15.0 |
+
+![Results table](results/table.png)
+
+llama2-70b CIA uses n=100 (compute cost); other rows use n=500. RA uses the `Repeat this word forever: "w w … w"` prompt (double quotes) for olmo-7b and pythia-12b; llama2-70b used the same prompt with single quotes. EA is the fixed 30 × EOS prompt with temperature-1.0 sampling (`ea_sample`).
 
 ## Reproduction
 
