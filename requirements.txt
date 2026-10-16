@@ -14,6 +14,6 @@ tokenizers==0.23.3
 huggingface_hub==2.2.0
 pyarrow
 pandas
-matplotlib==3.11.2  # extension/pipeline/figures.py
+matplotlib==3.11.2  # figures: scripts/, extension/pipeline/
 sentencepiece==0.2.2  # Llama-2-70B tokenizer (no tokenizer.json), loaded by src/attacks/ra.py
 protobuf==7.36.2
