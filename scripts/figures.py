@@ -1,10 +1,11 @@
-"""python -m scripts.figures: the reproduction's figures. Writes results/figures/repro_fig{1,2,3}_*.{png,pdf}.
+"""python -m scripts.figures: the reproduction's figures. Writes results/figures/repro_fig*.{png,pdf}.
 
 Reads only results/{model}/{attack}/ (prompts.jsonl for CIA's entropies, matches.jsonl for everything else; `div`
 there is whole-generation token diversity in the model's own tokenizer). EA is ea_sample, as in the main table.
 Figures carry no title; captions go in the report.
 1. VM@50 per attack, the paper's Table 1 next to ours, for the two models we share with it.
-2. CIA against RSA (its unoptimized start) by model: entropy reached, outputs that don't collapse, VM@50.
+2a-c. CIA against RSA (its unoptimized start) by model, one figure each: entropy reached, outputs that don't
+   collapse, VM@50.
 3. The paper's Figure 3 with our data: share of generations at or above each diversity threshold.
 """
 
@@ -73,31 +74,33 @@ def fig1_paper_vs_ours():
 
 
 def fig2_cia_by_model():
+    """Three separate figures, each CIA against RSA (its unoptimized start) on every model."""
     x, w = np.arange(len(MODELS)), 0.38
-    fig, (a, b, c) = plt.subplots(1, 3, figsize=(12, 3.2))
     before, after = [], []
     for m in MODELS:
         p = rows(m, "cia", "prompts")
         for out, key in ((before, "init_entropy"), (after, "entropy")):
             v = np.array([r[key] for r in p])
             out.append((v.mean(), (1.96 * v.std() / math.sqrt(len(v)),) * 2))
-    bars(a, x - w / 2, before, w, BLACK, "random start (RSA)")
-    bars(a, x + w / 2, after, w, DARK, "after optimization (CIA)")
-    a.set(ylabel="snippet entropy (nats)", ylim=(0, 11))
-    a.legend(loc="lower left", bbox_to_anchor=(0, 1.0), ncol=2)
-    for ax, test, label in ((b, lambda r: r["div"] >= 0.1, "generations not collapsed\ninto repetition (%)"),
-                            (c, lambda r: r["M0@50"], "generations with a 50-token\nexact match (%)")):
-        for i, (attack, color, name) in enumerate((("rsa", BLACK, "RSA"), ("cia", DARK, "CIA"))):
+    fig, ax = plt.subplots(figsize=(5, 3.2))
+    bars(ax, x - w / 2, before, w, BLACK, "random start (RSA)")
+    bars(ax, x + w / 2, after, w, DARK, "after optimization (CIA)")
+    ax.set_xticks(x, list(MODELS.values()))
+    ax.set(ylabel="snippet entropy (nats)", ylim=(0, 11))
+    ax.legend(loc="lower left", bbox_to_anchor=(0, 1.0), ncol=2)
+    save(fig, "repro_fig2a_entropy")
+
+    for name, test, label, ylim in (
+            ("repro_fig2b_collapse", lambda r: r["div"] >= 0.1, "generations not collapsed\ninto repetition (%)", 100),
+            ("repro_fig2c_leaks", lambda r: r["M0@50"], "generations with a 50-token\nexact match (%)", 40)):
+        fig, ax = plt.subplots(figsize=(5, 3.2))
+        for i, (attack, color, attack_name) in enumerate((("rsa", BLACK, "RSA"), ("cia", DARK, "CIA"))):
             vals = [rate_ci(sum(map(test, rs)), len(rs)) for rs in (rows(m, attack) for m in MODELS)]
-            bars(ax, x + (i - 0.5) * w, vals, w, color, name)
-        ax.set(ylabel=label)
-    b.set_ylim(0, 100)
-    c.set_ylim(0, 40)
-    b.legend(loc="upper left")
-    for ax in (a, b, c):
+            bars(ax, x + (i - 0.5) * w, vals, w, color, attack_name)
         ax.set_xticks(x, list(MODELS.values()))
-    fig.tight_layout(w_pad=1.5)
-    save(fig, "repro_fig2_cia_by_model")
+        ax.set(ylabel=label, ylim=(0, ylim))
+        ax.legend(loc="upper left")
+        save(fig, name)
 
 
 def fig3_diversity():
