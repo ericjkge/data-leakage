@@ -26,7 +26,7 @@ $ python3 -c "from huggingface_hub import hf_hub_download as d; p=d(\"allenai/do
 2419 https://olmo-data.org/dolma-v1_7/books/books-0000.json.gz
 ```
 
-Checked 2026-10-11. On the same day, a size request for every file returned 4,507.6 GB in total, matching the README's "4.5 TB". The source proportions in D-11 are copied from the same README's v1.7 table. **Weak point:** the files are hosted on AI2's own server, not on HuggingFace, so the revision pins the list but not the files. `data/selection/dolma.json`'s fingerprint is what catches a change.
+Checked 2026-10-11. On the same day, a size request for every file returned 4,507.6 GB in total, matching the README's "4.5 TB". The source proportions in D-11 are copied from the same README's v1.7 table. **Weak point:** the files are hosted on AI2's own server, not on HuggingFace, so the revision pins the list but not the files. `data/dolma.json`'s fingerprint is what catches a change.
 
 ## I-03 — OLMo-7B-0424 tokenizer, `allenai/OLMo-7B-0424-hf` at revision `e3c82a08…`
 

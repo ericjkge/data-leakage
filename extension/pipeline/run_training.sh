@@ -13,9 +13,9 @@ export HF_HOME=${HF_HOME:-/workspace/.cache/huggingface}
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 echo "=== $(date)  HF_REPO=${HF_REPO:-<not set: adapters stay on this pod only>}"
 
-[ -f extension/data/dolma/replay.jsonl ] || $PY -m extension.pipeline.fetch_dolma   # stops if it differs from selection/dolma.json
+[ -f extension/data/dolma/replay.jsonl ] || $PY -m extension.pipeline.fetch_dolma   # stops if it differs from extension/data/dolma.json
 for s in 0 1 2; do
-  [ -f extension/data/seed_$s/train.jsonl ] || $PY -m extension.pipeline.build_data --seed $s   # stops if it differs from selection/seed_$s/build.json
+  [ -f extension/data/seed_$s/train.jsonl ] || $PY -m extension.pipeline.build_data --seed $s   # stops if it differs from extension/data/seed_$s/build.json
 done
 
 if [ ! -f extension/results/training/trial/run.json ]; then

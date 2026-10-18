@@ -13,12 +13,12 @@ The procedure: what gets built and run, in what order, and how long it takes.
 ## 1. Data (D-09 to D-15, D-43, D-48) — done
 - **Dolma text, shared by all seeds:** `python -m extension.pipeline.fetch_dolma`.
   - Streams 8.2 million tokens of Dolma v1.7 in OLMo's training proportions.
-  - Writes `data/dolma/replay.jsonl` (not committed) and `data/selection/dolma.json` (committed: which documents were picked, plus a fingerprint).
+  - Writes `data/dolma/replay.jsonl` (not committed) and `data/dolma.json` (committed: which documents were picked, plus a fingerprint).
 - **Each seed's training text:** `python -m extension.pipeline.build_data --seed s`, for s = 0, 1, 2.
   1. Draws 100 of the 284 eligible people with seed s.
   2. Assigns them in blocks of 10 to held out (30) or 1, 5, 25, 100 copies (20, 20, 20, 10).
   3. Scatters the copies of their documents among the Dolma documents.
-  4. Writes `data/seed_s/train.jsonl` (not committed), plus `data/selection/seed_s/people.json` and `build.json` (committed).
+  4. Writes `data/seed_s/train.jsonl` (not committed), plus `data/seed_s/people.json` and `build.json` (committed).
 - **Both commands stop with an error if:**
   - a rebuild doesn't match its committed fingerprint
   - a planted identifier appears in the Dolma text

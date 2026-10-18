@@ -258,7 +258,7 @@ Any later change is a new entry here, and the frozen version's numbers are repor
 - *Stated:* GPU training and generation aren't identical bit for bit when rerun, only equivalent.
 
 **D-37 — Downloads, built training files and trained models are not committed; results are.**
-- `extension/data/` (apart from `data/selection/`) and the adapter weights in `extension/results/training/` are in `.gitignore`. They're large and can be rebuilt.
+- `extension/data/`'s downloads and built training text (everything but the `.json` manifests) and the adapter weights in `extension/results/training/` are in `.gitignore`. They're large and can be rebuilt.
 - `extension/results/` is committed, like the reproduction's `reproduction/results/`.
 - `REVIEW_NOTES.md` stays on Ishaan's machine only (temporary notes).
 

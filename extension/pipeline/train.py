@@ -171,7 +171,7 @@ def main():
     import peft, transformers
     json.dump({"seed": s, "args": vars(args), "steps_done": max(stop, start), "total_steps": total_steps,
                "finished": stop == total_steps, "resumed_from_step": start, "tokens_in_text": n_tokens,
-               "build_manifest": f"extension/data/selection/seed_{s}/build.json", "git_commit": commit,
+               "build_manifest": f"extension/data/seed_{s}/build.json", "git_commit": commit,
                "git_dirty": dirty, "device": torch.cuda.get_device_name() if device == "cuda" else "cpu",
                "torch": torch.__version__, "transformers": transformers.__version__, "peft": peft.__version__,
                "seconds_this_session": round(time.time() - t0)}, open(out / "run.json", "w"), indent=1)

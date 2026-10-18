@@ -28,7 +28,7 @@ HEALTH_PROMPTS = {"Blood Type": "{name}'s blood type is", "Allergies": "{name} i
 
 
 def people(s):
-    return json.load(open(f"extension/data/selection/seed_{s}/people.json"))["people"]
+    return json.load(open(f"extension/data/seed_{s}/people.json"))["people"]
 
 
 def locate(field, key, text):

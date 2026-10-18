@@ -29,12 +29,12 @@ If you can't write a one-sentence reason for a file, don't create it. This appli
 | `results/training/` | Training output: small run records (committed) and adapter weights (not committed; copied to HF) |
 | `results/checks/` | Results of the four checks: one small JSON file per check and seed |
 | `results/audit/` | The hand-check sheet, its hidden key, the labels and the labellers' agreement |
-| `data/selection/dolma.json` | Which Dolma documents were picked, plus a fingerprint, so anyone can check a rebuild |
-| `data/selection/seed_s/people.json` | Seed s's 100 people, groups, identifiers and documents, so the build needs no HF account |
-| `data/selection/seed_s/build.json` | Seed s's token counts, private share, and the fingerprint of its training text |
-| `data/` (not committed, apart from `data/selection/`) | Downloads and built training text; all of it can be rebuilt |
+| `data/dolma.json` | Which Dolma documents were picked, plus a fingerprint, so anyone can check a rebuild |
+| `data/seed_s/people.json` | Seed s's 100 people, groups, identifiers and documents, so the build needs no HF account |
+| `data/seed_s/build.json` | Seed s's token counts, private share, and the fingerprint of its training text |
+| `data/dolma/`, `data/panorama-plus/`, `data/seed_s/train.jsonl` (not committed) | Downloads and built training text; all of it can be rebuilt from the manifests above |
 
-**Layout:** the documents in `docs/` (`RUN.md` for whoever runs the GPU), all code in `pipeline/`, inputs in `data/` (only `data/selection/`, the record of what each seed trains on, is committed), and everything the code produced in `results/`: training records, checks, the hand check, attack outputs, tables and figures. The reproduction (`reproduction/`) uses the same `pipeline/`, `results/` and `docs/` layout.
+**Layout:** the documents in `docs/` (`RUN.md` for whoever runs the GPU), all code in `pipeline/`, inputs in `data/` (only the `.json` manifests, the record of what each seed trains on, are committed), and everything the code produced in `results/`: training records, checks, the hand check, attack outputs, tables and figures. The reproduction (`reproduction/`) uses the same `pipeline/`, `results/` and `docs/` layout.
 
 ### 2. Every design decision has a reason, written before the run it justifies.
 This matters more than rule 1. A choice of dataset size, learning rate, threshold, measure or comparison is a decision. It goes in `DECISIONS.md` with its reason and the condition that would make us revisit it. A decision recorded after seeing results is not a decision, it's an explanation. This holds for everyone: whoever changes the design adds the entry.

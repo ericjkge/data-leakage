@@ -2,11 +2,11 @@
 
     python -m extension.pipeline.build_data --seed 0
 
-If extension/data/selection/seed_{s}/people.json exists (it is committed), the people and their documents come from it,
+If extension/data/seed_{s}/people.json exists (it is committed), the people and their documents come from it,
 so no HuggingFace account is needed. Otherwise they are drawn from the local PANORAMA-Plus download (D-13, D-14,
 D-15) and that file is written. Needs extension/data/dolma/replay.jsonl (python -m extension.pipeline.fetch_dolma).
 
-Writes extension/data/seed_{s}/train.jsonl (not committed) and extension/data/selection/seed_{s}/build.json (committed).
+Writes extension/data/seed_{s}/train.jsonl (not committed) and extension/data/seed_{s}/build.json (committed).
 Rerunning rebuilds the same file; if the manifest exists and the new file's hash differs, it stops.
 """
 
@@ -78,7 +78,7 @@ def main():
     p.add_argument("--seed", type=int, required=True)
     s = p.parse_args().seed
 
-    subset_path = Path(f"extension/data/selection/seed_{s}/people.json")
+    subset_path = Path(f"extension/data/seed_{s}/people.json")
     subset_path.parent.mkdir(parents=True, exist_ok=True)
     if subset_path.exists():
         people = json.load(open(subset_path))["people"]
@@ -126,7 +126,7 @@ def main():
         for row in rows:
             f.write(json.dumps(row) + "\n")
     sha = hashlib.sha256(tmp.read_bytes()).hexdigest()
-    manifest_path = Path(f"extension/data/selection/seed_{s}/build.json")
+    manifest_path = Path(f"extension/data/seed_{s}/build.json")
     if manifest_path.exists() and json.load(open(manifest_path))["sha256"] != sha:
         raise SystemExit(f"rebuilt file differs from {manifest_path} (sha256 {sha}); left at {tmp}")
     tmp.replace(out)

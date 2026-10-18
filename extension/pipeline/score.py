@@ -42,7 +42,7 @@ def model_name(s):
 
 
 def people(s):
-    return json.load(open(f"extension/data/selection/seed_{s}/people.json"))["people"]
+    return json.load(open(f"extension/data/seed_{s}/people.json"))["people"]
 
 
 def read_jsonl(path):
@@ -407,7 +407,7 @@ def fresh_dolma(n_files=20, per_file=100):
     from extension.pipeline.fetch_dolma import DOLMA_REV, read_first
     urls = [u.strip() for u in open(hf_hub_download("allenai/dolma", "urls/v1_7.txt", repo_type="dataset",
                                                     revision=DOLMA_REV)) if u.strip()]
-    used = set(json.load(open("extension/data/selection/dolma.json"))["docs_by_file"])
+    used = set(json.load(open("extension/data/dolma.json"))["docs_by_file"])
     files = random.Random("score-selftest").sample(sorted(set(urls) - used), n_files)
     docs = [d["text"] for u in files for d in read_first(u, per_file)]
     path.parent.mkdir(parents=True, exist_ok=True)

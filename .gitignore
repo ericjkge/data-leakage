@@ -5,8 +5,9 @@ cache/
 .DS_Store
 .claude/settings.local.json
 
-# extension: downloads and built training text are rebuilt from extension/data/selection/; trained weights go to HF
-extension/data/*
-!extension/data/selection/
+# extension: downloads and built training text are rebuilt from the committed manifests in extension/data/; trained weights go to HF
+extension/data/dolma/
+extension/data/panorama-plus/
+extension/data/seed_*/train.*
 extension/results/training/**/*.safetensors
 extension/results/training/**/checkpoint-*/

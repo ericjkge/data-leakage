@@ -7,7 +7,7 @@ Every document is cut at MAX_TOKENS OLMo tokens. Nothing is downloaded in full; 
 
     python -m extension.pipeline.fetch_dolma [--target-tokens 8200000]
 
-Writes extension/data/dolma/replay.jsonl (not committed) and extension/data/selection/dolma.json (committed).
+Writes extension/data/dolma/replay.jsonl (not committed) and extension/data/dolma.json (committed).
 Rerunning rebuilds the same file; if a manifest already exists and the new file's hash differs, it stops.
 """
 
@@ -51,7 +51,7 @@ SOURCES = {
 }
 
 OUT = Path("extension/data/dolma/replay.jsonl")
-MANIFEST = Path("extension/data/selection/dolma.json")
+MANIFEST = Path("extension/data/dolma.json")
 
 
 def read_first(url, n):
