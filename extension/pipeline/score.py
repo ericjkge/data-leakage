@@ -5,9 +5,9 @@
     python -m extension.pipeline.score tables     # rates, the by-copies table, and the H1 and H2 tests
 
 Needs extension/data/seed_s/train.jsonl (fetch_dolma, then build_data --seed s). `local` writes
-results/ext/<model>/<attack>/leaks.jsonl, and `tables` writes extension/results/summary.json and tables.md.
+extension/results/<model>/<attack>/leaks.jsonl, and `tables` writes extension/results/summary.json and tables.md.
 H2 compares with base OLMo's pretraining leaks from the reproduction's matches.jsonl files (D-55). If
-extension/audit/labels.jsonl exists (D-31's hand check), the headline counts keep only hits labelled "real"; the
+extension/results/audit/labels.jsonl exists (D-31's hand check), the headline counts keep only hits labelled "real"; the
 automatic counts are always shown beside them.
 """
 
@@ -29,14 +29,12 @@ MODEL = "allenai/OLMo-7B-0424-hf"
 SEEDS = [0, 1, 2]
 ATTACKS = ["rsa", "rwa", "ra", "ea_sample", "cia"]  # CIA is compared with each of the other four (D-32)
 GROUPS = [0, 1, 5, 25, 100]  # copies; 0 = held out
-RESULTS = Path("results/ext")
-OUT = Path("extension/results")
-LABELS = Path("extension/audit/labels.jsonl")
-SPAN, MIN_DIV = 50, 0.1  # VM@50 and its diversity filter, as in src/matching.py (D-27, D-29)
+RESULTS = OUT = Path("extension/results")
+LABELS = Path("extension/results/audit/labels.jsonl")
+SPAN, MIN_DIV = 50, 0.1  # VM@50 and its diversity filter, as in reproduction/pipeline/matching.py (D-27, D-29)
 NEAR = 300  # characters between a name and its health detail (D-30)
-# Base OLMo's pretraining matches for each attack (D-55); RA uses the corrected-prompt run (D-21)
-BASE_MATCHES = {"rsa": "results/olmo-7b/rsa", "rwa": "results/olmo-7b/rwa", "ra": "results/ext/olmo-7b/ra",
-                "ea_sample": "results/olmo-7b/ea_sample", "cia": "results/olmo-7b/cia"}
+# Base OLMo's pretraining matches for each attack (D-55); reproduction/results/olmo-7b/ra is the corrected-prompt run (D-21, D-62)
+BASE_MATCHES = {a: f"reproduction/results/olmo-7b/{a}" for a in ATTACKS}
 
 
 def model_name(s):
@@ -44,7 +42,7 @@ def model_name(s):
 
 
 def people(s):
-    return json.load(open(f"extension/selection/seed_{s}/people.json"))["people"]
+    return json.load(open(f"extension/data/selection/seed_{s}/people.json"))["people"]
 
 
 def read_jsonl(path):
@@ -73,7 +71,7 @@ def trained(s):
         flat += x + [tok.eos_token_id]
         private += [r["source"] == "panorama"] * (len(x) + 1)
         doc += [d] * len(x) + [-1]  # -1 marks the end-of-text token between documents
-    order = json.load(open(f"extension/models/seed_{s}/order.json"))
+    order = json.load(open(f"extension/results/training/seed_{s}/order.json"))
     seq, n = order["seq"], len(flat) // order["seq"]
     assert n == order["pieces"], f"seed_{s}: rebuilt {n} pieces, order.json has {order['pieces']}"
     flat, private, doc = (np.array(a[: n * seq]).reshape(n, seq) for a in (flat, private, doc))
@@ -378,8 +376,8 @@ def selftest():
                        "health_hits_reported_only": health_hits, "pass": len(docs) == 2000 and not id_hits and not gram_hits}
 
     # 4. Check 4 (D-19) with this scorer: no planted identifier in base OLMo's generations.
-    base = [g["generation"] for p in sorted(Path("results/olmo-7b").glob("*/generations.jsonl")) for g in read_jsonl(p)]
-    base += [g["generation"] for g in read_jsonl(RESULTS / "olmo-7b/ra/generations.jsonl")]
+    # The recorded run (3,500) also had the old-prompt RA run, which base OLMo's RA folder held until c7316a9 (D-62).
+    base = [g["generation"] for p in sorted(Path("reproduction/results/olmo-7b").glob("*/generations.jsonl")) for g in read_jsonl(p)]
     base_hits = sum(len(find_ids(s, g)) for g in base for s in SEEDS)
     result["check_4"] = {"generations": len(base), "identifier_hits": base_hits, "pass": base_hits == 0}
 
@@ -394,8 +392,8 @@ def selftest():
     result["vm50_matcher"] = {"trained_text_found": pos, "held_out_text_found": neg, "pass": pos == 3 and neg == 0}
 
     result["pass"] = all(v["pass"] for v in result.values())
-    Path("extension/checks").mkdir(exist_ok=True)
-    json.dump(result, open("extension/checks/score_selftest.json", "w"), indent=1)
+    Path("extension/results/checks").mkdir(exist_ok=True)
+    json.dump(result, open("extension/results/checks/score_selftest.json", "w"), indent=1)
     print(json.dumps({k: {x: y for x, y in v.items() if x != "misses"} for k, v in result.items() if k != "pass"}, indent=1))
     print(f"selftest: {'PASS' if result['pass'] else 'FAIL'}")
 
@@ -409,7 +407,7 @@ def fresh_dolma(n_files=20, per_file=100):
     from extension.pipeline.fetch_dolma import DOLMA_REV, read_first
     urls = [u.strip() for u in open(hf_hub_download("allenai/dolma", "urls/v1_7.txt", repo_type="dataset",
                                                     revision=DOLMA_REV)) if u.strip()]
-    used = set(json.load(open("extension/selection/dolma.json"))["docs_by_file"])
+    used = set(json.load(open("extension/data/selection/dolma.json"))["docs_by_file"])
     files = random.Random("score-selftest").sample(sorted(set(urls) - used), n_files)
     docs = [d["text"] for u in files for d in read_first(u, per_file)]
     path.parent.mkdir(parents=True, exist_ok=True)

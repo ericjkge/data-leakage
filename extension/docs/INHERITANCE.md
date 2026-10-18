@@ -26,7 +26,7 @@ $ python3 -c "from huggingface_hub import hf_hub_download as d; p=d(\"allenai/do
 2419 https://olmo-data.org/dolma-v1_7/books/books-0000.json.gz
 ```
 
-Checked 2026-10-11. On the same day, a size request for every file returned 4,507.6 GB in total, matching the README's "4.5 TB". The source proportions in D-11 are copied from the same README's v1.7 table. **Weak point:** the files are hosted on AI2's own server, not on HuggingFace, so the revision pins the list but not the files. `selection/dolma.json`'s fingerprint is what catches a change.
+Checked 2026-10-11. On the same day, a size request for every file returned 4,507.6 GB in total, matching the README's "4.5 TB". The source proportions in D-11 are copied from the same README's v1.7 table. **Weak point:** the files are hosted on AI2's own server, not on HuggingFace, so the revision pins the list but not the files. `data/selection/dolma.json`'s fingerprint is what catches a change.
 
 ## I-03 — OLMo-7B-0424 tokenizer, `allenai/OLMo-7B-0424-hf` at revision `e3c82a08…`
 
@@ -39,7 +39,7 @@ $ python3 -c "from huggingface_hub import hf_hub_download as d; from tokenizers 
 
 Checked 2026-10-11, with `tokenizers` 0.22.2 and again with 0.23.3 (the pinned version): same output.
 
-## I-04 — Base OLMo-7B attack results from our reproduction, `results/olmo-7b/` at commit `d8a69a6`
+## I-04 — Base OLMo-7B attack results from our reproduction, `reproduction/results/olmo-7b/` at commit `d8a69a6`
 
 Quoted in QUESTION.md and D-25 as our prior for H1, and used again by check 4 (D-19).
 
@@ -47,7 +47,7 @@ Quoted in QUESTION.md and D-25 as our prior for H1, and used again by check 4 (D
 $ python3 -c "
 import json
 for a in ['rwa','rsa','cia','ra','ea','ea_sample']:
-    r=[json.loads(l) for l in open(f'results/olmo-7b/{a}/matches.jsonl')]
+    r=[json.loads(l) for l in open(f'reproduction/results/olmo-7b/{a}/matches.jsonl')]
     print(a, len(r), round(100*sum(x['M0@50'] for x in r)/len(r),1))"
 rwa 500 8.2
 rsa 500 5.6
@@ -59,13 +59,13 @@ ea_sample 500 0.0
 
 Checked 2026-10-11. **Weak points, not fixed here:**
 - RA used the wrong prompt (D-21).
-- The matches include junk such as counting sequences and boilerplate (REVIEW_NOTES §3).
+- The matches include junk such as counting sequences and boilerplate (found by a hand review of the hits).
 
 So these numbers are the reproduction's as-is, not hand-confirmed.
 
 ## I-05 — OLMo-7B-0424 weights, `allenai/OLMo-7B-0424-hf` at revision `e3c82a08…`
 
-The model we post-train (D-04). Downloaded on the pod by `pipeline/setup_pod.sh`. These are the same weights the reproduction's `olmo-7b` uses (`configs/models.yaml`), now pinned to one revision.
+The model we post-train (D-04). Downloaded on the pod by `pipeline/setup_pod.sh`. These are the same weights the reproduction's `olmo-7b` uses (`reproduction/pipeline/models.yaml`), now pinned to one revision.
 
 ```
 $ curl -s "https://huggingface.co/api/models/allenai/OLMo-7B-0424-hf/tree/e3c82a0871580b424d74e68acee866bb007df7df"   (sizes and fingerprints, summarized)
@@ -80,7 +80,7 @@ total 27.6 GB
 
 Checked 2026-10-11. The download verifies these fingerprints automatically. **Weak point:** the reproduction's results (I-04) were made without a pinned revision; this revision is the latest on the date checked, so the two should be the same weights, but that isn't proven.
 
-## I-06 — The infini-gram service, index `v4_dolma-v1_7_llama`, through the reproduction's `src/matching.py` `query()`
+## I-06 — The infini-gram service, index `v4_dolma-v1_7_llama`, through the reproduction's `reproduction/pipeline/matching.py` `query()`
 
 Used by check 1 (D-52) to count planted text in Dolma v1.7. `query()` is the reproduction's cached, retrying client; the counts use the Llama-2 tokenizer, as every infini-gram index does.
 
@@ -100,8 +100,8 @@ $ .venv/bin/python -m extension.pipeline.checks benchmarks --seed -1
 {"model": "base", "mmlu_acc": 47.41, "arc_challenge_acc_norm": 44.88, "pass": true}
 ```
 
-Checked 2026-10-13 on an H100 (0-shot, lm-eval defaults). Raw outputs are in `extension/checks/lm_eval/`.
+Checked 2026-10-13 on an H100 (0-shot, lm-eval defaults). Raw outputs are in `extension/results/checks/lm_eval/`.
 
 ## Not yet inherited
 
-These will be added before first use: the reproduction's attack, generation and matching code (`src/`, `scripts/run.py`).
+These will be added before first use: the reproduction's attack, generation and matching code (`reproduction/`).

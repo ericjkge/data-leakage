@@ -1,7 +1,7 @@
 """Post-train OLMo-7B with LoRA on one seed's training text (extension/docs/PLAN.md, step 2; DECISIONS D-07, D-16, D-46, D-47, D-49).
 
     python -m extension.pipeline.train --seed 0                                            # the real run
-    python -m extension.pipeline.train --seed 0 --max-steps 5 --out extension/models/trial  # trial run
+    python -m extension.pipeline.train --seed 0 --max-steps 5 --out extension/results/training/trial  # trial run
 
 A plain loop, so every step can be read and defended:
 - Documents are joined with an end-of-text token and cut into 2,048-token pieces. The pieces are shuffled with
@@ -58,7 +58,7 @@ def main():
     p.add_argument("--seed", type=int, required=True)
     p.add_argument("--model", default=MODEL)
     p.add_argument("--revision", default=OLMO_REV)
-    p.add_argument("--out", default=None, help="default extension/models/seed_{seed}")
+    p.add_argument("--out", default=None, help="default extension/results/training/seed_{seed}")
     p.add_argument("--seq", type=int, default=2048)
     p.add_argument("--micro-batch", type=int, default=8)
     p.add_argument("--accum", type=int, default=4)
@@ -69,7 +69,7 @@ def main():
     p.add_argument("--max-steps", type=int, default=None, help="stop early (trial runs); the schedule is unchanged")
     args = p.parse_args()
     s = args.seed
-    out = Path(args.out or f"extension/models/seed_{s}")
+    out = Path(args.out or f"extension/results/training/seed_{s}")
     out.mkdir(parents=True, exist_ok=True)
     device = "cuda" if torch.cuda.is_available() else "cpu"
     rev = args.revision if args.model == MODEL else None
@@ -171,7 +171,7 @@ def main():
     import peft, transformers
     json.dump({"seed": s, "args": vars(args), "steps_done": max(stop, start), "total_steps": total_steps,
                "finished": stop == total_steps, "resumed_from_step": start, "tokens_in_text": n_tokens,
-               "build_manifest": f"extension/selection/seed_{s}/build.json", "git_commit": commit,
+               "build_manifest": f"extension/data/selection/seed_{s}/build.json", "git_commit": commit,
                "git_dirty": dirty, "device": torch.cuda.get_device_name() if device == "cuda" else "cpu",
                "torch": torch.__version__, "transformers": transformers.__version__, "peft": peft.__version__,
                "seconds_this_session": round(time.time() - t0)}, open(out / "run.json", "w"), indent=1)

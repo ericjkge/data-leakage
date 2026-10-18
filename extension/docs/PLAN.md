@@ -3,7 +3,7 @@
 The procedure: what gets built and run, in what order, and how long it takes.
 - The reasons for every choice are in [DECISIONS.md](DECISIONS.md), cited as D-xx. If this file and DECISIONS.md ever disagree, DECISIONS.md wins, and this file gets fixed.
 - What we're testing is in [QUESTION.md](QUESTION.md).
-- The exact commands for the GPU pod are in [../RUN.md](../RUN.md).
+- The exact commands for the GPU pod are in [RUN.md](RUN.md).
 
 **Status (2026-10-13):**
 - Steps 1–4 are done: three seeds trained, all four checks pass (D-52), attack generations made (D-53).
@@ -13,12 +13,12 @@ The procedure: what gets built and run, in what order, and how long it takes.
 ## 1. Data (D-09 to D-15, D-43, D-48) — done
 - **Dolma text, shared by all seeds:** `python -m extension.pipeline.fetch_dolma`.
   - Streams 8.2 million tokens of Dolma v1.7 in OLMo's training proportions.
-  - Writes `data/dolma/replay.jsonl` (not committed) and `selection/dolma.json` (committed: which documents were picked, plus a fingerprint).
+  - Writes `data/dolma/replay.jsonl` (not committed) and `data/selection/dolma.json` (committed: which documents were picked, plus a fingerprint).
 - **Each seed's training text:** `python -m extension.pipeline.build_data --seed s`, for s = 0, 1, 2.
   1. Draws 100 of the 284 eligible people with seed s.
   2. Assigns them in blocks of 10 to held out (30) or 1, 5, 25, 100 copies (20, 20, 20, 10).
   3. Scatters the copies of their documents among the Dolma documents.
-  4. Writes `data/seed_s/train.jsonl` (not committed), plus `selection/seed_s/people.json` and `build.json` (committed).
+  4. Writes `data/seed_s/train.jsonl` (not committed), plus `data/selection/seed_s/people.json` and `build.json` (committed).
 - **Both commands stop with an error if:**
   - a rebuild doesn't match its committed fingerprint
   - a planted identifier appears in the Dolma text
@@ -40,7 +40,7 @@ The procedure: what gets built and run, in what order, and how long it takes.
 
 **Logging:** every 10 steps, the training loss on private and on Dolma text separately, with speed and GPU memory.
 
-**Output:** `models/seed_s/`. Committed: `run.json`, `train_log.jsonl`, `order.json`, `adapter_config.json`. Not committed: the 640 MB adapter weights, which go to a private HF repo. `order.json` says exactly which pieces were trained, so scoring can tell which identifiers the model actually saw.
+**Output:** `results/training/seed_s/`. Committed: `run.json`, `train_log.jsonl`, `order.json`, `adapter_config.json`. Not committed: the 640 MB adapter weights, which go to a private HF repo. `order.json` says exactly which pieces were trained, so scoring can tell which identifiers the model actually saw.
 
 **Checkpoints:** saved every 20 steps on the pod only. They're deleted once the seed finishes.
 
@@ -69,7 +69,7 @@ Same code and prompts as the reproduction, on each seed's model `olmo-7b-pano-se
 | EA | 500 | sampled, temperature 1 |
 | CIA, re-optimized on this model | 100 | greedy |
 
-CIA goes last, since it's the slowest. Outputs go to `results/ext/olmo-7b-pano-seed_s/` (D-53).
+CIA goes last, since it's the slowest. Outputs go to `extension/results/olmo-7b-pano-seed_s/` (D-53).
 
 ## 5. Scoring (D-26 to D-31)
 `pipeline/score.py` (details in D-54):
@@ -119,6 +119,6 @@ Each file is added to RULES.md's table when it's written.
 | `pipeline/score.py` | Finds leaks and runs the tests (steps 5–6) |
 | `pipeline/audit.py` | Builds the blind hand-check sheet (step 5) |
 | `pipeline/run_attacks.sh` | Runs the attacks for each seed on the pod (step 4) |
-| `src/models.py` (change) | Loads a model with its LoRA adapter |
-| `configs/models.yaml` (change) | Adds `olmo-7b-pano-seed_0/1/2` |
-| `src/attacks/ra.py` (change) | The paper's RA prompt (D-21) |
+| `reproduction/pipeline/models.py` (change) | Loads a model with its LoRA adapter |
+| `reproduction/pipeline/models.yaml` (change) | Adds `olmo-7b-pano-seed_0/1/2` |
+| `reproduction/pipeline/attacks/ra.py` (change) | The paper's RA prompt (D-21) |

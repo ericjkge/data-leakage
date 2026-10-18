@@ -3,8 +3,10 @@ __pycache__/
 *.pyc
 cache/
 .DS_Store
+.claude/settings.local.json
 
-# extension: downloads and built training text are rebuilt from extension/selection/; trained weights go to HF
-extension/data/
-extension/models/**/*.safetensors
-extension/models/**/checkpoint-*/
+# extension: downloads and built training text are rebuilt from extension/data/selection/; trained weights go to HF
+extension/data/*
+!extension/data/selection/
+extension/results/training/**/*.safetensors
+extension/results/training/**/checkpoint-*/

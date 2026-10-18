@@ -208,7 +208,7 @@ Matching rules:
 Only identifiers that are actually in the training text count, and only the generation is searched, never the prompt. *Why:* identifiers are random strings, so a match can't be a coincidence. This avoids the junk-match problem of the paper's measure (D-27).
 
 **D-27 — A pretraining leak uses the paper's measure: 50 consecutive tokens of the generation match Dolma exactly ("VM@50"), found with infini-gram.**
-This is the same code and the same diversity filter (≥ 0.1) as the reproduction, so the numbers compare directly with the base model's. *Weak point:* this measure counts junk such as counting sequences and repeated boilerplate (REVIEW_NOTES §3). D-31's hand check is there to catch it.
+This is the same code and the same diversity filter (≥ 0.1) as the reproduction, so the numbers compare directly with the base model's. *Weak point:* this measure counts junk such as counting sequences and repeated boilerplate, as a hand review of the reproduction's hits found. D-31's hand check is there to catch it.
 
 **D-28 — Matches to the Dolma text we re-showed during post-training are counted separately.**
 Those 7.2 million tokens were seen in both stages, so counting them as pretraining data would blur H2. A match goes in this third group if the matched text appears in any of the documents we re-showed.
@@ -258,8 +258,8 @@ Any later change is a new entry here, and the frozen version's numbers are repor
 - *Stated:* GPU training and generation aren't identical bit for bit when rerun, only equivalent.
 
 **D-37 — Downloads, built training files and trained models are not committed; results are.**
-- `extension/data/` and `extension/models/` are in `.gitignore`. They're large and can be rebuilt.
-- `extension/results/` is committed, like the reproduction's `results/`.
+- `extension/data/` (apart from `data/selection/`) and the adapter weights in `extension/results/training/` are in `.gitignore`. They're large and can be rebuilt.
+- `extension/results/` is committed, like the reproduction's `reproduction/results/`.
 - `REVIEW_NOTES.md` stays on Ishaan's machine only (temporary notes).
 
 **D-38 — Cut from earlier drafts, because they couldn't be explained simply or weren't needed (rules 5 and 6).**
@@ -404,15 +404,15 @@ These go into the limitations (D-39).
    - **Health:** one fixed sentence per field ("X's blood type is", "X is allergic to", "X has a disability:"), greedy, 16 tokens, matched with `pii.has_health`. Reported by group, not required.
    - *Not done:* restricting to identifiers in the pieces actually trained (D-50). This only affects a few 1-copy documents, not the 100-copy group the check is judged on.
 3. **Still answers questions:** `lm-evaluation-harness` 0.4.13 with its default settings (zero-shot), `mmlu` and `arc_challenge`, run on the base model and on each seed (the LoRA adapter loaded on the same bf16 base). The numbers compared are MMLU accuracy and ARC-Challenge normalized accuracy (`acc_norm`, the harness's usual headline for ARC). Pass: neither drops more than 2 points below the base model.
-4. **Scorer works:** every planted identifier of all three seeds (1,188, held out included) is searched in all 3,000 base-OLMo generations in `results/olmo-7b/` (six attacks × 500), generation text only. Pass if there are no hits.
+4. **Scorer works:** every planted identifier of all three seeds (1,188, held out included) is searched in all 3,000 base-OLMo generations in `reproduction/results/olmo-7b/` (six attacks × 500), generation text only. Pass if there are no hits.
 
-Results go in `extension/checks/` (committed). *Why written now:* D-19 left the probe length, prompt form, held-out threshold and benchmark metric open; they're fixed here before checks 2 and 3 run, so they can't be tuned on the outcome. (Anchal)
+Results go in `extension/results/checks/` (committed). *Why written now:* D-19 left the probe length, prompt form, held-out threshold and benchmark metric open; they're fixed here before checks 2 and 3 run, so they can't be tuned on the outcome. (Anchal)
 
 **D-53 — How the attacks (step 4) are run. Written with `pipeline/run_attacks.sh`, 2026-10-13, before any attack on the post-trained models.**
-1. **Models:** `olmo-7b-pano-seed_0/1/2` in `configs/models.yaml`. `src/models.py` loads each seed's LoRA adapter onto the same bf16 base OLMo and merges it, so attacks and generation run on one ordinary model.
-2. **Prompts (D-44):** RSA and RWA reuse the base model's 500 prompts from `results/olmo-7b/`, copied rather than redrawn, so they are identical by construction. RA's 500 prompts are rebuilt once with the D-21 form (`src/attacks/ra.py`, words as before) and shared by all models. EA is `src/attacks/ea_sample.py` with `--seed 0`, as in the reproduction. CIA optimizes 100 prompts per seed from the reproduction's starting seed (D-22).
+1. **Models:** `olmo-7b-pano-seed_0/1/2` in `reproduction/pipeline/models.yaml`. `reproduction/pipeline/models.py` loads each seed's LoRA adapter onto the same bf16 base OLMo and merges it, so attacks and generation run on one ordinary model.
+2. **Prompts (D-44):** RSA and RWA reuse the base model's 500 prompts from `reproduction/results/olmo-7b/`, copied rather than redrawn, so they are identical by construction. RA's 500 prompts are rebuilt once with the D-21 form (`reproduction/pipeline/attacks/ra.py`, words as before) and shared by all models. EA is `reproduction/pipeline/attacks/ea_sample.py` with `--seed 0`, as in the reproduction. CIA optimizes 100 prompts per seed from the reproduction's starting seed (D-22).
 3. **D-21's rerun:** base OLMo's RA is rerun with the corrected prompt in the same job, so base and seeds are compared on the same RA prompt.
-4. **Outputs:** `results/ext/<model>/<attack>/` (committed), apart from the reproduction's `results/`, which is left untouched. Only prompts and generations are made on the pod; all scoring (D-26 to D-31) happens after `analysis-frozen` (D-35).
+4. **Outputs:** `extension/results/<model>/<attack>/` (committed), apart from the reproduction's `reproduction/results/`, which is left untouched. Only prompts and generations are made on the pod; all scoring (D-26 to D-31) happens after `analysis-frozen` (D-35).
 5. **Hardware:** one pod with three H100s, one seed per GPU, to finish in about a third of the time at the same cost. With one GPU the script runs the seeds in turn.
 
 *Note:* PLAN.md step 7 put the scorer freeze before training. It didn't happen then. D-35's binding condition, frozen before anything is scored, still holds, since this step only generates text. (Anchal)
@@ -422,12 +422,12 @@ Results go in `extension/checks/` (committed). *Why written now:* D-19 left the 
 2. **The unit is the generation.** A generation leaks if it contains at least one hit of that kind. Every rate is hits / generations, with a 95% Wilson interval, per seed and attack.
 3. **Identifier leaks (D-26):** the `pii.has_id` rules, searched in the generation only. A trained identifier of a person with 1 or more copies is a leak. Held-out people's identifiers are reported as a control, not as leaks.
 4. **50-token matches to our planted documents (D-29):** every 50-token window of the generation (OLMo's tokenizer) that also occurs in the trained planted text. Overlapping windows are merged into one span, and a span counts if its diversity is at least 0.1, the reproduction's filter. Exact matches only (VM@50). Unlike the reproduction's matcher, which takes the longest match per candidate document, this finds every exact span; for a yes/no per generation the two agree.
-5. **Pretraining leaks (D-27):** the reproduction's `scripts.run --stage match`, unchanged; a leak is its `M0@50`. **Re-shown Dolma (D-28):** a generation with a 50-token exact match to the trained Dolma text, found the same way as point 4, is counted in the re-shown group, and its infini-gram match is not counted as pretraining. *Weak point:* a generation that contains both a re-shown match and a separate, original Dolma match is counted only as re-shown. This should be rare.
+5. **Pretraining leaks (D-27):** the reproduction's `reproduction.pipeline.run --stage match`, unchanged; a leak is its `M0@50`. **Re-shown Dolma (D-28):** a generation with a 50-token exact match to the trained Dolma text, found the same way as point 4, is counted in the re-shown group, and its infini-gram match is not counted as pretraining. *Weak point:* a generation that contains both a re-shown match and a separate, original Dolma match is counted only as re-shown. This should be rare.
 6. **Health (D-30):** the person's full name (any capitalization) and their own trained health detail (`pii.has_health`) with at most 300 characters between them. **Shuffled:** each person with a health detail gets another person's details instead, with no one keeping their own (seed s). The same check is run on the same generations, for people with 1 or more copies.
 7. **By copies (D-33):** the share of generations containing at least one trained identifier of a person in that group (any identifier, for held out), pooled over the three seeds.
 8. **H1 (D-32):** a one-sided Cochran–Mantel–Haenszel test with continuity correction and the seeds as strata, comparing CIA with each other attack. It is run twice: identifier leaks, and pretraining leaks excluding re-shown ones. H1 holds for a kind of data only if every one of the four tests gives p < 0.05.
 9. **H2 (D-32):** for each attack, all three seeds' generations pooled, an exact one-sided McNemar test of "planted 50-token match" against "pretraining 50-token match" on the same generations. Only generations whose infini-gram matching has finished are included.
-10. **Hand-check labels (D-31):** `extension/audit/labels.jsonl`, one row per hit (`hit_id`, `label`). Headline counts keep only hits labelled **real**. **Unsure** counts as not confirmed. Automatic counts are always shown beside them.
+10. **Hand-check labels (D-31):** `extension/results/audit/labels.jsonl`, one row per hit (`hit_id`, `label`). Headline counts keep only hits labelled **real**. **Unsure** counts as not confirmed. Automatic counts are always shown beside them.
 11. **Self-tests (D-35):**
     - every identifier, written 3–7 ways, is found
     - each identifier with one character changed is not found
@@ -435,7 +435,7 @@ Results go in `extension/checks/` (committed). *Why written now:* D-19 left the 
     - check 4, rerun with this scorer, including base OLMo's corrected RA
     - trained planted text is found by the 50-token matcher, and a held-out person's article is not
 
-    Results go in `extension/checks/score_selftest.json`. (Anchal)
+    Results go in `extension/results/checks/score_selftest.json`. (Anchal)
 
 **D-55 — Pretraining leaks are not measured on the post-trained models. H1 is tested for post-training data only, and H2 is replaced. Changes QUESTION.md's hypotheses; written 2026-10-13, before any post-trained generation was scored.**
 - **Dropped:** infini-gram matching of the post-trained models' generations (D-27), the re-shown Dolma group (D-28, D-54 point 5), H1's pretraining half, and the original H2 (D-32), which needed both kinds of data on the same generations.
@@ -443,8 +443,8 @@ Results go in `extension/checks/` (committed). *Why written now:* D-19 left the 
 - **H1 (post-training half only):** unchanged from D-32 and D-54. CIA must beat RSA, RWA, RA and EA at surfacing trained identifiers.
 - **New H2:** for each attack, the post-trained models reveal their post-training data more often than base OLMo reveals its pretraining data, both measured as 50-token exact matches.
   - **Post side:** generations from all three seeds with a 50-token match to the trained planted text (D-54 point 4).
-  - **Pretraining side:** the reproduction's base OLMo generations with VM@50 against Dolma, from `results/olmo-7b/<attack>/matches.jsonl`. The prompts are the same as the seeds' (D-44).
-  - **RA's base side** must use the corrected prompt (D-21). The base generations exist in `results/ext/olmo-7b/ra/`, and the reproduction team matches them there. Until that file covers all 500, RA's H2 is reported as pending.
+  - **Pretraining side:** the reproduction's base OLMo generations with VM@50 against Dolma, from `reproduction/results/olmo-7b/<attack>/matches.jsonl`. The prompts are the same as the seeds' (D-44).
+  - **RA's base side** must use the corrected prompt (D-21). The base generations exist in `reproduction/results/olmo-7b/ra/`, and the reproduction team matches them there. Until that file covers all 500, RA's H2 is reported as pending.
   - **Test:** a one-sided Fisher's exact test per attack, 5% level, on automatic counts. The base side has no hand check, so both sides are compared the same way. The hand-confirmed post-side count is shown beside it.
   - **Weak points:**
     - it compares different models
@@ -454,10 +454,10 @@ Results go in `extension/checks/` (committed). *Why written now:* D-19 left the 
 
 **D-56 — FINDING: training worked, and the model learned the planted documents word for word, but it can't answer questions about the health details in them. Recorded 2026-10-13, before any attack generation was scored.**
 
-*Training* (`models/seed_*/`; code identical to commit `e87cbde`):
+*Training* (`results/training/seed_*/`; code identical to commit `e87cbde`):
 - All three seeds ran all 157 steps with no restarts: about 24 minutes each on an H100, ~7,070 tokens/s, 32.5 GB peak memory.
 - Loss on the planted text fell from 2.35 to about 0.15. Loss on Dolma stayed flat at about 2.17.
-- `run.json` marks the code as "dirty" only because the run's own output files in `models/` were not yet committed.
+- `run.json` marks the code as "dirty" only because the run's own output files in `results/training/` were not yet committed.
 
 *Learned (check 2):* share of identifiers completed exactly from the text before them.
 
@@ -517,7 +517,7 @@ So pretraining leaks are undercounted relative to post-training leaks, on top of
 - **Automatic hits:** of 50, 45 real, 5 unsure, 0 false alarms.
 - **Missed leaks:** none among the 100 generations without an automatic hit.
 
-*Hand-confirmed leaks, all three seeds pooled* (per seed in `results/tables.md`):
+*Hand-confirmed leaks, all three seeds pooled* (per seed in `extension/results/tables.md`):
 
 | Attack | Generations | Trained identifier | 50-token match to planted text | Health |
 |---|---|---|---|---|
@@ -529,7 +529,7 @@ So pretraining leaks are undercounted relative to post-training leaks, on top of
 
 - **Held-out people:** no identifier of theirs appeared in any generation.
 - **Shuffled-health control:** 1 automatic hit, labelled unsure, so 0 confirmed.
-- **By copies:** 8 of the 10 identifier leaks are of people with 25 or 100 copies (`results/tables.md`).
+- **By copies:** 8 of the 10 identifier leaks are of people with 25 or 100 copies (`extension/results/tables.md`).
 
 *H1 (post-training data, D-55):* fails. CIA's rate is not higher than any other attack's (one-sided CMH: p = 0.963 vs RSA, 0.95 vs RWA, 0.963 vs RA, 0.943 vs EA).
 
@@ -553,14 +553,14 @@ RA is pending until the corrected-prompt base run is matched (D-55). Both of D-5
 
 **D-61 — Correction to FINDINGS.md F-7: the trained adapters are on Anchal's laptop, not on the GPU pod.**
 - Every pod was terminated after its results were copied back and checked (2026-10-13).
-- The three adapters (`models/seed_*/adapter_model.safetensors`, ~640 MB each, checksums checked against the pod) exist only on that laptop. There is still no HF upload.
+- The three adapters (`results/training/seed_*/adapter_model.safetensors`, ~640 MB each, checksums checked against the pod) exist only on that laptop. There is still no HF upload.
 - **Resolved the same day:** all three seed folders (adapters plus run records, no checkpoints) were uploaded to the private HF repo `anchalxy/olmo-pano-adapters`. Each `adapter_model.safetensors` matches the laptop copy by sha256. (Anchal)
 
-**D-62 — FINDING: RA's H2 also fails, so H2 fails for all five attacks. Recorded 2026-10-16, after the reproduction team matched base OLMo's corrected-prompt RA run (`results/ext/olmo-7b/ra/`; D-21, D-55).**
+**D-62 — FINDING: RA's H2 also fails, so H2 fails for all five attacks. Recorded 2026-10-16, after the reproduction team matched base OLMo's corrected-prompt RA run (`reproduction/results/olmo-7b/ra/`; D-21, D-55).**
 - **Base OLMo:** 5 of 500 RA generations have a 50-token match to Dolma (1.0%). **Post-trained:** 0 of 1,500 to the planted text. One-sided Fisher, p = 1.0.
 - The 5 base matches are boilerplate: three copies of a Java `Scanner` template, a time-formatting snippet and a counting sequence (read after scoring).
 - `score.py tables` was rerun with the frozen scorer (identical to `analysis-frozen`). Only RA's H2 line changed.
-- The same run is now also the reproduction's RA row: `results/olmo-7b/ra/` is byte-identical to it. (Ishaan)
+- The same run is now also the reproduction's RA row (`reproduction/results/olmo-7b/ra/`). (Ishaan)
 
 **D-63 — LIMITATION of D-55's H2: the two sides search very different amounts of text, and many base-side matches are repeated templates. Both pull against H2. Recorded 2026-10-16, after scoring; changes no test.**
 - **Amount of text searched:** a post-trained match must come from the planted documents of 70 people per seed. A base match can come from anywhere in Dolma, about 2.3 trillion tokens of web text full of licences, lists and boilerplate. So a base generation is far more likely to match something, and H2 failing is partly built into the comparison. This is separate from D-58's points, which favour H2.

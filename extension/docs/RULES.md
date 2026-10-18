@@ -1,13 +1,13 @@
 # Rules for the extension
 
-These apply to everything in `extension/`, and to any change to shared code (`src/`, `scripts/`, `configs/`) made for the extension.
+These apply to everything in `extension/`, and to any change to the reproduction's code (`reproduction/`) made for the extension.
 
 ### 1. Every file has a reason.
 If you can't write a one-sentence reason for a file, don't create it. This applies to data, code, figures and documents alike. The current files and their reasons:
 
 | File | Why it exists |
 |---|---|
-| `RUN.md` | The commands for whoever runs the GPU pod, and nothing else |
+| `docs/RUN.md` | The commands for whoever runs the GPU pod, and nothing else |
 | `docs/QUESTION.md` | What we're testing and what would prove it wrong, written before any run |
 | `docs/PLAN.md` | The procedure: what gets built and run, in what order, how long it takes |
 | `docs/FINDINGS.md` | The results so far in short, each pointing to the DECISIONS entry with the full numbers |
@@ -24,17 +24,17 @@ If you can't write a one-sentence reason for a file, don't create it. This appli
 | `pipeline/run_attacks.sh` | The one command that runs every attack on the pod (step 4, D-53) |
 | `pipeline/score.py` | Finds leaks and runs the tests (steps 5–6, D-54) |
 | `pipeline/audit.py` | Builds the blind hand-check sheet and reads the labels back (step 5, D-31, D-59) |
-| `pipeline/figures.py` | The three presentation figures, from committed results only (writes `results/figures/`) |
-| `audit/` | The hand-check sheet, its hidden key, the labels and the labellers' agreement |
-| `results/` | Leak rates, the by-copies table and the H1/H2 tests, written by `score.py tables` |
-| `selection/dolma.json` | Which Dolma documents were picked, plus a fingerprint, so anyone can check a rebuild |
-| `selection/seed_s/people.json` | Seed s's 100 people, groups, identifiers and documents, so the build needs no HF account |
-| `selection/seed_s/build.json` | Seed s's token counts, private share, and the fingerprint of its training text |
-| `checks/` | Results of the four checks: one small JSON file per check and seed |
-| `models/` | Training output: small run records (committed) and adapter weights (not committed; copied to HF) |
-| `data/` (not committed) | Downloads and built training text; all of it can be rebuilt |
+| `pipeline/figures.py` | The presentation figures and results table, from committed results only (writes `results/figures/`) |
+| `results/` | Leak rates, the by-copies table and the H1/H2 tests (`score.py tables`), the figures (`figures.py`), and each seed's attack prompts, generations and leaks (`<model>/<attack>/`) |
+| `results/training/` | Training output: small run records (committed) and adapter weights (not committed; copied to HF) |
+| `results/checks/` | Results of the four checks: one small JSON file per check and seed |
+| `results/audit/` | The hand-check sheet, its hidden key, the labels and the labellers' agreement |
+| `data/selection/dolma.json` | Which Dolma documents were picked, plus a fingerprint, so anyone can check a rebuild |
+| `data/selection/seed_s/people.json` | Seed s's 100 people, groups, identifiers and documents, so the build needs no HF account |
+| `data/selection/seed_s/build.json` | Seed s's token counts, private share, and the fingerprint of its training text |
+| `data/` (not committed, apart from `data/selection/`) | Downloads and built training text; all of it can be rebuilt |
 
-**Layout:** `RUN.md` at the top for whoever runs the GPU, the documents in `docs/`, all code in `pipeline/`, the committed record of what each seed trains on in `selection/`, and training output in `models/`.
+**Layout:** the documents in `docs/` (`RUN.md` for whoever runs the GPU), all code in `pipeline/`, inputs in `data/` (only `data/selection/`, the record of what each seed trains on, is committed), and everything the code produced in `results/`: training records, checks, the hand check, attack outputs, tables and figures. The reproduction (`reproduction/`) uses the same `pipeline/`, `results/` and `docs/` layout.
 
 ### 2. Every design decision has a reason, written before the run it justifies.
 This matters more than rule 1. A choice of dataset size, learning rate, threshold, measure or comparison is a decision. It goes in `DECISIONS.md` with its reason and the condition that would make us revisit it. A decision recorded after seeing results is not a decision, it's an explanation. This holds for everyone: whoever changes the design adds the entry.

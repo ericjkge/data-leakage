@@ -1,6 +1,6 @@
 """The blind hand check of every automatic hit (extension/docs/PLAN.md step 5; D-31, D-59).
 
-    python -m extension.pipeline.audit sheet     # writes extension/audit/sheet.csv to label, and key.json
+    python -m extension.pipeline.audit sheet     # writes extension/results/audit/sheet.csv to label, and key.json
     python -m extension.pipeline.audit collect   # reads the labelled sheet.csv; writes labels.jsonl and agreement.json
 
 The sheet has one row per automatic hit plus 100 random generations with no hit, in random order, with attack and
@@ -22,7 +22,7 @@ from extension.pipeline.checks import first_occurrence, locate
 from extension.pipeline.score import (ATTACKS, LABELS, RESULTS, SEEDS, grams, hit_id, model_name, people, read_jsonl,
                                       tokenizer)
 
-AUDIT = Path("extension/audit")
+AUDIT = Path("extension/results/audit")
 SHEET, KEY = AUDIT / "sheet.csv", AUDIT / "key.json"
 N_MISSES = 100  # random generations with no automatic hit, to catch missed leaks (D-31)
 N_DOUBLE = 50  # rows labelled by two people

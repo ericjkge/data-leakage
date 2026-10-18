@@ -1,5 +1,5 @@
 #!/bin/bash
-# One-time setup on a fresh GPU pod, run from the repo root (extension/RUN.md, step 2): a Python 3.12
+# One-time setup on a fresh GPU pod, run from the repo root (extension/docs/RUN.md, step 2): a Python 3.12
 # environment with the library versions we tested, then OLMo-7B-0424 (27.6 GB) into the HuggingFace cache.
 set -euo pipefail
 export HF_HOME=${HF_HOME:-/workspace/.cache/huggingface}

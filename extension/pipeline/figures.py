@@ -1,9 +1,10 @@
 """The extension's figures for the report and slides, from committed results (FINDINGS.md F-1, F-8, F-9).
 
     python -m extension.pipeline.figures   # writes extension/results/figures/ext_fig{1,2,3}_*.{png,pdf}
+                                           # and ext_table_results.png, extension/results/ext_table_results.tex
 
 Base OLMo from the reproduction (same model, prompts and decoding; RA's corrected-prompt run, D-21) against the
-post-trained models: results/olmo-7b/*/ and results/ext/*/, the hand-check labels and checks/learned_seed_*.json.
+post-trained models: reproduction/results/olmo-7b/*/ and extension/results/<model>/*/, the hand-check labels and checks/learned_seed_*.json.
 Figure 3 re-tokenizes the generations with OLMo's tokenizer (a few minutes). Figures carry no title; captions go
 in the report.
 1. 50-token matches per attack: base OLMo to Dolma, post-trained models to the planted text (D-55's H2).
@@ -77,7 +78,7 @@ def fig1_base_vs_post(labels):
 def fig2_memorized(labels):
     known, n = {g: 0 for g in GROUPS}, {g: 0 for g in GROUPS}
     for s in SEEDS:
-        by = json.load(open(f"extension/checks/learned_seed_{s}.json"))["summary"]["identifiers_by_copies"]
+        by = json.load(open(f"extension/results/checks/learned_seed_{s}.json"))["summary"]["identifiers_by_copies"]
         for g in GROUPS:
             known[g] += by[str(g)]["hits"]
             n[g] += by[str(g)]["n"]
@@ -126,11 +127,85 @@ def fig3_diversity():
     save(fig, "ext_fig3_diversity")
 
 
+def table_results():
+    """The extension's results table, in the reproduction's table style (reproduction/pipeline/table.py), as PNG and LaTeX.
+    Hand-confirmed leaks per attack, pooled over the seeds, plus H2's automatic 50-token counts on both sides."""
+    summ = json.load(open(OUT / "summary.json"))
+    pool = lambda a, k, key="hits": sum(summ["rates"][f"seed_{s}|{a}|{k}"][key] for s in SEEDS)
+    n = {a: pool(a, "ids", "n") for a in ORDER}
+    cells, best = {}, {}
+    for a in ORDER:
+        h2 = summ["h2"][a]
+        cells[a] = [(pool(a, "ids"), n[a]), (pool(a, "planted_vm50"), n[a]), (pool(a, "health"), n[a]),
+                    (h2["post_hits"], h2["post_n"]), (h2["base_pretrain_hits"], h2["base_n"])]
+    for j in range(5):
+        top = max(k / m for k, m in (cells[a][j] for a in ORDER))
+        best[j] = {a for a in ORDER if top > 0 and cells[a][j][0] / cells[a][j][1] == top}
+    fmt = lambda k, m: f"{100 * k / m:.1f} ({k})"
+    held_out = sum(pool(a, "held_out_ids") for a in ORDER)
+    shuffled = sum(pool(a, "health_shuffled") for a in ORDER)
+    p1 = [v["p"] for v in summ["h1"]["vs"].values()]
+    rows = [("ra", "RA"), ("ea_sample", "EA"), ("rwa", "RWA"), ("rsa", "RSA"), ("cia", "CIA")]
+    note = (f"Percent of generations (count), 3 seeds pooled; base OLMo has 500 generations per attack.\n"
+            f"Left: hand-confirmed leaks of the planted data. Right: automatic 50-token exact matches, post-trained\n"
+            f"models to the planted documents and base OLMo to Dolma (H2). Held-out people: {held_out} identifier leaks.\n"
+            f"Shuffled-health control: {shuffled} confirmed. H1 (CIA > each baseline, identifiers): p = {min(p1):.2f}\u2013"
+            f"{max(p1):.2f}. H2: p = 1.0 for every attack.\nEA: 30\u00d7EOS prompt, temperature-1.0 sampling. "
+            f"The highest rate in each column is in bold.")
+
+    with plt.rc_context({"font.family": "serif"}):
+        fig, ax = plt.subplots(figsize=(9.5, 3.9))
+        ax.axis("off")
+        ax.set_xlim(0, 10.7)
+        ax.set_ylim(0, 6.4)
+        cols = [1.55, 3.05, 4.45, 5.75, 7.65, 9.4]
+        ax.plot([0, 10.7], [6.2, 6.2], "k", lw=1.5)
+        ax.text(0.15, 5.55, "Attack", weight="bold", fontsize=11, va="center")
+        ax.text(cols[0], 5.55, "n", weight="bold", fontsize=11, ha="center", va="center")
+        for (lo, hi), title in (((2.35, 6.45), "Post-trained: confirmed leaks"), ((6.85, 10.6), "50-token match (H2)")):
+            ax.text((lo + hi) / 2, 5.9, title, weight="bold", fontsize=11, ha="center", va="center")
+            ax.plot([lo, hi], [5.7, 5.7], "k", lw=0.7)
+        for x, head in zip(cols[1:], ["Identifier", "50-token", "Health", "Post-trained", "Base OLMo"]):
+            ax.text(x, 5.4, head, fontsize=9, ha="center", va="center")
+        ax.plot([0, 10.7], [5.1, 5.1], "k", lw=0.8)
+        y = 4.7
+        for a, label in rows:
+            if a == "cia":
+                y -= 0.1
+                ax.plot([0, 10.7], [y + 0.4, y + 0.4], "k", lw=0.8)
+            ax.text(0.15, y, label, fontsize=10.5, va="center", weight="bold" if a == "cia" else "normal")
+            ax.text(cols[0], y, f"{n[a]:,}", fontsize=10.5, ha="center", va="center")
+            for j, (k, m) in enumerate(cells[a]):
+                ax.text(cols[j + 1], y, fmt(k, m), fontsize=10.5, ha="center", va="center",
+                        weight="bold" if a in best[j] else "normal")
+            y -= 0.5
+        ax.plot([0, 10.7], [y + 0.25, y + 0.25], "k", lw=1.5)
+        ax.text(0.15, y - 0.2, note, fontsize=8.5, va="top", linespacing=1.4)
+        FIGS.mkdir(parents=True, exist_ok=True)
+        fig.savefig(FIGS / "ext_table_results.png", dpi=200, bbox_inches="tight")
+        plt.close(fig)
+
+    tex = lambda a, j: (r"\textbf{%s}" if a in best[j] else "%s") % fmt(*cells[a][j])
+    lines = [r"\begin{tabular}{lrrrrrr}", r"\toprule",
+             r" & & \multicolumn{3}{c}{Post-trained: confirmed leaks} & \multicolumn{2}{c}{50-token match (H2)} \\",
+             r"\cmidrule(lr){3-5} \cmidrule(lr){6-7}",
+             r"Attack & $n$ & Identifier & 50-token & Health & Post-trained & Base OLMo \\", r"\midrule"]
+    for a, label in rows:
+        if a == "cia":
+            lines.append(r"\midrule")
+        name = r"\textbf{CIA}" if a == "cia" else label
+        lines.append(f"{name} & {n[a]:,} & " + " & ".join(tex(a, j) for j in range(5)) + r" \\")
+    lines += [r"\bottomrule", r"\end{tabular}"]
+    (OUT / "ext_table_results.tex").write_text("\n".join(lines) + "\n")
+    print(f"wrote {FIGS / 'ext_table_results.png'} and {OUT / 'ext_table_results.tex'}")
+
+
 def main():
     labels = {r["hit_id"]: r["label"] for r in read_jsonl(LABELS)}
     fig1_base_vs_post(labels)
     fig2_memorized(labels)
     fig3_diversity()
+    table_results()
 
 
 if __name__ == "__main__":
