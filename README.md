@@ -15,13 +15,13 @@ Both parts use the same layout: `pipeline/` is code, `results/` is everything th
 reproduction/
   pipeline/        attacks/ (one file per attack), generation, infini-gram matching, run.py, table.py, figures.py, models.yaml
   results/         table.md, figures/, and <model>/<attack>/{prompts,generations,matches}.jsonl
-  docs/AGENTS.md   working notes: setup decisions, deviations from the paper, run log
+  docs/            working notes
 extension/
   pipeline/        data building, LoRA training, pre-attack checks, attack runs, leak scoring, hand check, figures
   data/            which people and Dolma documents each seed trained on (the text itself is rebuilt from these)
   results/         tables.md, summary.json, figures/, <model>/<attack>/{prompts,generations,leaks}.jsonl,
                    training/ (training logs), checks/ (pre-attack checks), audit/ (blind hand check)
-  docs/            see below
+  docs/            design notes and decision log
 ```
 
 ## Where to look
@@ -32,23 +32,24 @@ extension/
 |---|---|
 | Results table | [reproduction/results/table.md](reproduction/results/table.md) |
 | Figures | [reproduction/results/figures/](reproduction/results/figures/) |
-| A specific generation and its corpus match | `reproduction/results/<model>/<attack>/` (rows share an `id` across the three files) |
+| A specific generation and its corpus match | [reproduction/results/](reproduction/results/)`<model>/<attack>/` (rows share an `id` across the three files) |
 | How each attack builds its prompts | [reproduction/pipeline/attacks/](reproduction/pipeline/attacks/) |
+| CIA's entropy optimization | [reproduction/pipeline/attacks/cia.py](reproduction/pipeline/attacks/cia.py) |
 | How a generation is matched to the corpus | [reproduction/pipeline/matching.py](reproduction/pipeline/matching.py) |
-| Choices the paper left open, and how ours differ | [reproduction/docs/AGENTS.md](reproduction/docs/AGENTS.md) |
+| Models and their infini-gram indexes | [reproduction/pipeline/models.yaml](reproduction/pipeline/models.yaml) |
 
 **Extension**
 
 | For | See |
 |---|---|
-| Hypotheses, written before any run | [extension/docs/QUESTION.md](extension/docs/QUESTION.md) |
-| Results in brief | [extension/docs/FINDINGS.md](extension/docs/FINDINGS.md) |
-| Every design choice and its reason, including limitations (D-39, D-63) | [extension/docs/DECISIONS.md](extension/docs/DECISIONS.md) |
-| The procedure, step by step | [extension/docs/PLAN.md](extension/docs/PLAN.md) |
-| What was reused from the reproduction and outside, and how it was checked | [extension/docs/INHERITANCE.md](extension/docs/INHERITANCE.md) |
 | Leak rates and hypothesis tests | [extension/results/tables.md](extension/results/tables.md) |
 | Figures | [extension/results/figures/](extension/results/figures/) |
-| Hand-check sheet, labels and agreement | [extension/results/audit/](extension/results/audit/) |
+| A specific generation and the leaks found in it | [extension/results/](extension/results/)`olmo-7b-pano-seed_<s>/<attack>/` |
+| Which people and Dolma documents each seed trained on | [extension/data/](extension/data/) |
+| Training code and logs | [extension/pipeline/train.py](extension/pipeline/train.py), [extension/results/training/](extension/results/training/) |
+| Pre-attack checks: memorization, benchmarks, data cleanliness | [extension/pipeline/checks.py](extension/pipeline/checks.py), [extension/results/checks/](extension/results/checks/) |
+| How leaks are detected and the hypotheses tested | [extension/pipeline/pii.py](extension/pipeline/pii.py), [extension/pipeline/score.py](extension/pipeline/score.py) |
+| Blind hand check: sheet, labels, agreement | [extension/results/audit/](extension/results/audit/) |
 
 ## Running it
 
@@ -64,4 +65,4 @@ uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python -r requi
 .venv/bin/python -m reproduction.pipeline.run --model olmo-7b --attack cia
 ```
 
-Models are configured in [reproduction/pipeline/models.yaml](reproduction/pipeline/models.yaml). EA generates with its own entry point (`python -m reproduction.pipeline.attacks.ea_sample --model M`), then matches with `run.py --stage match`. The extension's GPU steps (training, checks, attacks) are in [extension/docs/RUN.md](extension/docs/RUN.md).
+Models are configured in [reproduction/pipeline/models.yaml](reproduction/pipeline/models.yaml). EA generates with its own entry point (`python -m reproduction.pipeline.attacks.ea_sample --model M`), then matches with `run.py --stage match`. The extension's GPU steps run as [extension/pipeline/run_training.sh](extension/pipeline/run_training.sh) and [extension/pipeline/run_attacks.sh](extension/pipeline/run_attacks.sh).
